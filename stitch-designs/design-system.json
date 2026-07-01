@@ -1,0 +1,120 @@
+{
+  "name": "Anjani AI — Dark Glassmorphism",
+  "version": "1.0.0",
+  "colors": {
+    "background": {
+      "void": "#0a0a0f",
+      "ink": "#0f0f12",
+      "surface": "#141418"
+    },
+    "accent": {
+      "cyan": "#55e6ff",
+      "violet": "#8b5cf6",
+      "emerald": "#38ef7d",
+      "amber": "#f59e0b",
+      "red": "#ef4444",
+      "blue": "#3b82f6"
+    },
+    "text": {
+      "primary": "#ffffff",
+      "secondary": "#cbd5e1",
+      "tertiary": "#94a3b8",
+      "muted": "#64748b",
+      "disabled": "#475569"
+    },
+    "border": {
+      "default": "rgba(255,255,255,0.1)",
+      "hover": "rgba(255,255,255,0.15)",
+      "accent": "rgba(85,230,255,0.3)"
+    }
+  },
+  "glassmorphism": {
+    "levels": {
+      "strong": {
+        "background": "rgba(255,255,255,0.06)",
+        "border": "rgba(255,255,255,0.1)",
+        "blur": "24px",
+        "radius": "16px"
+      },
+      "medium": {
+        "background": "rgba(255,255,255,0.04)",
+        "border": "rgba(255,255,255,0.08)",
+        "blur": "16px",
+        "radius": "12px"
+      },
+      "subtle": {
+        "background": "rgba(255,255,255,0.02)",
+        "border": "rgba(255,255,255,0.05)",
+        "blur": "8px",
+        "radius": "10px"
+      }
+    }
+  },
+  "typography": {
+    "fontFamily": "system-ui, -apple-system, sans-serif",
+    "scale": {
+      "xs": { "size": "11px", "lineHeight": "16px", "weight": "400" },
+      "sm": { "size": "13px", "lineHeight": "20px", "weight": "400" },
+      "base": { "size": "14px", "lineHeight": "22px", "weight": "400" },
+      "lg": { "size": "16px", "lineHeight": "24px", "weight": "600" },
+      "xl": { "size": "20px", "lineHeight": "28px", "weight": "700" },
+      "2xl": { "size": "28px", "lineHeight": "36px", "weight": "700" },
+      "3xl": { "size": "36px", "lineHeight": "44px", "weight": "800" }
+    }
+  },
+  "effects": {
+    "shadows": {
+      "glow-cyan": "0 0 20px rgba(85,230,255,0.3)",
+      "glow-violet": "0 0 20px rgba(139,92,246,0.3)",
+      "glow-emerald": "0 0 20px rgba(56,239,125,0.3)",
+      "card": "0 1px 3px rgba(0,0,0,0.3), 0 0 1px rgba(255,255,255,0.05)"
+    },
+    "animations": {
+      "pulse-ring": "ping 1.5s cubic-bezier(0,0,0.2,1) infinite",
+      "fade-in": "fadeIn 0.3s ease-out",
+      "slide-up": "slideUp 0.3s ease-out",
+      "slow-pan": "pan 20s ease-in-out infinite alternate"
+    }
+  },
+  "components": {
+    "kpiCard": {
+      "padding": "20px",
+      "background": "rgba(255,255,255,0.04)",
+      "border": "1px solid rgba(255,255,255,0.1)",
+      "borderRadius": "16px",
+      "backdropFilter": "blur(16px)"
+    },
+    "aiChatBubble": {
+      "user": {
+        "background": "linear-gradient(135deg, rgba(85,230,255,0.2), rgba(139,92,246,0.15))",
+        "border": "1px solid rgba(85,230,255,0.2)",
+        "borderRadius": "16px 16px 4px 16px"
+      },
+      "assistant": {
+        "background": "rgba(255,255,255,0.06)",
+        "border": "1px solid rgba(255,255,255,0.1)",
+        "borderRadius": "16px 16px 16px 4px"
+      }
+    },
+    "badge": {
+      "padding": "2px 8px",
+      "borderRadius": "9999px",
+      "fontSize": "10px",
+      "fontWeight": "600"
+    },
+    "button": {
+      "primary": {
+        "background": "linear-gradient(135deg, #55e6ff, #8b5cf6)",
+        "color": "#0a0a0f",
+        "borderRadius": "10px",
+        "padding": "8px 16px"
+      },
+      "ghost": {
+        "background": "transparent",
+        "border": "1px solid rgba(255,255,255,0.1)",
+        "color": "#94a3b8",
+        "borderRadius": "10px"
+      }
+    }
+  }
+}

@@ -1,0 +1,3154 @@
+[
+ {
+  "id": "T1",
+  "name": "Cold Intro",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Hello {{CLIENT_NAME}},\n\nThis is Ravi from Anjani Interweave, Surat — we manufacture PP Woven Fabric rolls, made to your exact size, grammage, and quality.\n\nAvailable in 12\" to 36\" width · Janta to Platinum grade · With or without lamination · White, chequered or full colour.\n\nShare your fabric requirement and we'll send you a price right away. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T1",
+  "name": "Cold Intro",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Namaste {{CLIENT_NAME}} bhai,\n\nMain Ravi hoon, Anjani Interweave, Surat se — hum PP Woven Fabric rolls banate hain, aapki size, grammage aur quality ke hisaab se made to order.\n\n12\" se 36\" width · Janta se Platinum grade · Lamination ke saath ya bina · Safed, chequered ya rang.\n\nApni fabric ki zaroorat batayein — hum turant price bhejte hain. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T1",
+  "name": "Cold Intro",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Kem cho {{CLIENT_NAME}} bhai,\n\nHoon Ravi, Anjani Interweave, Surat — ame PP Woven Fabric rolls banavia chhe, tamari size, grammage ane quality pramane made to order.\n\n12\" thi 36\" width · Janta thi Platinum grade · Lamination sathe ke vagar · Safed, chequered ya rang.\n\nTamari fabric ni jarur janavo — ame tarant bhav moklaviye chhe. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T1",
+  "name": "Cold Intro",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Vanakkam {{CLIENT_NAME}} sir,\n\nNaan Ravi, Anjani Interweave, Surat — nangal PP Woven Fabric rolls thaiyarikkiRom, ungal size, grammage matrum quality-kku erppa made to order.\n\n12\" muthal 36\" alathu · Janta muthal Platinum grade · Lamination udan illaamal · Vellai, chequered ya niRam.\n\nUngal fabric thevai sollungal — nangal udane vilai anuppugom. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T1",
+  "name": "Cold Intro",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Namaskaram {{CLIENT_NAME}} sir,\n\nEnte peru Ravi, Anjani Interweave, Surat — njangal PP Woven Fabric rolls undakkunnund, ningalude size, grammage, quality anusaricchu made to order.\n\n12\" muthal 36\" varai · Janta muthal Platinum varai · Lamination uLLatho illaatho · Vella, chequered ya niRam.\n\nNingalude fabric aavashyam paranju tharuka — njangal undane vila anakkam. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T1",
+  "name": "Cold Intro",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Namaskar {{CLIENT_NAME}} bhai,\n\nMee Ravi, Anjani Interweave, Surat — amhi PP Woven Fabric rolls banvitoch, tumchya size, grammage ani quality nusar made to order.\n\n12\" te 36\" width · Janta te Platinum grade · Lamination sathe va shivay · Pandhra, chequered ya rang.\n\nTumchi fabric avaashyakata sanga — amhi lagech kimat pathavto. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T1",
+  "name": "Cold Intro",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Namaskaram {{CLIENT_NAME}} garu,\n\nNenu Ravi, Anjani Interweave, Surat — memu PP Woven Fabric rolls taiyaristham, meeru adigenina size, grammage, quality ki anugunanga made to order.\n\n12\" nundi 36\" varai · Janta nundi Platinum grade · Lamination tho mattu lekunddaa · Tella, chequered ya rangu.\n\nMeeru kaavalsinadi cheppandi — memu ventane dhara pampistham. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T1",
+  "name": "Cold Intro",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Namaskara {{CLIENT_NAME}} avare,\n\nNanu Ravi, Anjani Interweave, Surat — navu PP Woven Fabric rolls maadutteve, nimma size, grammage, quality ge anuguna made to order.\n\n12\" inda 36\" varege · Janta inda Platinum grade · Lamination jotege athava illade · Bela, chequered ya badana.\n\nNimma fabric avashyakata heliri — navu tuuta bele kelusteve. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T2",
+  "name": "IndiaMart Lead Response",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "PRODUCT_MENTIONED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PRODUCT_MENTIONED}}",
+  "body": "Hello {{CLIENT_NAME}},\n\nWe saw your enquiry for {{PRODUCT_MENTIONED}} on IndiaMart. This is Ravi from Anjani Interweave, Surat — we manufacture exactly this.\n\nPP Woven Fabric rolls · Made to order · Direct factory price · No middleman.\n\nPlease share: width (inches), grammage, and quantity. We'll send the price in minutes. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T2",
+  "name": "IndiaMart Lead Response",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "PRODUCT_MENTIONED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PRODUCT_MENTIONED}}",
+  "body": "Namaste {{CLIENT_NAME}} bhai,\n\nAapne IndiaMart par {{PRODUCT_MENTIONED}} ke liye enquiry dali thi — main Ravi hoon, Anjani Interweave, Surat. Hum ye bilkul banate hain.\n\nPP Woven Fabric rolls · Made to order · Direct factory rate · Koi bichauliya nahi.\n\nBata sakte hain: width (inch), grammage, aur kitna quantity? Kuch minute mein price de denge. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T2",
+  "name": "IndiaMart Lead Response",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "PRODUCT_MENTIONED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PRODUCT_MENTIONED}}",
+  "body": "Kem cho {{CLIENT_NAME}} bhai,\n\nTamae IndiaMart par {{PRODUCT_MENTIONED}} mate enquiry mookeli — hoon Ravi, Anjani Interweave, Surat. Ame aa banavia chhe.\n\nPP Woven Fabric rolls · Made to order · Direct factory rate · Koi vaachiye nahi.\n\nJanavo: width (inch), grammage, ane ketli quantity? Thodi minit ma price aapishu. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T2",
+  "name": "IndiaMart Lead Response",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "PRODUCT_MENTIONED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PRODUCT_MENTIONED}}",
+  "body": "Vanakkam {{CLIENT_NAME}} sir,\n\nNeengal IndiaMart-il {{PRODUCT_MENTIONED}}-kkaaga enquiry koduthineerkal — naan Ravi, Anjani Interweave, Surat. Nangal ithane thaiyarikkiRom.\n\nPP Woven Fabric rolls · Made to order · Neeru factory vilai · Idai thakar illai.\n\nSollunga: width (inch), grammage, evvalavu quantity? Sila nimiDangalil vilai aNuppugom. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T2",
+  "name": "IndiaMart Lead Response",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "PRODUCT_MENTIONED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PRODUCT_MENTIONED}}",
+  "body": "Namaskaram {{CLIENT_NAME}} sir,\n\nNingal IndiaMart-il {{PRODUCT_MENTIONED}}-inaayi enquiry tannirunnnu — ente peru Ravi, Anjani Interweave, Surat. Njangal ith undakkunnund.\n\nPP Woven Fabric rolls · Made to order · Nerum factory vila · Madhyavarthi illaa.\n\nParayuka: width (inch), grammage, ethra quantity? Kurach nimishangalkkulle vila anakkam. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T2",
+  "name": "IndiaMart Lead Response",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "PRODUCT_MENTIONED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PRODUCT_MENTIONED}}",
+  "body": "Namaskar {{CLIENT_NAME}} bhai,\n\nTumhi IndiaMart var {{PRODUCT_MENTIONED}} sathi enquiry dili hoti — mee Ravi, Anjani Interweave, Surat. Amhi he nakki banvitoch.\n\nPP Woven Fabric rolls · Made to order · Theta factory dar · Kuthlaahi madhyastha nahi.\n\nSanga: width (inch), grammage, ani kiti quantity? Kaahi minutanmadhe kimat kaltovto. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T2",
+  "name": "IndiaMart Lead Response",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "PRODUCT_MENTIONED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PRODUCT_MENTIONED}}",
+  "body": "Namaskaram {{CLIENT_NAME}} garu,\n\nMeeru IndiaMart lo {{PRODUCT_MENTIONED}} kosam enquiry icharu — nenu Ravi, Anjani Interweave, Surat. Memu deeninne taiyaristham.\n\nPP Woven Fabric rolls · Made to order · Neeru factory dhara · Madyavarthi ledu.\n\nCheppandi: width (inch), grammage, entha quantity? Konni nimishallo dhara pampistham. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T2",
+  "name": "IndiaMart Lead Response",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "PRODUCT_MENTIONED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PRODUCT_MENTIONED}}",
+  "body": "Namaskara {{CLIENT_NAME}} avare,\n\nNeevu IndiaMart nalli {{PRODUCT_MENTIONED}}-ge enquiry kottiddeeri — nanu Ravi, Anjani Interweave, Surat. Navu idannu maadutteve.\n\nPP Woven Fabric rolls · Made to order · Neeru factory bele · Madhyastha illa.\n\nHeliri: width (inch), grammage, mattu yalla quantity? Kottu nimishagalalli bele kelusteve. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T3",
+  "name": "Re-engagement (Lapsed Client)",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "LAST_ORDER_SPEC",
+   "LAST_ORDER_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{LAST_ORDER_SPEC}}, {{LAST_ORDER_DATE}}",
+  "body": "Hello {{CLIENT_NAME}} ji,\n\nRavi here from Anjani Interweave. We supplied you {{LAST_ORDER_SPEC}} around {{LAST_ORDER_DATE}} — hope it worked well.\n\nChecking in — any upcoming fabric requirement? We're running production this week and can prioritise your order.\n\nLatest rates ready. Just share your size and quantity. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T3",
+  "name": "Re-engagement (Lapsed Client)",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "LAST_ORDER_DATE",
+   "LAST_ORDER_SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{LAST_ORDER_SPEC}}, {{LAST_ORDER_DATE}}",
+  "body": "Namaste {{CLIENT_NAME}} bhai,\n\nMain Ravi hoon, Anjani Interweave se. Humne {{LAST_ORDER_DATE}} ke aaspaas {{LAST_ORDER_SPEC}} supply ki thi — umeed hai kaam achha chala.\n\nPoochhna tha — koi aane wali fabric zaroorat? Is hafte production chal raha hai, aapka order priority mein le sakte hain.\n\nNayi rates ready hain. Bas size aur quantity batayein. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T3",
+  "name": "Re-engagement (Lapsed Client)",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "LAST_ORDER_DATE",
+   "LAST_ORDER_SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{LAST_ORDER_SPEC}}, {{LAST_ORDER_DATE}}",
+  "body": "Kem cho {{CLIENT_NAME}} bhai,\n\nHoon Ravi, Anjani Interweave thi. Ame tamne {{LAST_ORDER_DATE}} na sumaar {{LAST_ORDER_SPEC}} supply kareli — aasha chhe saras chalyu.\n\nPoochhvanu hatu — koi aavnar fabric ni zarur? Aa aThvaaDiye production chalu, tamaro order priority maa le shakiye.\n\nNavi rates taiyar chhe. Bas size ane quantity janavo. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T3",
+  "name": "Re-engagement (Lapsed Client)",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "LAST_ORDER_DATE",
+   "LAST_ORDER_SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{LAST_ORDER_SPEC}}, {{LAST_ORDER_DATE}}",
+  "body": "Vanakkam {{CLIENT_NAME}} sir,\n\nNaan Ravi, Anjani Interweave. Nangal ungalukku {{LAST_ORDER_DATE}} alavil {{LAST_ORDER_SPEC}} supply seithom — nalla payan paduthineerkal enRu nambugiRom.\n\nKelkka vanthom — varaikkoodiya fabric thevai irukkaa? IdaivaeLai production nadugiRathu, ungal order munn-nurutthal seiyalaam.\n\nPudhiRa vilaikaL thaiyaar. Size matrum quantity maTTum sollungal. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T3",
+  "name": "Re-engagement (Lapsed Client)",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "LAST_ORDER_DATE",
+   "LAST_ORDER_SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{LAST_ORDER_SPEC}}, {{LAST_ORDER_DATE}}",
+  "body": "Namaskaram {{CLIENT_NAME}} sir,\n\nRavi anu, Anjani Interweave. Njangal ningalkku {{LAST_ORDER_DATE}} praveshicchu {{LAST_ORDER_SPEC}} supply cheythirunnu — nallath upayogicchenn vishwasikkunu.\n\nAriyaan vannu — ingott varunna fabric aavashyam undoo? Ithaavaazhcha production nadakkunu, ningalude order priority-il edukaam.\n\nPuthutha vilakagal thaiyaar. Size matrum quantity parayuka. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T3",
+  "name": "Re-engagement (Lapsed Client)",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "LAST_ORDER_DATE",
+   "LAST_ORDER_SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{LAST_ORDER_SPEC}}, {{LAST_ORDER_DATE}}",
+  "body": "Namaskar {{CLIENT_NAME}} bhai,\n\nMee Ravi, Anjani Interweave. Amhi tumhala {{LAST_ORDER_DATE}} sumaraas {{LAST_ORDER_SPEC}} supply keli hoti — aasha ahe kaam changle gele.\n\nVicharnyasathi aalo — pudhe kahi fabric avaashyakata aahe ka? Ya aathavaDyaat production chalu, tumchee order priority madhe ghetoo.\n\nNavi kimat taiyaar. Fakt size ani quantity sanga. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T3",
+  "name": "Re-engagement (Lapsed Client)",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "LAST_ORDER_DATE",
+   "LAST_ORDER_SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{LAST_ORDER_SPEC}}, {{LAST_ORDER_DATE}}",
+  "body": "Namaskaram {{CLIENT_NAME}} garu,\n\nNenu Ravi, Anjani Interweave. Memu meeru ki {{LAST_ORDER_DATE}} samayaniki {{LAST_ORDER_SPEC}} supply chesamu — baaga upayogapadindi ani nammutunnam.\n\nAdugutunnam — munduku vachhe fabric aavashyata undaa? Ee vaaram production jarugtundi, meeru order-ni priority lo techukuntam.\n\nKotta dharalu thaiyaraiyy. Size mattu quantity cheppandi. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T3",
+  "name": "Re-engagement (Lapsed Client)",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "LAST_ORDER_DATE",
+   "LAST_ORDER_SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{LAST_ORDER_SPEC}}, {{LAST_ORDER_DATE}}",
+  "body": "Namaskara {{CLIENT_NAME}} avare,\n\nNanu Ravi, Anjani Interweave. Navu nimage {{LAST_ORDER_DATE}} hattira {{LAST_ORDER_SPEC}} supply maadidde — chennagi upayogaagitthu enn nambutteeve.\n\nKelabeku andukond bandidde — munde fabric aavashyakate ide yee? Ee vaara production nadutti, nimma order priority-li tegedukollabahudu.\n\nHosa belegalu thaiyaar. Size mattu quantity heliri. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T4",
+  "name": "5-Parameter Capture",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Thank you {{CLIENT_NAME}} ji! 🙏\n\nTo give you the exact price, I need 5 quick details:\n\n1️⃣ Width — how many inches? (12\" to 36\")\n2️⃣ Grammage — grams per sq metre? (3.0g to 5.0g)\n3️⃣ Grade — Janta / Regular / Silver / Gold / Platinum?\n4️⃣ Colour — White / Chequered / Full Colour?\n5️⃣ Lamination — None / Regular / Natural?\n\nAlso: Quantity required (in KG)?\n\nPrice in minutes once I have these. 🙏"
+ },
+ {
+  "id": "T4",
+  "name": "5-Parameter Capture",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Shukriya {{CLIENT_NAME}} bhai! 🙏\n\nSahi price dene ke liye 5 baatein chahiye:\n\n1️⃣ Width — kitne inch? (12\" se 36\")\n2️⃣ Grammage — gram per sq metre? (3.0g se 5.0g)\n3️⃣ Grade — Janta / Regular / Silver / Gold / Platinum?\n4️⃣ Rang — Safed / Chequered / Poora Rang?\n5️⃣ Lamination — Bina / Regular / Natural?\n\nAur: Kitna quantity (KG mein)?\n\nMilte hi price bhejta hoon. 🙏"
+ },
+ {
+  "id": "T4",
+  "name": "5-Parameter Capture",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Aabhaar {{CLIENT_NAME}} bhai! 🙏\n\nSachu bhav aapu maate 5 vaatu joiye:\n\n1️⃣ Width — ketla inch? (12\" thi 36\")\n2️⃣ Grammage — gram per sq metre? (3.0g thi 5.0g)\n3️⃣ Grade — Janta / Regular / Silver / Gold / Platinum?\n4️⃣ Rang — Safed / Chequered / Pooro Rang?\n5️⃣ Lamination — Vagar / Regular / Natural?\n\nAne: Ketli quantity (KG maa)?\n\nAa malshtaa j bhav moklavish. 🙏"
+ },
+ {
+  "id": "T4",
+  "name": "5-Parameter Capture",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Nandri {{CLIENT_NAME}} sir! 🙏\n\nSari vilai solli anuppakku 5 viDayangaL vendum:\n\n1️⃣ Width — ethanai inch? (12\" muthal 36\")\n2️⃣ Grammage — gram per sq metre? (3.0g muthal 5.0g)\n3️⃣ Grade — Janta / Regular / Silver / Gold / Platinum?\n4️⃣ NiRam — Veluppu / Chequered / Mudhu NiRam?\n5️⃣ Lamination — Illaathu / Regular / Natural?\n\nMaelum: Ethanai quantity (KG-il)?\n\nIvai kidaithathum vilai anuppuven. 🙏"
+ },
+ {
+  "id": "T4",
+  "name": "5-Parameter Capture",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Nandi {{CLIENT_NAME}} sir! 🙏\n\nSari vila parayan enikku 5 kaaryangaL veenam:\n\n1️⃣ Width — ethra inch? (12\" muthal 36\")\n2️⃣ Grammage — gram per sq metre? (3.0g muthal 5.0g)\n3️⃣ Grade — Janta / Regular / Silver / Gold / Platinum?\n4️⃣ NiRam — Vella / Chequered / Muzhu NiRam?\n5️⃣ Lamination — Illaathu / Regular / Natural?\n\nKoottattil: Ethra quantity (KG-il)?\n\nIdhu kittiyathum vila parayan. 🙏"
+ },
+ {
+  "id": "T4",
+  "name": "5-Parameter Capture",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Dhanyavaad {{CLIENT_NAME}} bhai! 🙏\n\nYoga kimat deNyasaathi 5 goShTi haavyaat:\n\n1️⃣ Width — kiti inch? (12\" te 36\")\n2️⃣ Grammage — gram per sq metre? (3.0g te 5.0g)\n3️⃣ Grade — Janta / Regular / Silver / Gold / Platinum?\n4️⃣ Rang — Pandhra / Chequered / Poorna Rang?\n5️⃣ Lamination — Shivay / Regular / Natural?\n\nAani: Kiti quantity (KG madhe)?\n\nHe miLalyaabaron lagyech kimat pathawto. 🙏"
+ },
+ {
+  "id": "T4",
+  "name": "5-Parameter Capture",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Dhanyavaadamulu {{CLIENT_NAME}} garu! 🙏\n\nSari dhara cheppataniki naaku 5 vishayaalu kaavaali:\n\n1️⃣ Width — entha inch? (12\" nundi 36\")\n2️⃣ Grammage — gram per sq metre? (3.0g nundi 5.0g)\n3️⃣ Grade — Janta / Regular / Silver / Gold / Platinum?\n4️⃣ Rangu — Telupu / Chequered / Puri Rangu?\n5️⃣ Lamination — Lekunddaa / Regular / Natural?\n\nInkaa: Entha quantity (KG-lo)?\n\nIvvi andaaga dhara pampistham. 🙏"
+ },
+ {
+  "id": "T4",
+  "name": "5-Parameter Capture",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Dhanyavaada {{CLIENT_NAME}} avare! 🙏\n\nNimma sari bele heli koduvaakke naakku 5 vishayagaLu beekaaguttave:\n\n1️⃣ Width — yella inch? (12\" inda 36\")\n2️⃣ Grammage — gram per sq metre? (3.0g inda 5.0g)\n3️⃣ Grade — Janta / Regular / Silver / Gold / Platinum?\n4️⃣ Badana — Bela / Chequered / Huduga Badana?\n5️⃣ Lamination — Illade / Regular / Natural?\n\nMattuu: Yella quantity (KG-alli)?\n\nIdhu sikkidtaane bele helustene. 🙏"
+ },
+ {
+  "id": "T5",
+  "name": "Seasonal Pattern Ask",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "One quick question {{CLIENT_NAME}} ji 🙏\n\nWhich months of the year is your fabric demand highest?\n\nFor example: \"October to January is our peak\" or \"Monsoon months we need most.\"\n\nThis helps us plan your orders in advance so there's never a delay during your busy season. 🙏"
+ },
+ {
+  "id": "T5",
+  "name": "Seasonal Pattern Ask",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Ek sawaal aur {{CLIENT_NAME}} bhai 🙏\n\nSaal ke kaunse mahino mein aapka fabric demand sabse zyada hota hai?\n\nJaise: \"October se January mein zyada lagte hain\" ya \"Monsoon mein peak hai.\"\n\nIsse hum aapke orders pehle se plan kar sakte hain — busy season mein koi delay nahi. 🙏"
+ },
+ {
+  "id": "T5",
+  "name": "Seasonal Pattern Ask",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Ek vaat ane poochhvi hati {{CLIENT_NAME}} bhai 🙏\n\nSaal na kyaa mahina maa tamaro fabric demand sauthii vadhare hoy chhe?\n\nJemke: \"October thi January maa vadhare joiye\" ya \"Monsoon maa peak che.\"\n\nAathi ame tamara orders pehela thi plan kari shakiye — busy season maa koi delay na thay. 🙏"
+ },
+ {
+  "id": "T5",
+  "name": "Seasonal Pattern Ask",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Oru viDayam koodi kEtka vendum {{CLIENT_NAME}} sir 🙏\n\nVarudam poova ethu masangalil ungal fabric thevai uyarntha alavu irukkum?\n\nUdaaranam: \"October-il irunthu January varai adhikam\" athavaa \"Monsoon kaalam peak.\"\n\nIdhu ungal paarutu kaalatthil tamaadham illaathapadikku mun-koottiyE thittam seiya udhavum. 🙏"
+ },
+ {
+  "id": "T5",
+  "name": "Seasonal Pattern Ask",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Oru kaaryam koodi chhOdikaName {{CLIENT_NAME}} sir 🙏\n\nVaarsham muzhuvan evide maasangalil ningalude fabric aavashyam kooduthal aayirikkum?\n\nUchakku: \"October muthal January varei kooduthal\" athavaa \"Monsoon kaalam peak aanu.\"\n\nIth ningalude busy kaalathu delay illaathe aakkaanaay mun plan cheyyaam. 🙏"
+ },
+ {
+  "id": "T5",
+  "name": "Seasonal Pattern Ask",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Aannkhii ek goshT vicharaychi hoti {{CLIENT_NAME}} bhai 🙏\n\nVarshaatil kontyaa mahinyaat tumchi fabric avaashyakata saambhaasat jaast asate?\n\nUdaaharanaartth: \"October te January madhe jaast\" kinvaa \"Monsoon madhe peak.\"\n\nYamuLe aami tumchyaa orders aagaoch plan karun thevtoo — busy kaalaat delay hot naahi. 🙏"
+ },
+ {
+  "id": "T5",
+  "name": "Seasonal Pattern Ask",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Oka viDayam kooda adugutunnam {{CLIENT_NAME}} garu 🙏\n\nSamvatsaramlo evvi naasangalloo meeru ki fabric aavashyata adi gamgaa untundi?\n\nUdaaharana: \"October nundi January varei ekkuva\" ledaa \"Monsoon season peak.\"\n\nIdhi meeru ki busy kaalathu delay illaakunda memu munde nundi plan cheyyadaniki upadatundi. 🙏"
+ },
+ {
+  "id": "T5",
+  "name": "Seasonal Pattern Ask",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Innoru vishaya kelabeku andukond bandidde {{CLIENT_NAME}} avare 🙏\n\nVarusha poora yella tingaLugaLalli nimma fabric aavashyakate jaasti irutte?\n\nUdaaharanakke: \"October ninda January varekuu jaasti\" athavaa \"Monsoon kaala peak.\"\n\nIdhu nimma busy kaala delay illaadhe iruvaakke naavuu munde plaanisaluu sahayaka aagutte. 🙏"
+ },
+ {
+  "id": "T6",
+  "name": "Meter Weight Response",
+  "language": "English",
+  "variables": [
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "UL_WEIGHT",
+   "LAM_WEIGHT"
+  ],
+  "declared_variables": "{{SIZE}}, {{GRAM}}, {{GRADE}}, {{UL_WEIGHT}}, {{LAM_WEIGHT}}",
+  "body": "{{SIZE}}\" {{GRAM}} {{GRADE}} — Meter Weight:\n\n▸ Without lamination: {{UL_WEIGHT}} g/m\n▸ With lamination: {{LAM_WEIGHT}} g/m\n\nThis is for white fabric. Chequered or coloured fabric may vary slightly.\n\nShall I proceed with your quote? 🙏"
+ },
+ {
+  "id": "T6",
+  "name": "Meter Weight Response",
+  "language": "Hindi",
+  "variables": [
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "UL_WEIGHT",
+   "LAM_WEIGHT"
+  ],
+  "declared_variables": "{{SIZE}}, {{GRAM}}, {{GRADE}}, {{UL_WEIGHT}}, {{LAM_WEIGHT}}",
+  "body": "{{SIZE}}\" {{GRAM}} {{GRADE}} — Meter Weight:\n\n▸ Bina lamination: {{UL_WEIGHT}} g/m\n▸ Lamination ke saath: {{LAM_WEIGHT}} g/m\n\nYe safed fabric ke liye hai. Chequered ya rangin mein thoda fark ho sakta hai.\n\nQuote aage badhaaun? 🙏"
+ },
+ {
+  "id": "T6",
+  "name": "Meter Weight Response",
+  "language": "Gujarati",
+  "variables": [
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "UL_WEIGHT",
+   "LAM_WEIGHT"
+  ],
+  "declared_variables": "{{SIZE}}, {{GRAM}}, {{GRADE}}, {{UL_WEIGHT}}, {{LAM_WEIGHT}}",
+  "body": "{{SIZE}}\" {{GRAM}} {{GRADE}} — Meter Weight:\n\n▸ Lamination vagar: {{UL_WEIGHT}} g/m\n▸ Lamination sathe: {{LAM_WEIGHT}} g/m\n\nAa safed fabric maate chhe. Chequered ya rangin maa thodu faraq hoi shake.\n\nQuote aage vadharvu? 🙏"
+ },
+ {
+  "id": "T6",
+  "name": "Meter Weight Response",
+  "language": "Tamil",
+  "variables": [
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "UL_WEIGHT",
+   "LAM_WEIGHT"
+  ],
+  "declared_variables": "{{SIZE}}, {{GRAM}}, {{GRADE}}, {{UL_WEIGHT}}, {{LAM_WEIGHT}}",
+  "body": "{{SIZE}}\" {{GRAM}} {{GRADE}} — Meter Weight:\n\n▸ Lamination illaathu: {{UL_WEIGHT}} g/m\n▸ Lamination udan: {{LAM_WEIGHT}} g/m\n\nIdhu velluppu fabric-ku. Chequered athavaa niRa fabric-il siru maaRRam irukkalam.\n\nQuote thodaralaama? 🙏"
+ },
+ {
+  "id": "T6",
+  "name": "Meter Weight Response",
+  "language": "Malayalam",
+  "variables": [
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "UL_WEIGHT",
+   "LAM_WEIGHT"
+  ],
+  "declared_variables": "{{SIZE}}, {{GRAM}}, {{GRADE}}, {{UL_WEIGHT}}, {{LAM_WEIGHT}}",
+  "body": "{{SIZE}}\" {{GRAM}} {{GRADE}} — Meter Weight:\n\n▸ Lamination illaathu: {{UL_WEIGHT}} g/m\n▸ Lamination uLLathu: {{LAM_WEIGHT}} g/m\n\nIdhu veLutta fabric-nu. Chequered fabric-il cheriya vithyaasam undaayi varum.\n\nQuote thodaraattee? 🙏"
+ },
+ {
+  "id": "T6",
+  "name": "Meter Weight Response",
+  "language": "Marathi",
+  "variables": [
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "UL_WEIGHT",
+   "LAM_WEIGHT"
+  ],
+  "declared_variables": "{{SIZE}}, {{GRAM}}, {{GRADE}}, {{UL_WEIGHT}}, {{LAM_WEIGHT}}",
+  "body": "{{SIZE}}\" {{GRAM}} {{GRADE}} — Meter Weight:\n\n▸ Lamination shivay: {{UL_WEIGHT}} g/m\n▸ Lamination saahit: {{LAM_WEIGHT}} g/m\n\nHe pandhryaa fabricsaaThee aahe. Chequered ya rangeen-madhe kimchit fark aasoo shakatO.\n\nQuote puDhe neuu kaa? 🙏"
+ },
+ {
+  "id": "T6",
+  "name": "Meter Weight Response",
+  "language": "Telugu",
+  "variables": [
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "UL_WEIGHT",
+   "LAM_WEIGHT"
+  ],
+  "declared_variables": "{{SIZE}}, {{GRAM}}, {{GRADE}}, {{UL_WEIGHT}}, {{LAM_WEIGHT}}",
+  "body": "{{SIZE}}\" {{GRAM}} {{GRADE}} — Meter Weight:\n\n▸ Lamination lekunda: {{UL_WEIGHT}} g/m\n▸ Lamination tho: {{LAM_WEIGHT}} g/m\n\nIdhi tella fabric-ku. Chequered fabric-lo chinna maarpunu undavachu.\n\nQuote continue chesedaama? 🙏"
+ },
+ {
+  "id": "T6",
+  "name": "Meter Weight Response",
+  "language": "Kannada",
+  "variables": [
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "UL_WEIGHT",
+   "LAM_WEIGHT"
+  ],
+  "declared_variables": "{{SIZE}}, {{GRAM}}, {{GRADE}}, {{UL_WEIGHT}}, {{LAM_WEIGHT}}",
+  "body": "{{SIZE}}\" {{GRAM}} {{GRADE}} — Meter Weight:\n\n▸ Lamination illade: {{UL_WEIGHT}} g/m\n▸ Lamination jotege: {{LAM_WEIGHT}} g/m\n\nIdhu bela fabric-ge. Chequered fabric-alli chikka vythyaasa irabahude.\n\nQuote munde hogoNa? 🙏"
+ },
+ {
+  "id": "T7",
+  "name": "Grade & Denier Explanation",
+  "language": "English",
+  "variables": [],
+  "declared_variables": "None required",
+  "body": "Great question! Here are our grades:\n\n🔹 Janta — Basic strength. Light commodity packaging.\n🔸 Regular — Standard strength. General industrial use.\n🔶 Silver — Mid-grade. Agriculture & food packaging.\n🏅 Gold — High strength. FIBC & heavy industrial.\n🏆 Platinum — Maximum strength & elongation. Export quality.\n\nHigher grade = stronger fabric = more load-bearing capacity.\n\nDenier is simply the technical name for grammage:\n3.0g = 640D | 3.5g = 747D | 4.0g = 854D | 4.75g = 1014D | 5.0g = 1067D\n\nWhich grade suits your requirement? 🙏"
+ },
+ {
+  "id": "T7",
+  "name": "Grade & Denier Explanation",
+  "language": "Hindi",
+  "variables": [],
+  "declared_variables": "None required",
+  "body": "Bahut achha sawaal! Hamare grades:\n\n🔹 Janta — Basic mazbooti. Halke saman ke liye.\n🔸 Regular — Standard mazbooti. Aam industrial use.\n🔶 Silver — Madhyam. Kheti aur khaane-peene ki packing.\n🏅 Gold — Zyada mazbooti. FIBC aur bhaari saman.\n🏆 Platinum — Maximum. Export quality.\n\nJitna oopar grade, utni zyada mazbooti.\n\nDenier sirf grammage ka technical naam hai:\n3.0g = 640D | 3.5g = 747D | 4.0g = 854D | 4.75g = 1014D | 5.0g = 1067D\n\nAapke kaam ke liye kaunsa grade sahi hai? 🙏"
+ },
+ {
+  "id": "T7",
+  "name": "Grade & Denier Explanation",
+  "language": "Gujarati",
+  "variables": [],
+  "declared_variables": "None required",
+  "body": "Saras sawaal! Amara grades:\n\n🔹 Janta — Basic mazbooti. Halka saman.\n🔸 Regular — Standard mazbooti. Samanya industrial.\n🔶 Silver — Madhyam. Kheti ane khadhya packing.\n🏅 Gold — Vadhare mazbooti. FIBC ane bhaari saman.\n🏆 Platinum — Maximum. Export quality.\n\nGrade jhetlu upar, tetli mazbooti.\n\nDenier e j grammage nu technical naam chhe:\n3.0g = 640D | 3.5g = 747D | 4.0g = 854D | 4.75g = 1014D | 5.0g = 1067D\n\nTamara kaam mate kayo grade yogya chhe? 🙏"
+ },
+ {
+  "id": "T7",
+  "name": "Grade & Denier Explanation",
+  "language": "Tamil",
+  "variables": [],
+  "declared_variables": "None required",
+  "body": "Nalla kelvii! Engal grades:\n\n🔹 Janta — Adipppadai uRuthi. Elliya porul.\n🔸 Regular — Niyamana uRuthi. Pothu thoZil.\n🔶 Silver — Nadutthara. Vivaasaayam & uNavu packing.\n🏅 Gold — Adhika uRuthi. FIBC & kadinam thoZil.\n🏆 Platinum — Mulumai uRuthi. Iyarrrumai tharam.\n\nGrade uyarntha alavu, uRuthi adhikam.\n\nDenier enpathu grammage-in technical peyar maTTume:\n3.0g = 640D | 3.5g = 747D | 4.0g = 854D | 4.75g = 1014D | 5.0g = 1067D\n\nUngal thevaikku ethu grade piDikkum? 🙏"
+ },
+ {
+  "id": "T7",
+  "name": "Grade & Denier Explanation",
+  "language": "Malayalam",
+  "variables": [],
+  "declared_variables": "None required",
+  "body": "Nalla chOdyam! Engale grades:\n\n🔹 Janta — Adisthaana balam. Elluttha saamaanam.\n🔸 Regular — Standard balam. Saadharana upayogam.\n🔶 Silver — Madhyama balam. Krishi & bhaaksha packing.\n🏅 Gold — Adhika balam. FIBC & bhaara vyaavaasaayam.\n🏆 Platinum — Parishkaara balam. Export gunaamEl.\n\nGrade uyarnnha alavu, balam kooduthal.\n\nDenier = grammage-inte technical pery aaN maatre:\n3.0g = 640D | 3.5g = 747D | 4.0g = 854D | 4.75g = 1014D | 5.0g = 1067D\n\nNingalude thevakku ethu grade nallath? 🙏"
+ },
+ {
+  "id": "T7",
+  "name": "Grade & Denier Explanation",
+  "language": "Marathi",
+  "variables": [],
+  "declared_variables": "None required",
+  "body": "Chhan prashna! Aaplya grades:\n\n🔹 Janta — Mool mazboti. Halkyaa mal.\n🔸 Regular — Standard mazboti. Saadhaaran audhyogik.\n🔶 Silver — Madhya-star. Sheeti & khaadyapaadartha packing.\n🏅 Gold — Adhik mazboti. FIBC & bhaari audhyogik.\n🏆 Platinum — Jaast mazboti. Export darja.\n\nGrade jitka uach, titki mazboti.\n\nDenier he fakt grammage che technical naam:\n3.0g = 640D | 3.5g = 747D | 4.0g = 854D | 4.75g = 1014D | 5.0g = 1067D\n\nTumchyaa kaamaaratha kontagradeayogy? 🙏"
+ },
+ {
+  "id": "T7",
+  "name": "Grade & Denier Explanation",
+  "language": "Telugu",
+  "variables": [],
+  "declared_variables": "None required",
+  "body": "Chala manchhi prashna! Maa grades:\n\n🔹 Janta — Moulika balam. Telluttha samaan.\n🔸 Regular — Standard balam. Saadharana parishramam.\n🔶 Silver — Madhyama balam. Vyavasaayam & aahaara packing.\n🏅 Gold — Adi balam. FIBC & bhaara parishramam.\n🏆 Platinum — Gunaathmaka balam. Export tharatam.\n\nGrade yadai unnatam, balam gunaathmaka.\n\nDenier = grammage-iki technical pairu maatre:\n3.0g = 640D | 3.5g = 747D | 4.0g = 854D | 4.75g = 1014D | 5.0g = 1067D\n\nMeeru aavashyataaku ethu grade sari? 🙏"
+ },
+ {
+  "id": "T7",
+  "name": "Grade & Denier Explanation",
+  "language": "Kannada",
+  "variables": [],
+  "declared_variables": "None required",
+  "body": "Chennagide prashna! Namma grades:\n\n🔹 Janta — Moolaadhaara shakti. Elluttha samaan.\n🔸 Regular — Standard shakti. Saadharana kaigarika.\n🔶 Silver — Madhyama shakti. Krishi & aahaarada packing.\n🏅 Gold — Adhika shakti. FIBC & bhaara kaigarika.\n🏆 Platinum — Garishtadha shakti. Export guna.\n\nGrade yalla mele, adhika shakti.\n\nDenier = grammage-a technical hesaru maatre:\n3.0g = 640D | 3.5g = 747D | 4.0g = 854D | 4.75g = 1014D | 5.0g = 1067D\n\nNimma aavashyakate-ge yalla grade yogya? 🙏"
+ },
+ {
+  "id": "T8",
+  "name": "Quote Presentation",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "VALIDITY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{VALIDITY}}",
+  "body": "Quote — Anjani Interweave 🧾\n\nDear {{CLIENT_NAME}} ji,\n\nFabric specification:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Colour: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n\nPrice: ₹{{PRICE_PKG}} per KG\nTotal value: ₹{{TOTAL_VALUE}}\n\n✅ Ex-Factory Surat. GST & freight extra.\n✅ Valid for {{VALIDITY}} days.\n✅ Production starts after token advance received.\n\nShall we confirm this order? 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T8",
+  "name": "Quote Presentation",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "VALIDITY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{VALIDITY}}",
+  "body": "Quote — Anjani Interweave 🧾\n\n{{CLIENT_NAME}} bhai,\n\nFabric ki jaankari:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rang: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n\nDaam: ₹{{PRICE_PKG}} per KG\nKul raqam: ₹{{TOTAL_VALUE}}\n\n✅ Ex-Factory Surat. GST aur transport alag.\n✅ Quote {{VALIDITY}} din tak valid hai.\n✅ Token advance milne ke baad production shuru hogi.\n\nOrder confirm karein? 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T8",
+  "name": "Quote Presentation",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "VALIDITY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{VALIDITY}}",
+  "body": "Quote — Anjani Interweave 🧾\n\n{{CLIENT_NAME}} bhai,\n\nFabric ni mahiti:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rang: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n\nBhav: ₹{{PRICE_PKG}} per KG\nKul raqam: ₹{{TOTAL_VALUE}}\n\n✅ Ex-Factory Surat. GST ane transport alag.\n✅ Quote {{VALIDITY}} din sudhi valid chhe.\n✅ Token advance malya pachhi production shuru.\n\nOrder confirm karshho? 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T8",
+  "name": "Quote Presentation",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "VALIDITY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{VALIDITY}}",
+  "body": "Quote — Anjani Interweave 🧾\n\n{{CLIENT_NAME}} sir,\n\nFabric vivarangaL:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ NiRam: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n\nVilai: ₹{{PRICE_PKG}} onRukku KG\nMotta thokai: ₹{{TOTAL_VALUE}}\n\n✅ Ex-Factory Surat. GST matrum transport thani.\n✅ Quote {{VALIDITY}} naaL varai seluvaagum.\n✅ Token advance kittiyathum production thodangum.\n\nOrder confirm seiveerkaLaa? 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T8",
+  "name": "Quote Presentation",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "VALIDITY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{VALIDITY}}",
+  "body": "Quote — Anjani Interweave 🧾\n\n{{CLIENT_NAME}} sir,\n\nFabric vivaram:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Niram: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n\nVila: ₹{{PRICE_PKG}} pratiKG\nMottam: ₹{{TOTAL_VALUE}}\n\n✅ Ex-Factory Surat. GST, transport veRe.\n✅ Quote {{VALIDITY}} divasam valid.\n✅ Token advance kittiyaal production thudangum.\n\nOrder confirm cheyumooo? 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T8",
+  "name": "Quote Presentation",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "VALIDITY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{VALIDITY}}",
+  "body": "Quote — Anjani Interweave 🧾\n\n{{CLIENT_NAME}} bhai,\n\nFabric chi maahiti:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rang: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n\nKimat: ₹{{PRICE_PKG}} pratyeka KG\nEkundarakkam: ₹{{TOTAL_VALUE}}\n\n✅ Ex-Factory Surat. GST ani vaahan kharch vegale.\n✅ Quote {{VALIDITY}} divas valid.\n✅ Token advance milaalyaavar production suruu.\n\nOrder confirm karaa? 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T8",
+  "name": "Quote Presentation",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "VALIDITY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{VALIDITY}}",
+  "body": "Quote — Anjani Interweave 🧾\n\n{{CLIENT_NAME}} garu,\n\nFabric vivaragalu:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rangu: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n\nDhara: ₹{{PRICE_PKG}} pratigaa KG\nMottam: ₹{{TOTAL_VALUE}}\n\n✅ Ex-Factory Surat. GST mattu transport thani.\n✅ Quote {{VALIDITY}} rOjula daka valid.\n✅ Token advance andaaka production praaramBavutundi.\n\nOrder confirm chesedaama? 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T8",
+  "name": "Quote Presentation",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "VALIDITY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{VALIDITY}}",
+  "body": "Quote — Anjani Interweave 🧾\n\n{{CLIENT_NAME}} avare,\n\nFabric vivara:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Badana: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n\nBele: ₹{{PRICE_PKG}} prati KG\nMoottaare: ₹{{TOTAL_VALUE}}\n\n✅ Ex-Factory Surat. GST, saagaNi bere.\n✅ Quote {{VALIDITY}} dinagaLu valid.\n✅ Token advance bandaaga production shuru.\n\nOrder confirm maaDutteeraa? 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T9",
+  "name": "Quote Follow-up (No Reply)",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{TOTAL_VALUE}}",
+  "body": "Hello {{CLIENT_NAME}} ji 🙏\n\nJust following up on the quote we sent — ₹{{TOTAL_VALUE}} for your fabric requirement.\n\nIf you have any questions on price, grade, or delivery, I'm happy to discuss.\n\nQuote is valid for a few more days. Production slots fill quickly — early confirmation helps us plan your delivery better. 🙏"
+ },
+ {
+  "id": "T9",
+  "name": "Quote Follow-up (No Reply)",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{TOTAL_VALUE}}",
+  "body": "Namaste {{CLIENT_NAME}} bhai 🙏\n\nWoh quote jo bheja tha — ₹{{TOTAL_VALUE}} — uske baare mein poochhna tha.\n\nDaam, grade ya delivery ke baare mein koi bhi sawaal ho toh batayein.\n\nQuote kuch din aur valid hai. Production slots jaldi bhar jaate hain — jaldi confirm karna faydemand hoga. 🙏"
+ },
+ {
+  "id": "T9",
+  "name": "Quote Follow-up (No Reply)",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{TOTAL_VALUE}}",
+  "body": "Kem cho {{CLIENT_NAME}} bhai 🙏\n\nPelu quote moklavelu hatu — ₹{{TOTAL_VALUE}} — te baabat follow up karvu hatu.\n\nBhav, grade ya delivery baabat koi sawal hoy to janavo.\n\nQuote hua divas valid chhe. Production slots jaldi bharai jaay — jaldi confirm karvu sarvu. 🙏"
+ },
+ {
+  "id": "T9",
+  "name": "Quote Follow-up (No Reply)",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{TOTAL_VALUE}}",
+  "body": "Vanakkam {{CLIENT_NAME}} sir 🙏\n\nAnuppiya quote — ₹{{TOTAL_VALUE}} — pattRi thodarpu seithu kelkka vandEn.\n\nVilai, grade athavaa vitharanam pattRi enna keNvigaLaavadu irunthal sollunga.\n\nQuote sila naaL seluvaagum. Production iDangaL viLainthuviDum — muTRuganam confirm seithal nalla. 🙏"
+ },
+ {
+  "id": "T9",
+  "name": "Quote Follow-up (No Reply)",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{TOTAL_VALUE}}",
+  "body": "Namaskaram {{CLIENT_NAME}} sir 🙏\n\nAnacccha quote — ₹{{TOTAL_VALUE}} — pattRi tirakyaan vannu.\n\nVila, grade athavaa delivery pattRi entha chOdyam undengil parayuka.\n\nQuote kaRunna divasam valid aanu. Production slots pattu pOgum — uruttham muthirnnal ningaLkku nallath. 🙏"
+ },
+ {
+  "id": "T9",
+  "name": "Quote Follow-up (No Reply)",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{TOTAL_VALUE}}",
+  "body": "Namaskar {{CLIENT_NAME}} bhai 🙏\n\nPathavleli quote — ₹{{TOTAL_VALUE}} — yaabadal follow up karayla aalo.\n\nKimat, grade kinvaa delivery baddal kaahi prashn asatil tar sanga.\n\nQuote aaNakhii kaahi divas valid aahe. Production slots lavkar bhartat — lavkar niShchit karne faaydesheer. 🙏"
+ },
+ {
+  "id": "T9",
+  "name": "Quote Follow-up (No Reply)",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{TOTAL_VALUE}}",
+  "body": "Namaskaram {{CLIENT_NAME}} garu 🙏\n\nPampina quote — ₹{{TOTAL_VALUE}} — gurinchi follow up chesadam anukuntunnam.\n\nDhara, grade ledaa delivery gurinchi eevida prashnalunaa untee cheppandi.\n\nQuote kaaNi rojulu valid. Production slots veganga niMDupOtayi — mundugaa confirm chesthe meeru ki marigarigaa. 🙏"
+ },
+ {
+  "id": "T9",
+  "name": "Quote Follow-up (No Reply)",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{TOTAL_VALUE}}",
+  "body": "Namaskara {{CLIENT_NAME}} avare 🙏\n\nKalisida quote — ₹{{TOTAL_VALUE}} — bagge follow up maaDabekku andukond bandidde.\n\nBele, grade athavaa delivery bagge eenahi prashna iddhare heliri.\n\nQuote innuu keLu dinagaLu valid. Production slots bega tumbuttave — mundagaade confirm maadiddhare nimma pakka. 🙏"
+ },
+ {
+  "id": "T10",
+  "name": "Order Confirmation",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "TOKEN_MIN",
+   "TOKEN_MAX"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}",
+  "body": "Order Confirmed ✅ — Anjani Interweave\n\nDear {{CLIENT_NAME}} ji,\n\nYour order is noted:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Colour: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Price: ₹{{PRICE_PKG}}/KG | Total: ₹{{TOTAL_VALUE}}\n\nNext step — Token advance to start production:\n▸ Minimum: ₹{{TOKEN_MIN}} (10% of order value)\n▸ Maximum: ₹{{TOKEN_MAX}} (25% of order value)\n\nPayment details follow in the next message.\nProduction starts immediately after token is received. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T10",
+  "name": "Order Confirmation",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "TOKEN_MIN",
+   "TOKEN_MAX"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}",
+  "body": "Order Confirm ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} bhai,\n\nAapka order note ho gaya:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rang: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Daam: ₹{{PRICE_PKG}}/KG | Kul: ₹{{TOTAL_VALUE}}\n\nAgla kadam — Production ke liye token advance:\n▸ Kam se kam: ₹{{TOKEN_MIN}} (10%)\n▸ Zyada se zyada: ₹{{TOKEN_MAX}} (25%)\n\nPayment details agli message mein.\nToken milte hi production shuru. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T10",
+  "name": "Order Confirmation",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "TOKEN_MIN",
+   "TOKEN_MAX"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}",
+  "body": "Order Confirm ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} bhai,\n\nTamaro order note thayi gayo:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rang: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Bhav: ₹{{PRICE_PKG}}/KG | Kul: ₹{{TOTAL_VALUE}}\n\nAaglo kadam — Production maate token advance:\n▸ Ochhama ochhoo: ₹{{TOKEN_MIN}} (10%)\n▸ Vadhuma vadhoo: ₹{{TOKEN_MAX}} (25%)\n\nPayment details aagali message maa.\nToken malshtaa j production shuru. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T10",
+  "name": "Order Confirmation",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "TOKEN_MIN",
+   "TOKEN_MAX"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}",
+  "body": "Order Urudhi ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} sir,\n\nUngal order kurippidappattu:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ NiRam: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Vilai: ₹{{PRICE_PKG}}/KG | Mottam: ₹{{TOTAL_VALUE}}\n\nAduTTha aDi — Production maate token advance:\n▸ Kurainthathu: ₹{{TOKEN_MIN}} (10%)\n▸ Meesaaithathu: ₹{{TOKEN_MAX}} (25%)\n\nPayment details aduTTha message-il.\nToken kittiyathum production thodangum. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T10",
+  "name": "Order Confirmation",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "TOKEN_MIN",
+   "TOKEN_MAX"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}",
+  "body": "Order Urrappikkeettaa ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} sir,\n\nNingalude order kURippittaa:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Niram: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Vila: ₹{{PRICE_PKG}}/KG | Mottam: ₹{{TOTAL_VALUE}}\n\nAduTThath aDi — Production-nu token advance:\n▸ KuRanjathu: ₹{{TOKEN_MIN}} (10%)\n▸ Koodiyathu: ₹{{TOKEN_MAX}} (25%)\n\nPayment details aduTTha message-il.\nToken kittiyaal production thudangum. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T10",
+  "name": "Order Confirmation",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "TOKEN_MIN",
+   "TOKEN_MAX"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}",
+  "body": "Order Nishchit ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} bhai,\n\nTumcha order nondavla:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rang: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Kimat: ₹{{PRICE_PKG}}/KG | Ekundar: ₹{{TOTAL_VALUE}}\n\nPudha Paul — Production saathi token advance:\n▸ Kimaan: ₹{{TOKEN_MIN}} (10%)\n▸ Jaastat: ₹{{TOKEN_MAX}} (25%)\n\nPayment details puDhachyaa message madhe.\nToken milataach production suruu. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T10",
+  "name": "Order Confirmation",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "TOKEN_MIN",
+   "TOKEN_MAX"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}",
+  "body": "Order Nishchayam ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} garu,\n\nMeeru order noNdaayindi:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rangu: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Dhara: ₹{{PRICE_PKG}}/KG | Mottam: ₹{{TOTAL_VALUE}}\n\nTarvatha adugu — Production-ku token advance:\n▸ Teluvalagaa: ₹{{TOKEN_MIN}} (10%)\n▸ Ekkuva: ₹{{TOKEN_MAX}} (25%)\n\nPayment details tarvatha message-lo.\nToken andaaka production venti praaramBavutundi. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T10",
+  "name": "Order Confirmation",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "PRICE_PKG",
+   "TOTAL_VALUE",
+   "TOKEN_MIN",
+   "TOKEN_MAX"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}",
+  "body": "Order Dardhapadadhidhe ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} avare,\n\nNimma order daakhalu maadalaagide:\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Badana: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Bele: ₹{{PRICE_PKG}}/KG | Moottaare: ₹{{TOTAL_VALUE}}\n\nMunde adugu — Production-ge token advance:\n▸ Kamidaru: ₹{{TOKEN_MIN}} (10%)\n▸ Jaastidaru: ₹{{TOKEN_MAX}} (25%)\n\nPayment details munde message-alli.\nToken bandaaga production shuru. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T11",
+  "name": "Day 1: Token Payment Request",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN",
+   "TOKEN_MAX",
+   "PAYMENT_DETAILS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}, {{PAYMENT_DETAILS}}",
+  "body": "Payment Details — Anjani Interweave 💳\n\n{{CLIENT_NAME}} ji,\n\nTo start production on order {{ORDER_ID}}, please send the token advance:\n\nAmount: ₹{{TOKEN_MIN}} to ₹{{TOKEN_MAX}}\n\n{{PAYMENT_DETAILS}}\n\nPlease send the payment screenshot here once done.\nProduction starts the same day we confirm receipt. 🙏\n\nNote: Order is held for 3 days. If token is not received by Day 3, the production slot will be released and order cancelled."
+ },
+ {
+  "id": "T11",
+  "name": "Day 1: Token Payment Request",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN",
+   "TOKEN_MAX",
+   "PAYMENT_DETAILS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}, {{PAYMENT_DETAILS}}",
+  "body": "Payment ki Jaankari — Anjani Interweave 💳\n\n{{CLIENT_NAME}} bhai,\n\nOrder {{ORDER_ID}} mein production shuru karne ke liye token advance bhejna hai:\n\nRaqam: ₹{{TOKEN_MIN}} se ₹{{TOKEN_MAX}}\n\n{{PAYMENT_DETAILS}}\n\nPayment ka screenshot yahan bhejein.\nJis din confirm hoga, usi din production shuru. 🙏\n\nNote: Order 3 din ke liye hold. Day 3 tak token nahi mila toh order cancel."
+ },
+ {
+  "id": "T11",
+  "name": "Day 1: Token Payment Request",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN",
+   "TOKEN_MAX",
+   "PAYMENT_DETAILS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}, {{PAYMENT_DETAILS}}",
+  "body": "Payment ni Mahiti — Anjani Interweave 💳\n\n{{CLIENT_NAME}} bhai,\n\nOrder {{ORDER_ID}} maa production shuru karvaa token advance moklavo:\n\nRaqam: ₹{{TOKEN_MIN}} thi ₹{{TOKEN_MAX}}\n\n{{PAYMENT_DETAILS}}\n\nPayment no screenshot ahiyaa moklavo.\nJe din confirm thashhe te j din production shuru. 🙏\n\nNote: Order 3 din maate hold. Day 3 sudhi token na malye toh order cancel."
+ },
+ {
+  "id": "T11",
+  "name": "Day 1: Token Payment Request",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN",
+   "TOKEN_MAX",
+   "PAYMENT_DETAILS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}, {{PAYMENT_DETAILS}}",
+  "body": "Kanakkukaiyel Thakaval — Anjani Interweave 💳\n\n{{CLIENT_NAME}} sir,\n\nOrder {{ORDER_ID}}-il production thodangattu token advance anuppavum:\n\nThokai: ₹{{TOKEN_MIN}} muthal ₹{{TOKEN_MAX}}\n\n{{PAYMENT_DETAILS}}\n\nPayment-in screenshot idE iDatthil anuppavum.\nUrudhi seitha anRE production thodangum. 🙏\n\nKuRippu: Order 3 naaL varai hold. 3aam naaL varai token illaathal order eTTa vaENDum."
+ },
+ {
+  "id": "T11",
+  "name": "Day 1: Token Payment Request",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN",
+   "TOKEN_MAX",
+   "PAYMENT_DETAILS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}, {{PAYMENT_DETAILS}}",
+  "body": "Payment Vivaram — Anjani Interweave 💳\n\n{{CLIENT_NAME}} sir,\n\nOrder {{ORDER_ID}}-il production thudangattu token advance anakkuka:\n\nThuka: ₹{{TOKEN_MIN}} muthal ₹{{TOKEN_MAX}}\n\n{{PAYMENT_DETAILS}}\n\nPayment-inte screenshot eedde anakkuka.\nUrrappiccha ddivasam production thudangum. 🙏\n\nKuRippu: Order 3 ddivasam hold. 3aam ddivasam token kittiyilla engil order cancel."
+ },
+ {
+  "id": "T11",
+  "name": "Day 1: Token Payment Request",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN",
+   "TOKEN_MAX",
+   "PAYMENT_DETAILS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}, {{PAYMENT_DETAILS}}",
+  "body": "Payment Tapasiil — Anjani Interweave 💳\n\n{{CLIENT_NAME}} bhai,\n\nOrder {{ORDER_ID}} madhe production suruu hoNyaasaaTHii token advance pathavaa:\n\nRakkam: ₹{{TOKEN_MIN}} te ₹{{TOKEN_MAX}}\n\n{{PAYMENT_DETAILS}}\n\nPayment cha screenshot ithe pathavaa.\nNiShchit zaalyaawar tyaach divashii production suruu. 🙏\n\nTeeP: Order 3 divashaan saaThii hold. Day 3 paryant token miLaala naahi tar order cancel."
+ },
+ {
+  "id": "T11",
+  "name": "Day 1: Token Payment Request",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN",
+   "TOKEN_MAX",
+   "PAYMENT_DETAILS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}, {{PAYMENT_DETAILS}}",
+  "body": "Payment Vivaragalu — Anjani Interweave 💳\n\n{{CLIENT_NAME}} garu,\n\nOrder {{ORDER_ID}}-lo production praaraMbhikkataniki token advance pampagalaru:\n\nMottam: ₹{{TOKEN_MIN}} nundi ₹{{TOKEN_MAX}}\n\n{{PAYMENT_DETAILS}}\n\nPayment screenshot idey pampagalaru.\nNishchayam aithunappuDu production praaramBavutundi. 🙏\n\nGuRinchu: Order 3 rojulu hold. 3ava rojuna token raakaapothe order cancel."
+ },
+ {
+  "id": "T11",
+  "name": "Day 1: Token Payment Request",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN",
+   "TOKEN_MAX",
+   "PAYMENT_DETAILS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}, {{TOKEN_MAX}}, {{PAYMENT_DETAILS}}",
+  "body": "Payment Vivara — Anjani Interweave 💳\n\n{{CLIENT_NAME}} avare,\n\nOrder {{ORDER_ID}}-alli production shuru maaDalu token advance kaLuhisi:\n\nMottaare: ₹{{TOKEN_MIN}} inda ₹{{TOKEN_MAX}}\n\n{{PAYMENT_DETAILS}}\n\nPayment screenshot idhe kaluhisi.\nDardhapaDi maadida dinave production shuru. 🙏\n\nGuRitu: Order 3 dinagaLu hold. Day 3 vareke token baralilla andare order cancel."
+ },
+ {
+  "id": "T12",
+  "name": "Day 2: First Payment Reminder",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}",
+  "body": "Hello {{CLIENT_NAME}} ji 🙏\n\nGentle reminder — we are holding your production slot for order {{ORDER_ID}}, but the token advance hasn't come through yet.\n\nMinimum ₹{{TOKEN_MIN}} will get production started today.\n\nIf you've already sent it, please share the confirmation screenshot here. If you need any help with payment, just let me know. 🙏"
+ },
+ {
+  "id": "T12",
+  "name": "Day 2: First Payment Reminder",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}",
+  "body": "Namaste {{CLIENT_NAME}} bhai 🙏\n\nEk choti yaad — order {{ORDER_ID}} ke liye production slot hold hai, lekin token abhi tak nahi mila.\n\nSirf ₹{{TOKEN_MIN}} bhejne se aaj hi production shuru.\n\nAgar bhej chuke hain toh screenshot share karein. Koi madad chahiye toh batayein. 🙏"
+ },
+ {
+  "id": "T12",
+  "name": "Day 2: First Payment Reminder",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}",
+  "body": "Kem cho {{CLIENT_NAME}} bhai 🙏\n\nEk choti yaad — order {{ORDER_ID}} maate production slot hold chhe, pan token haju malyo nathi.\n\nMaatra ₹{{TOKEN_MIN}} thi aaj j production shuru.\n\nJoh moklava hoy to screenshot share karo. Koi madad joiey to janavo. 🙏"
+ },
+ {
+  "id": "T12",
+  "name": "Day 2: First Payment Reminder",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}",
+  "body": "Vanakkam {{CLIENT_NAME}} sir 🙏\n\nOru siRiya ninaivooTTutal — order {{ORDER_ID}}-ku production iDam hold, aanaal token varaga villai.\n\n₹{{TOKEN_MIN}} maTTum anuppinaal iN naaLE production thodangum.\n\nAnuppiyirunthal confirm aNuppavum. Kadanappu thEvai irunthal sollavum. 🙏"
+ },
+ {
+  "id": "T12",
+  "name": "Day 2: First Payment Reminder",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}",
+  "body": "Namaskaram {{CLIENT_NAME}} sir 🙏\n\nOru melliya oRippikal — order {{ORDER_ID}}-nu production slot hold, paakShe token kittiyillaa.\n\n₹{{TOKEN_MIN}} anacchuaal iN naaL production thudangum.\n\nAnacchuengil screenshot parayuka. Payment sahaayatthinu cheettirunthal parayuka. 🙏"
+ },
+ {
+  "id": "T12",
+  "name": "Day 2: First Payment Reminder",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}",
+  "body": "Namaskar {{CLIENT_NAME}} bhai 🙏\n\nEk choti aanwaN — order {{ORDER_ID}} saaThii production slot hold, paRaNtu token ajuun miLalelaa naahi.\n\nFakt ₹{{TOKEN_MIN}} pathavalyaavar aajach production suruu.\n\nPathavale asalyaas screenshot shayr karaa. Madad potaajat Saangaa. 🙏"
+ },
+ {
+  "id": "T12",
+  "name": "Day 2: First Payment Reminder",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}",
+  "body": "Namaskaram {{CLIENT_NAME}} garu 🙏\n\nOka chinna guRutu — order {{ORDER_ID}}-ku production slot hold, kaani token inka raaledu.\n\n₹{{TOKEN_MIN}} pampitee iN rojE production praaramBavutundi.\n\nPampite untee confirm share cheyyandi. Payment sahaayam kaavaale antee cheppandi. 🙏"
+ },
+ {
+  "id": "T12",
+  "name": "Day 2: First Payment Reminder",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_MIN}}",
+  "body": "Namaskara {{CLIENT_NAME}} avare 🙏\n\nOnu chikka nenapina — order {{ORDER_ID}}-ge production slot hold, aadare token inka baralilla.\n\n₹{{TOKEN_MIN}} kalisidare indE production shuru.\n\nKalisiddhare screenshot share maaDiri. Payment sahaaya beekaadare heliri. 🙏"
+ },
+ {
+  "id": "T13",
+  "name": "Day 3: Final Warning",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}",
+  "body": "Important — {{CLIENT_NAME}} ji ⚠️\n\nThis is the final reminder for order {{ORDER_ID}} (₹{{TOTAL_VALUE}}).\n\nToday is Day 3. If we do not receive the token advance (minimum ₹{{TOKEN_MIN}}) by end of day, the production slot will be released and the order cancelled.\n\nWe value your business and hope to continue. Please send the payment today to keep your order active.\n\nIf you wish to cancel, no problem — just let us know. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T13",
+  "name": "Day 3: Final Warning",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}",
+  "body": "Zaruri — {{CLIENT_NAME}} bhai ⚠️\n\nOrder {{ORDER_ID}} (₹{{TOTAL_VALUE}}) ke liye ye aakhri reminder hai.\n\nAaj Din 3 hai. Aaj shaam tak token (minimum ₹{{TOKEN_MIN}}) nahi mila toh production slot release aur order cancel.\n\nAapke saath kaam karna chahte hain. Kripya aaj payment bhejen.\n\nCancel karna chahte hain toh bata dein — koi baat nahi. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T13",
+  "name": "Day 3: Final Warning",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}",
+  "body": "Jaruri — {{CLIENT_NAME}} bhai ⚠️\n\nOrder {{ORDER_ID}} (₹{{TOTAL_VALUE}}) maate aa aakhri yaad chhe.\n\nAaj Din 3 chhe. Aaj saanj sudhi token (ochhama ochhoo ₹{{TOKEN_MIN}}) na malye toh production slot release ane order cancel.\n\nTamari sathe kaam karvu chhe. Aaj payment moklavo.\n\nCancel karvu hoy to janavo — koi vaandho nahi. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T13",
+  "name": "Day 3: Final Warning",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}",
+  "body": "MukkiyamaaNathu — {{CLIENT_NAME}} sir ⚠️\n\nOrder {{ORDER_ID}} (₹{{TOTAL_VALUE}})-ku idhu kathaiya ninaivooTTutal.\n\nINRu 3-aam naaL. INRu maaluvaiyinaL vaRai token (kurainthathu ₹{{TOKEN_MIN}}) illaathal production iDam release, order eTTa vaENDum.\n\nUngaludan seyal padaviDa viRumbugiROm. TayavuseithiNRE payment anuppavum.\n\nRaTTu seiya vENDum eNRaal — piracchanai illai. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T13",
+  "name": "Day 3: Final Warning",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}",
+  "body": "Pramukham — {{CLIENT_NAME}} sir ⚠️\n\nOrder {{ORDER_ID}} (₹{{TOTAL_VALUE}})-ntte ithaan anthyam oRippikkal.\n\nInN 3-aam divasam. InNin vaikunNeram varey token (kuRanjathu ₹{{TOKEN_MIN}}) kittiyilla engil production slot thiracchukodukkum, order cancel cheyyendum.\n\nNingalumayi prashikarikkaan aaGrahan. Dayavaayi inN payment anacchukal.\n\nCancel cheyyaNum enGil parayuka — valiya viyartthamillaaa. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T13",
+  "name": "Day 3: Final Warning",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}",
+  "body": "MahattvaachE — {{CLIENT_NAME}} bhai ⚠️\n\nOrder {{ORDER_ID}} (₹{{TOTAL_VALUE}}) saaThii hi shaevaTchi aanwaN.\n\nAaj Din 3. Aaj saNdhaakaaLii paryant token (kimaan ₹{{TOKEN_MIN}}) miLaala naahi tar production slot suTa aaNi order cancel.\n\nTumchyaashii kaam karaNyaachi ichhaa aahe. Kripayaa aaj payment pathavaa.\n\nCancel karaayachE asalyaas saangaa — kahi harakaat naahi. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T13",
+  "name": "Day 3: Final Warning",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}",
+  "body": "Mukhyamainathu — {{CLIENT_NAME}} garu ⚠️\n\nOrder {{ORDER_ID}} (₹{{TOTAL_VALUE}})-ku idhi chivari guRutu.\n\nINRu 3-ava rOju. INRu saayantrakaaLattu token (teluvagaa ₹{{TOKEN_MIN}}) raakaapothe production slot vidicchi order cancel.\n\nMeeru tho pani cheyyaalani uNNaam. Dayachesi INRu payment pampagalaru.\n\nCancel chesukOvaalaante cheppandi — samasyaa ledu. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T13",
+  "name": "Day 3: Final Warning",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE",
+   "TOKEN_MIN"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}, {{TOKEN_MIN}}",
+  "body": "Mukhyavaadat — {{CLIENT_NAME}} avare ⚠️\n\nOrder {{ORDER_ID}} (₹{{TOTAL_VALUE}})-ge idu kaondu nenapina.\n\nInduu 3ane dina. Indu saayankaaladavreike token (kamidaru ₹{{TOKEN_MIN}}) baralillaa andare production slot biDugade aagutte, order cancel.\n\nNimage jothege kaelasaad maaDabekku iddheeve. Daya maadhi indu payment kalisiri.\n\nCancel maaDabeekhu andidare heliri — samasyeilla. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T14",
+  "name": "Token Received Confirmation",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "TOKEN_AMT",
+   "ORDER_ID",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_AMT}}, {{ETA_DATE}}",
+  "body": "Great news, {{CLIENT_NAME}} ji! ✅\n\nWe have received your token payment of ₹{{TOKEN_AMT}} for order {{ORDER_ID}}.\n\nProduction starts today.\nExpected dispatch date: {{ETA_DATE}}\n\nWe will send you a reminder 3 days before dispatch so you can arrange your transporter. 🚛\n\nThank you for choosing Anjani Interweave. 🙏"
+ },
+ {
+  "id": "T14",
+  "name": "Token Received Confirmation",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "TOKEN_AMT",
+   "ORDER_ID",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_AMT}}, {{ETA_DATE}}",
+  "body": "Khushkhabri, {{CLIENT_NAME}} bhai! ✅\n\nAapka ₹{{TOKEN_AMT}} token payment order {{ORDER_ID}} ke liye mil gaya.\n\nAaj se production shuru.\nDispatch ki sambhavit taareekh: {{ETA_DATE}}\n\nDispatch se 3 din pehle reminder bhejenge taaki aap transporter arrange kar sakein. 🚛\n\nAnjani Interweave ko chunne ke liye shukriya. 🙏"
+ },
+ {
+  "id": "T14",
+  "name": "Token Received Confirmation",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "TOKEN_AMT",
+   "ORDER_ID",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_AMT}}, {{ETA_DATE}}",
+  "body": "Saras samachar, {{CLIENT_NAME}} bhai! ✅\n\nTamaro ₹{{TOKEN_AMT}} token payment order {{ORDER_ID}} maate malyi gayo.\n\nAaj thi production shuru.\nDispatch ni sambhavit tarikh: {{ETA_DATE}}\n\nDispatch thi 3 din pehla reminder moklavishu. 🚛\n\nAnjani Interweave ne pasand karva badal aabhaar. 🙏"
+ },
+ {
+  "id": "T14",
+  "name": "Token Received Confirmation",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "TOKEN_AMT",
+   "ORDER_ID",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_AMT}}, {{ETA_DATE}}",
+  "body": "MagiZchi seithigal, {{CLIENT_NAME}} sir! ✅\n\nUngal ₹{{TOKEN_AMT}} token payment order {{ORDER_ID}}-ku kittiyathu.\n\nINRE production thodangugiRathu.\nDispatch-ku ethirpaarkkappaDum naaL: {{ETA_DATE}}\n\nDispatch-ku 3 naaL munnaadi ninaivooTTal anuppuvom. 🚛\n\nAnjani Interweave-ai tErntheduTThatharkku nandRi. 🙏"
+ },
+ {
+  "id": "T14",
+  "name": "Token Received Confirmation",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "TOKEN_AMT",
+   "ORDER_ID",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_AMT}}, {{ETA_DATE}}",
+  "body": "Santhoshamaaya vaarttha, {{CLIENT_NAME}} sir! ✅\n\nNingalude ₹{{TOKEN_AMT}} token payment order {{ORDER_ID}}-nu kittyi.\n\nInN production thudangunnu.\nPrathyaashiccha dispatch tiyathi: {{ETA_DATE}}\n\nDispatch-nu 3 ddivasam munnE oRippikkal anakkum. 🚛\n\nAnjani Interweave tErnjjedutthatthinu nandi. 🙏"
+ },
+ {
+  "id": "T14",
+  "name": "Token Received Confirmation",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "TOKEN_AMT",
+   "ORDER_ID",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_AMT}}, {{ETA_DATE}}",
+  "body": "AanandaachiI baadhmaatmaa, {{CLIENT_NAME}} bhai! ✅\n\nTumcha ₹{{TOKEN_AMT}} token payment order {{ORDER_ID}} saaThii miLaala.\n\nAajpaasuun production suruu.\nAapekshit dispatch taareekh: {{ETA_DATE}}\n\nDispatch-chyaa 3 dinaa aadii aanwaN pathavuu. 🚛\n\nAnjani Interweave niwaDalyaabaddal dhanyavaad. 🙏"
+ },
+ {
+  "id": "T14",
+  "name": "Token Received Confirmation",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "TOKEN_AMT",
+   "ORDER_ID",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_AMT}}, {{ETA_DATE}}",
+  "body": "Santoshakaramaina varta, {{CLIENT_NAME}} garu! ✅\n\nMeeru ki ₹{{TOKEN_AMT}} token payment order {{ORDER_ID}}-ku andindi.\n\nINRE production praaramBavutundi.\nDispatch-ku nirnikayinchabaDina rOju: {{ETA_DATE}}\n\nDispatch-ku 3 rojuLa munde guRutu pampisthaamu. 🚛\n\nAnjani Interweave-ni eresukonnaduku dhanyavaadamulu. 🙏"
+ },
+ {
+  "id": "T14",
+  "name": "Token Received Confirmation",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "TOKEN_AMT",
+   "ORDER_ID",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOKEN_AMT}}, {{ETA_DATE}}",
+  "body": "Santhosaada shuDi, {{CLIENT_NAME}} avare! ✅\n\nNimma ₹{{TOKEN_AMT}} token payment order {{ORDER_ID}}-ge banthiddhe.\n\nIndde production shuru aaguttade.\nNirikshistha dispatch dina: {{ETA_DATE}}\n\nDispatch-ge 3 dinagaLu munde nenapina kelusteve. 🚛\n\nAnjani Interweave-annu arisida bagge dhanyavaada. 🙏"
+ },
+ {
+  "id": "T15",
+  "name": "Order Cancelled (Non-Payment)",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}",
+  "body": "{{CLIENT_NAME}} ji,\n\nUnfortunately, we did not receive the token advance for order {{ORDER_ID}} (₹{{TOTAL_VALUE}}) within the 3-day window.\n\nThe production slot has been released. The order has been cancelled.\n\nIf you'd like to place a fresh order in the future, we will be happy to assist. Please note that for future orders, we will require the advance payment before confirming the slot.\n\nThank you — hope to work with you again. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T15",
+  "name": "Order Cancelled (Non-Payment)",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}",
+  "body": "{{CLIENT_NAME}} bhai,\n\nDurbhagya se, order {{ORDER_ID}} (₹{{TOTAL_VALUE}}) ke liye 3 din mein token advance nahi mila.\n\nProduction slot release ho gaya. Order cancel ho gaya hai.\n\nBhavishy mein naya order dena chahein toh hum taiyaar hain. Aage ke orders ke liye token pehle hi bhejna hoga.\n\nShukriya — umeed hai aage kaam aayenge. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T15",
+  "name": "Order Cancelled (Non-Payment)",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}",
+  "body": "{{CLIENT_NAME}} bhai,\n\nDurbhagye, order {{ORDER_ID}} (₹{{TOTAL_VALUE}}) maate 3 din maa token advance na malyo.\n\nProduction slot release kari didhu. Order cancel thayi gayo.\n\nBhavishy maa navo order aapva hoye to ame taiyaar. Aagalaa orders maate token pahela j moklavo padshhe.\n\nAabhaar — aasha chhe aage kaam karishhu. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T15",
+  "name": "Order Cancelled (Non-Payment)",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}",
+  "body": "{{CLIENT_NAME}} sir,\n\nJaNivaaTTam, order {{ORDER_ID}} (₹{{TOTAL_VALUE}})-ku 3 naaL-il token kittavillai.\n\nProduction iDam viDuDalai seivom. Order eTTappatTuLL athu.\n\nIruttail puthu order vaikka viNZumnE nangaL maNamuLLam udhavuvom. Munpulaiyil token muthali anuppavum.\n\nNandri — maduppadiyum seyal paduvom ena aRibuhu. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T15",
+  "name": "Order Cancelled (Non-Payment)",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}",
+  "body": "{{CLIENT_NAME}} sir,\n\nNirbhaagyavashaal, order {{ORDER_ID}} (₹{{TOTAL_VALUE}})-ntte 3 ddivasathinu uLLil token kittiyillaaa.\n\nProduction slot thiracchukoduththu. Order cancel cheyththirikkunnu.\n\nBhavishyatthu puduthy order tharaan aGrahan enkil njangal sahaayikkaam. Muundottu orders-kkku token mundE anakkaNam.\n\nNandi — veeNdum praShikarikkum ennu prathyaSikkunnuu. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T15",
+  "name": "Order Cancelled (Non-Payment)",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}",
+  "body": "{{CLIENT_NAME}} bhai,\n\nDurdaivaaने, order {{ORDER_ID}} (₹{{TOTAL_VALUE}}) saaThii 3 divasaat token miLaale naahi.\n\nProduction slot suTa kele. Order cancel Zaalay.\n\nBhavisyaaT naviN order dyaayachii ichhaa asalyaas aamhii taiyaar. PuDhyaa orders saaThii token aadich pathavave laaGel.\n\nDhanyavaad — punhaa kaam milavaaNyaachi aashaa. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T15",
+  "name": "Order Cancelled (Non-Payment)",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}",
+  "body": "{{CLIENT_NAME}} garu,\n\nDuurbhaaGyavashattuna, order {{ORDER_ID}} (₹{{TOTAL_VALUE}})-ku 3 rojulaloo token raaledu.\n\nProduction slot vidichesinaam. Order cancel chesukonnaam.\n\nBhavishyattulo kotha order pampaalanukuntee memu santhoshamgaa sahaayistaamu. Mundattu orders-ku token mundu pampaMdi.\n\nDhanyavaadamulu — meeru tho malli kalusukonaalllanukuntunnam. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T15",
+  "name": "Order Cancelled (Non-Payment)",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{TOTAL_VALUE}}",
+  "body": "{{CLIENT_NAME}} avare,\n\nDurbhaagyavashaat, order {{ORDER_ID}} (₹{{TOTAL_VALUE}})-ge 3 dinagaLalli token baralillaa.\n\nProduction slot biDugaDe maaDiddheeve. Order cancel aagiddhe.\n\nBhavisyadalli hosa order koDabekunna aaseyiddhare naavu santhoshadinda sahaayisutteve. Munde orders-ge token munde kalisiri.\n\nDhanyavaada — matte jotege kaelasa maaDuva aaseyidde. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T16",
+  "name": "Production Started",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{ETA_DATE}}",
+  "body": "Production Started ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} ji,\n\nYour order {{ORDER_ID}} is now in production:\n▸ {{SPEC}}\n\nExpected dispatch date: {{ETA_DATE}}\n\nWe'll keep you updated and send a reminder 3 days before dispatch. 🙏"
+ },
+ {
+  "id": "T16",
+  "name": "Production Started",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{ETA_DATE}}",
+  "body": "Production Shuru ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} bhai,\n\nAapka order {{ORDER_ID}} production mein lag gaya:\n▸ {{SPEC}}\n\nDispatch ki sambhavit taareekh: {{ETA_DATE}}\n\nHum aapko update karte rahenge aur dispatch se 3 din pehle reminder bhejenge. 🙏"
+ },
+ {
+  "id": "T16",
+  "name": "Production Started",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{ETA_DATE}}",
+  "body": "Production Shuru ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} bhai,\n\nTamaro order {{ORDER_ID}} production maa lagi gayo:\n▸ {{SPEC}}\n\nDispatch ni sambhavit tarikh: {{ETA_DATE}}\n\nAme tamne update karta rahishu ane dispatch thi 3 din pehla reminder moklavishu. 🙏"
+ },
+ {
+  "id": "T16",
+  "name": "Production Started",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{ETA_DATE}}",
+  "body": "Thayaarippu ThodanGiyathu ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} sir,\n\nUngal order {{ORDER_ID}} ippO thayaarippu Thodangugirathu:\n▸ {{SPEC}}\n\nDispatch ethirpaarkkappaDum naaL: {{ETA_DATE}}\n\nNangal thakaval anuppik koNdirupen, dispatch-ku 3 naaL mun ninaivooTTal anuppuvom. 🙏"
+ },
+ {
+  "id": "T16",
+  "name": "Production Started",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{ETA_DATE}}",
+  "body": "Nirmaanaam Thudanngi ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} sir,\n\nNingalude order {{ORDER_ID}} ippO nirmaaNam thudanGginnu:\n▸ {{SPEC}}\n\nPrathyaashiccha dispatch tiyathi: {{ETA_DATE}}\n\nNjangal update anakkum, dispatch-nu 3 ddivasam munnE oRippikkal anakkum. 🙏"
+ },
+ {
+  "id": "T16",
+  "name": "Production Started",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{ETA_DATE}}",
+  "body": "Utpaadana Suruu ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} bhai,\n\nTumchaa order {{ORDER_ID}} aataa utpaaadanaat aahe:\n▸ {{SPEC}}\n\nAapekshit dispatch taareekh: {{ETA_DATE}}\n\nAami tumhaalaa update devoot raahuut, dispatch chyaa 3 divaas aadhi aanwaN paThawoot. 🙏"
+ },
+ {
+  "id": "T16",
+  "name": "Production Started",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{ETA_DATE}}",
+  "body": "Production Praarambamaindi ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} garu,\n\nMeeru ki order {{ORDER_ID}} ippuDu production-lo unnadi:\n▸ {{SPEC}}\n\nDispatch-ku nirnikayinchabaDina rOju: {{ETA_DATE}}\n\nMemu update pampisthaamu, dispatch-ku 3 rojuLa munde guRutu pampisthaamu. 🙏"
+ },
+ {
+  "id": "T16",
+  "name": "Production Started",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "ETA_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{ETA_DATE}}",
+  "body": "Utpadane Shuru ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} avare,\n\nNimma order {{ORDER_ID}} ippaga utpadaneyalli iddhe:\n▸ {{SPEC}}\n\nNirikshistha dispatch dina: {{ETA_DATE}}\n\nNaavu update kelusteve mattu dispatch-ge 3 dinagaLu munde nenapina anupputteeve. 🙏"
+ },
+ {
+  "id": "T17",
+  "name": "ETA Update (Delay)",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "REASON",
+   "OLD_ETA",
+   "NEW_ETA"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{REASON}}, {{OLD_ETA}}, {{NEW_ETA}}",
+  "body": "Update on your order — {{CLIENT_NAME}} ji\n\nOrder {{ORDER_ID}}: Due to {{REASON}}, the dispatch date has shifted slightly.\n\n▸ Previous expected date: {{OLD_ETA}}\n▸ Revised expected date: {{NEW_ETA}}\n\nWe apologise for the change and are working to ensure quality and timely delivery. Please update your transporter arrangement accordingly.\n\nYou will receive the 3-day dispatch reminder based on the new date. 🙏"
+ },
+ {
+  "id": "T17",
+  "name": "ETA Update (Delay)",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "REASON",
+   "OLD_ETA",
+   "NEW_ETA"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{REASON}}, {{OLD_ETA}}, {{NEW_ETA}}",
+  "body": "Aapke order ki update — {{CLIENT_NAME}} bhai\n\nOrder {{ORDER_ID}}: {{REASON}} ki wajah se dispatch ki taareekh thodi shift ho gayi.\n\n▸ Pehle ki taareekh: {{OLD_ETA}}\n▸ Nayi taareekh: {{NEW_ETA}}\n\nIs badlaav ke liye maafi. Mehnat jaari hai. Transporter ko bhi is hisaab se update kar lein.\n\nNayi taareekh se 3 din pehle reminder bhejenge. 🙏"
+ },
+ {
+  "id": "T17",
+  "name": "ETA Update (Delay)",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "REASON",
+   "OLD_ETA",
+   "NEW_ETA"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{REASON}}, {{OLD_ETA}}, {{NEW_ETA}}",
+  "body": "Tamara order ni update — {{CLIENT_NAME}} bhai\n\nOrder {{ORDER_ID}}: {{REASON}} ne karane dispatch ni tarikh thodi baadal gai.\n\n▸ Paheli tarikh: {{OLD_ETA}}\n▸ Navi tarikh: {{NEW_ETA}}\n\nAa badlaav maate maafi. Navi tarikh anusaar transporter pan update karo.\n\nNavi tarikh thi 3 din pehla reminder moklavishu. 🙏"
+ },
+ {
+  "id": "T17",
+  "name": "ETA Update (Delay)",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "REASON",
+   "OLD_ETA",
+   "NEW_ETA"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{REASON}}, {{OLD_ETA}}, {{NEW_ETA}}",
+  "body": "Ungal order-in thakaval — {{CLIENT_NAME}} sir\n\nOrder {{ORDER_ID}}: {{REASON}} kaaraNamaak dispatch naaL seThalavu nigazhchi.\n\n▸ Mun-pU naaL: {{OLD_ETA}}\n▸ TiruTTappatTa naaL: {{NEW_ETA}}\n\nIvvazhaikku manniTTik koLgirOm. PudiRa naaNRil transporter-ai thayaarpattumuL.\n\nPudiRa naaLinil irunthu 3 naaL mun ninaivooTTal anuppuvom. 🙏"
+ },
+ {
+  "id": "T17",
+  "name": "ETA Update (Delay)",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "REASON",
+   "OLD_ETA",
+   "NEW_ETA"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{REASON}}, {{OLD_ETA}}, {{NEW_ETA}}",
+  "body": "Ningalude order-inte update — {{CLIENT_NAME}} sir\n\nOrder {{ORDER_ID}}: {{REASON}} moolamaayi dispatch ddivasam avalitham maari.\n\n▸ Munpulla ddivasam: {{OLD_ETA}}\n▸ PuthuppeD'icha ddivasam: {{NEW_ETA}}\n\nEe maaRRatthinu maaPPu. Puttiya tiyyathinu anugaNamaayi transporter update cheyyuka.\n\nPuttiya tiyyathinu 3 ddivasam munnE oRippikkal anakkum. 🙏"
+ },
+ {
+  "id": "T17",
+  "name": "ETA Update (Delay)",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "REASON",
+   "OLD_ETA",
+   "NEW_ETA"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{REASON}}, {{OLD_ETA}}, {{NEW_ETA}}",
+  "body": "Tumchyaa order chi upadhi — {{CLIENT_NAME}} bhai\n\nOrder {{ORDER_ID}}: {{REASON}} muLe dispatch taareekhaa thodi phuTali.\n\n▸ Aadeechi taareekh: {{OLD_ETA}}\n▸ SuDharit taareekh: {{NEW_ETA}}\n\nYaa badalaasaaThii maafi. Naviina taariikhapramaaNeN transporter hii apddet karaa.\n\nNavyaa taariikhaapaasoon 3 divaas aadhi aanwaN pathavuu. 🙏"
+ },
+ {
+  "id": "T17",
+  "name": "ETA Update (Delay)",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "REASON",
+   "OLD_ETA",
+   "NEW_ETA"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{REASON}}, {{OLD_ETA}}, {{NEW_ETA}}",
+  "body": "Meeru ki order update — {{CLIENT_NAME}} garu\n\nOrder {{ORDER_ID}}: {{REASON}} valla dispatch rOju kaaNi maaripOyindi.\n\n▸ Mundu nikitta rOju: {{OLD_ETA}}\n▸ SaMshodhinca baDDa rOju: {{NEW_ETA}}\n\nEe maaRpuku kshaminchagalaru. Kotta rOjuna transporter arrangement update cheyyandi.\n\nKotta rOjunundi 3 rojuLa munde guRutu pampisthaamu. 🙏"
+ },
+ {
+  "id": "T17",
+  "name": "ETA Update (Delay)",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "REASON",
+   "OLD_ETA",
+   "NEW_ETA"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{REASON}}, {{OLD_ETA}}, {{NEW_ETA}}",
+  "body": "Nimma order update — {{CLIENT_NAME}} avare\n\nOrder {{ORDER_ID}}: {{REASON}} kaaraNavaayi dispatch dina svalpa baadalaagide.\n\n▸ Munde nirikshistha dina: {{OLD_ETA}}\n▸ Thiruttida dina: {{NEW_ETA}}\n\nEe badalavina bagge kshame. Hosa dinanusaara transporter arrangement update maaDikoliri.\n\nHosa dinakke 3 dinagaLu munde nenapina kelusteve. 🙏"
+ },
+ {
+  "id": "T18",
+  "name": "3-Day Dispatch Alert (AUTO)",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}",
+  "body": "Dispatch Alert — Anjani Interweave 🚛\n\n{{CLIENT_NAME}} ji,\n\nYour order is almost ready!\n\nOrder: {{ORDER_ID}}\nSpec: {{SPEC}}\nQuantity: {{QTY}} KG\nDispatch Date: {{DISPATCH_DATE}}\n\nPlease arrange your transporter to collect from:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nKindly confirm here on WhatsApp once your transporter is arranged. 🙏\n\n[This is an automated message from Anjani AI Sales OS]"
+ },
+ {
+  "id": "T18",
+  "name": "3-Day Dispatch Alert (AUTO)",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}",
+  "body": "Dispatch Alert — Anjani Interweave 🚛\n\n{{CLIENT_NAME}} bhai,\n\nAapka order lagbhag taiyaar hai!\n\nOrder: {{ORDER_ID}}\nSpec: {{SPEC}}\nQuantity: {{QTY}} KG\nDispatch ki Taareekh: {{DISPATCH_DATE}}\n\nKripaya apna transporter yahan se maal uthane ke liye arrange karein:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nTransporter arrange ho jaane ke baad yahan WhatsApp par confirm kar dein. 🙏\n\n[Ye Anjani AI Sales OS ka automatic message hai]"
+ },
+ {
+  "id": "T18",
+  "name": "3-Day Dispatch Alert (AUTO)",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}",
+  "body": "Dispatch Alert — Anjani Interweave 🚛\n\n{{CLIENT_NAME}} bhai,\n\nTamaro order lagbhag taiyaar chhe!\n\nOrder: {{ORDER_ID}}\nSpec: {{SPEC}}\nQuantity: {{QTY}} KG\nDispatch ni Tarikh: {{DISPATCH_DATE}}\n\nKripaya tamaro transporter ahiyanthi maal uthaavvaa arrange karo:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nTransporter arrange thaye pachhi WhatsApp par confirm karo. 🙏\n\n[Aa Anjani AI Sales OS no automatic message chhe]"
+ },
+ {
+  "id": "T18",
+  "name": "3-Day Dispatch Alert (AUTO)",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}",
+  "body": "Vitharana Alert — Anjani Interweave 🚛\n\n{{CLIENT_NAME}} sir,\n\nUngal order koTTaakka thaiyaar!\n\nOrder: {{ORDER_ID}}\nSpec: {{SPEC}}\nQuantity: {{QTY}} KG\nVitharana naaL: {{DISPATCH_DATE}}\n\nUngal transport vaahNam indha iDatthil irunthu porul edukkavum:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nTransport ready aana pin WhatsApp-il urudhi sollavum. 🙏\n\n[Idhu Anjani AI Sales OS-in thanniyangaa maRRam]"
+ },
+ {
+  "id": "T18",
+  "name": "3-Day Dispatch Alert (AUTO)",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}",
+  "body": "VitaraNa Alert — Anjani Interweave 🚛\n\n{{CLIENT_NAME}} sir,\n\nNingalude order GaNyamaay thaiyaar!\n\nOrder: {{ORDER_ID}}\nSpec: {{SPEC}}\nQuantity: {{QTY}} KG\nVitarana ddivasam: {{DISPATCH_DATE}}\n\nDayavaayi ningalude transport eedde ninnum saamaanangaL edukkaan thaiyaaraakuka:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nTransport thaiyaaraayaal eedde WhatsApp-il urrappikk. 🙏\n\n[Idhu Anjani AI Sales OS-inte svayamkriya sandesham aanu]"
+ },
+ {
+  "id": "T18",
+  "name": "3-Day Dispatch Alert (AUTO)",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}",
+  "body": "Dispatch Alert — Anjani Interweave 🚛\n\n{{CLIENT_NAME}} bhai,\n\nTumchaa order javaljaval taiyaar!\n\nOrder: {{ORDER_ID}}\nSpec: {{SPEC}}\nQuantity: {{QTY}} KG\nDispatch chi Taareekh: {{DISPATCH_DATE}}\n\nKripayaa tumchaa transporter ithe maal ghenyasaaTHii laavaa:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nTransporter Tevaalyaavar WhatsApp var niShchit karaa. 🙏\n\n[He Anjani AI Sales OS che svayaanchaalit sandesha aahe]"
+ },
+ {
+  "id": "T18",
+  "name": "3-Day Dispatch Alert (AUTO)",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}",
+  "body": "Dispatch Alert — Anjani Interweave 🚛\n\n{{CLIENT_NAME}} garu,\n\nMeeru ki order daadaapu thaiyaaraindi!\n\nOrder: {{ORDER_ID}}\nSpec: {{SPEC}}\nQuantity: {{QTY}} KG\nDispatch rOju: {{DISPATCH_DATE}}\n\nDayachesi meeru transport iccaTi nundi samaan teesukovalani arrange cheyyandi:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nTransport ready aithunappuDu WhatsApp-lo confirm cheyyandi. 🙏\n\n[Idhi Anjani AI Sales OS nundi svayanchaalita sandEsham]"
+ },
+ {
+  "id": "T18",
+  "name": "3-Day Dispatch Alert (AUTO)",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}",
+  "body": "Dispatch Alert — Anjani Interweave 🚛\n\n{{CLIENT_NAME}} avare,\n\nNimma order saadharanavaagi thaiyaar!\n\nOrder: {{ORDER_ID}}\nSpec: {{SPEC}}\nQuantity: {{QTY}} KG\nDispatch dina: {{DISPATCH_DATE}}\n\nDayavittu nimma transport vaahana illi ninda saamaan tharuvaakke ready maaDikoliri:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nTransport ready aadaaga WhatsApp-alli confirm maaDiri. 🙏\n\n[Idu Anjani AI Sales OS ninda svachaalita sandEsha]"
+ },
+ {
+  "id": "T19",
+  "name": "Transport Confirmation Received",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{DISPATCH_DATE}}",
+  "body": "Confirmed ✅\n\nThank you {{CLIENT_NAME}} ji — your transporter is noted for {{DISPATCH_DATE}}.\n\nOur factory team will have your order packed and ready:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nKindly ensure your vehicle arrives by 10 AM on dispatch day for smooth loading.\nContact: +91 99251 77759\n\nWe will send the final dispatch confirmation once goods are loaded. 🙏"
+ },
+ {
+  "id": "T19",
+  "name": "Transport Confirmation Received",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{DISPATCH_DATE}}",
+  "body": "Confirm ✅\n\nShukriya {{CLIENT_NAME}} bhai — {{DISPATCH_DATE}} ke liye aapka transporter note ho gaya.\n\nHamari factory team aapka maal pack karke ready rakhegi:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nKripaya dispatch ke din subah 10 baje tak gaadi bhej dein.\nContact: +91 99251 77759\n\nMaal load hone ke baad final confirmation bhejenge. 🙏"
+ },
+ {
+  "id": "T19",
+  "name": "Transport Confirmation Received",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{DISPATCH_DATE}}",
+  "body": "Confirm ✅\n\nAabhaar {{CLIENT_NAME}} bhai — {{DISPATCH_DATE}} maate tamaro transporter note thayi gayo.\n\nAmari factory team tamaro maal pack karine taiyaar rakhashhe:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nDispatch na din saavarne 10 vajya sudhi gaadi moklavo.\nContact: +91 99251 77759\n\nMaal load thaye pachhi final confirmation moklavishu. 🙏"
+ },
+ {
+  "id": "T19",
+  "name": "Transport Confirmation Received",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{DISPATCH_DATE}}",
+  "body": "Urudhi ✅\n\nNandri {{CLIENT_NAME}} sir — {{DISPATCH_DATE}}-ku ungal transporter kurippidappattu.\n\nEngal factory team ungal poruL pack seithhu thaiyaar vaikkum:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nDispatch naaNRil kaalai 10 maNikku munnaadiiyE vaahaNam aanuappungal.\nThoDarpu: +91 99251 77759\n\nSarakungaL EtRiya pin iRuthiya urudhi anuppuvom. 🙏"
+ },
+ {
+  "id": "T19",
+  "name": "Transport Confirmation Received",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{DISPATCH_DATE}}",
+  "body": "Urrappiccu ✅\n\nNandi {{CLIENT_NAME}} sir — {{DISPATCH_DATE}}-nu ningalude transport kURippittaa.\n\nEngale factory team ningalude saamaanangaL pack cheythhu thaiyaar vaikkum:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nDispatch ddivasam raaviLe 10 maNikku munne vaahaNam aanuappuka.\nBandhaM: +91 99251 77759\n\nSaadhanangaL loaD cheynthaal final confirm anakkum. 🙏"
+ },
+ {
+  "id": "T19",
+  "name": "Transport Confirmation Received",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{DISPATCH_DATE}}",
+  "body": "NiShchit ✅\n\nDhanyavaad {{CLIENT_NAME}} bhai — {{DISPATCH_DATE}} saaThii tumchaa transporter nondavlaa.\n\nAambhii factory chii team tumchaa maal pack karuun taiyaar ttheveel:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nDispatch chyaa divaShii sakaaLii 10 vaajanyapurvii vaahan paaThavaale.\nSaMparkk: +91 99251 77759\n\nMaal load zaalyaawar final puShTii pathavuu. 🙏"
+ },
+ {
+  "id": "T19",
+  "name": "Transport Confirmation Received",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{DISPATCH_DATE}}",
+  "body": "Nishchayam ✅\n\nDhanyavaadamulu {{CLIENT_NAME}} garu — {{DISPATCH_DATE}}-ku meeru transport noNdaayindi.\n\nMaa factory team meeru ki samaan pack chesi thaiyaaru vaistundi:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nDispatch rOju udayam 10 gantalu mundu vaahaNam pathampandi.\nSaMparka: +91 99251 77759\n\nSamaan load aithaka final confirm pampistham. 🙏"
+ },
+ {
+  "id": "T19",
+  "name": "Transport Confirmation Received",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "DISPATCH_DATE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{DISPATCH_DATE}}",
+  "body": "Dardhapadadhidhe ✅\n\nDhanyavaada {{CLIENT_NAME}} avare — {{DISPATCH_DATE}}-ge nimma transport daakhalu maadalaagide.\n\nNamma factory team nimma samaan pack maadi thaiyaaraagutte:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nDispatch dina beLigge 10 gaMtegala mundhe vaahana kaLuhisi.\nSaMparke: +91 99251 77759\n\nSamaan load aadaaga final confirm kelusteve. 🙏"
+ },
+ {
+  "id": "T20",
+  "name": "Dispatched Confirmation",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE",
+   "VEHICLE_NO"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}, {{VEHICLE_NO}}",
+  "body": "Dispatched ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} ji — your order has left our factory!\n\nOrder: {{ORDER_ID}}\n▸ {{SPEC}}\n▸ Quantity: {{QTY}} KG\n▸ Dispatched: {{DISPATCH_DATE}}\n▸ Vehicle: {{VEHICLE_NO}}\n\nDispatched from:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nPlease confirm once goods are received.\nThank you for choosing Anjani Interweave! 🙏\n\n+91 99251 77759"
+ },
+ {
+  "id": "T20",
+  "name": "Dispatched Confirmation",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE",
+   "VEHICLE_NO"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}, {{VEHICLE_NO}}",
+  "body": "Maal Ravaana ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} bhai — aapka maal factory se nikal gaya!\n\nOrder: {{ORDER_ID}}\n▸ {{SPEC}}\n▸ Quantity: {{QTY}} KG\n▸ Dispatch: {{DISPATCH_DATE}}\n▸ Gaadi: {{VEHICLE_NO}}\n\nYahan se ravaana:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nMaal milne ke baad confirm karein.\nAnjani Interweave ko chunne ke liye shukriya! 🙏\n\n+91 99251 77759"
+ },
+ {
+  "id": "T20",
+  "name": "Dispatched Confirmation",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE",
+   "VEHICLE_NO"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}, {{VEHICLE_NO}}",
+  "body": "Maal Revana ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} bhai — tamaro maal factory manthhi nikalyi gayo!\n\nOrder: {{ORDER_ID}}\n▸ {{SPEC}}\n▸ Quantity: {{QTY}} KG\n▸ Dispatch: {{DISPATCH_DATE}}\n▸ Gaadi: {{VEHICLE_NO}}\n\nAhiyanthi revana:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nMaal malye pachhi confirm karo.\nAnjani Interweave ne pasand karva badal aabhaar! 🙏\n\n+91 99251 77759"
+ },
+ {
+  "id": "T20",
+  "name": "Dispatched Confirmation",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE",
+   "VEHICLE_NO"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}, {{VEHICLE_NO}}",
+  "body": "AaNuppu AaanNai ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} sir — ungal porul engal factory irunthu puRappattu!\n\nOrder: {{ORDER_ID}}\n▸ {{SPEC}}\n▸ Quantity: {{QTY}} KG\n▸ AaNuppu naaL: {{DISPATCH_DATE}}\n▸ VaahaNam: {{VEHICLE_NO}}\n\nIngirunthu aaNuppappattatu:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nPoruL kittiya pin urudhi seyyungal.\nAnjani Interweave tErntheduTThatharkku nandRi! 🙏\n\n+91 99251 77759"
+ },
+ {
+  "id": "T20",
+  "name": "Dispatched Confirmation",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE",
+   "VEHICLE_NO"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}, {{VEHICLE_NO}}",
+  "body": "AyacchuLLa StiRikkaraNam ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} sir — ningalude saamaanangaL engale factory ninnumn purappettu!\n\nOrder: {{ORDER_ID}}\n▸ {{SPEC}}\n▸ Quantity: {{QTY}} KG\n▸ VitaraNa ddivasam: {{DISPATCH_DATE}}\n▸ Vaahaanam: {{VEHICLE_NO}}\n\nEedde ninnum ayaaccchath:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nSaadhaNangaL kittiyaal urappikku.\nAnjani Interweave tErnjjedutthatthinu nandi! 🙏\n\n+91 99251 77759"
+ },
+ {
+  "id": "T20",
+  "name": "Dispatched Confirmation",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE",
+   "VEHICLE_NO"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}, {{VEHICLE_NO}}",
+  "body": "Rovaanaa PuShTii ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} bhai — tumchaa maal aambhii factory madhuun nighaalaa!\n\nOrder: {{ORDER_ID}}\n▸ {{SPEC}}\n▸ Quantity: {{QTY}} KG\n▸ Ravaanaa: {{DISPATCH_DATE}}\n▸ Vaahan: {{VEHICLE_NO}}\n\nIthe'un ravaanaa:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nMaal miLaalyaawar puShTii dya.\nAnjani Interweave niwaDalyaabaddal dhanyavaad! 🙏\n\n+91 99251 77759"
+ },
+ {
+  "id": "T20",
+  "name": "Dispatched Confirmation",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE",
+   "VEHICLE_NO"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}, {{VEHICLE_NO}}",
+  "body": "Dispatch Nishchayam ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} garu — meeru ki samaan maa factory nundi bayaluderindi!\n\nOrder: {{ORDER_ID}}\n▸ {{SPEC}}\n▸ Quantity: {{QTY}} KG\n▸ Dispatch rOju: {{DISPATCH_DATE}}\n▸ VaahaNum: {{VEHICLE_NO}}\n\nInni nundi pampabaDindi:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nSamaan andaaka confirm cheyyandi.\nAnjani Interweave-ni eresukonnaduku dhanyavaadamulu! 🙏\n\n+91 99251 77759"
+ },
+ {
+  "id": "T20",
+  "name": "Dispatched Confirmation",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC",
+   "QTY",
+   "DISPATCH_DATE",
+   "VEHICLE_NO"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}, {{QTY}}, {{DISPATCH_DATE}}, {{VEHICLE_NO}}",
+  "body": "Kelahegu DardheekaraNa ✅ — Anjani Interweave\n\n{{CLIENT_NAME}} avare — nimma samaan namma factory-inda heLage haLaadidhe!\n\nOrder: {{ORDER_ID}}\n▸ {{SPEC}}\n▸ Quantity: {{QTY}} KG\n▸ Dispatch dina: {{DISPATCH_DATE}}\n▸ Vaahana: {{VEHICLE_NO}}\n\nIlli ninda kelahegu:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nSamaan bandaaga confirm maaDiri.\nAnjani Interweave-annu arisida bagge dhanyavaada! 🙏\n\n+91 99251 77759"
+ },
+ {
+  "id": "T21",
+  "name": "Mill Sourcing Request (Reactive/Urgent)",
+  "language": "English",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "REQUIRED_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{REQUIRED_BY}}",
+  "body": "Urgent Sourcing — Anjani Interweave\n\n{{MILL_NAME}} bhai,\n\nRavi here from Anjani Interweave, Surat. We need the following fabric urgently for our client:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Colour: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Required by: {{REQUIRED_BY}}\n\nPlease confirm:\n1. Available or can produce?\n2. Your price per KG (Ex-Factory from you)\n3. Earliest delivery date\n\nNeed response within 2 hours. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T21",
+  "name": "Mill Sourcing Request (Reactive/Urgent)",
+  "language": "Hindi",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "REQUIRED_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{REQUIRED_BY}}",
+  "body": "Urgent Sourcing — Anjani Interweave\n\n{{MILL_NAME}} bhai,\n\nMain Ravi hoon, Anjani Interweave, Surat. Humein apne client ke liye yeh fabric urgently chahiye:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rang: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Chahiye: {{REQUIRED_BY}} tak\n\nKripya batayein:\n1. Available hai ya bana sakte hain?\n2. Rate per KG (Ex-Factory)\n3. Sabse jaldi delivery?\n\n2 ghante mein jawab chahiye. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T21",
+  "name": "Mill Sourcing Request (Reactive/Urgent)",
+  "language": "Gujarati",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "REQUIRED_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{REQUIRED_BY}}",
+  "body": "Urgent Sourcing — Anjani Interweave\n\n{{MILL_NAME}} bhai,\n\nHoon Ravi, Anjani Interweave, Surat. Amne amara client maate aa fabric urgently joie chhe:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rang: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Joie chhe: {{REQUIRED_BY}} sudhi\n\nKripaya janavo:\n1. Available chhe ke bani shake?\n2. Rate per KG (Ex-Factory)\n3. Sabsee jaldi delivery?\n\n2 kakla maa jawab joie. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T21",
+  "name": "Mill Sourcing Request (Reactive/Urgent)",
+  "language": "Tamil",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "REQUIRED_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{REQUIRED_BY}}",
+  "body": "Tunguvara Thedal — Anjani Interweave\n\n{{MILL_NAME}} sir,\n\nNaan Ravi, Anjani Interweave, Surat. Engal client-ku indha fabric udanadiyaaka vendum:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ NiRam: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ ThEvai: {{REQUIRED_BY}} varai\n\nKaNaakkil sollavum:\n1. LaabhiyaRRu irukkaa illai ThayarikkamuDiyumaa?\n2. Vilai per KG (Ex-Factory)\n3. MuRuGiya vitharaNa naaL?\n\n2 maNi nERatthil reply. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T21",
+  "name": "Mill Sourcing Request (Reactive/Urgent)",
+  "language": "Malayalam",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "REQUIRED_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{REQUIRED_BY}}",
+  "body": "Avasara AnvEShaNam — Anjani Interweave\n\n{{MILL_NAME}} sir,\n\nRavi, Anjani Interweave, Surat. Engale clientine vitaraNa ariyaay ee fabric joitirikkunu:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Niram: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Veenam: {{REQUIRED_BY}} varey\n\nDayavaayi parayuka:\n1. Labhyamaan laa, nirmaaNam saaddhyamaan?\n2. Vila KG-nu (Ex-Factory)\n3. Erta vitaraNa ddivasam?\n\n2 maNikkuLLil maRupaDi. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T21",
+  "name": "Mill Sourcing Request (Reactive/Urgent)",
+  "language": "Marathi",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "REQUIRED_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{REQUIRED_BY}}",
+  "body": "Tadkaari Kharedi — Anjani Interweave\n\n{{MILL_NAME}} bhai,\n\nMee Ravi, Anjani Interweave, Surat. Aamhalaa client-saaThii hii fabric tadkaari haavii:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rang: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Haavii: {{REQUIRED_BY}} paryant\n\nDayaa karuun saangaa:\n1. Uplabdh kinvaa banvuu shaakaaL?\n2. Kimat pratyekaa KG (Ex-Factory)\n3. Lavkaraata lavkar delivery?\n\n2 taasaanmadhe uttara. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T21",
+  "name": "Mill Sourcing Request (Reactive/Urgent)",
+  "language": "Telugu",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "REQUIRED_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{REQUIRED_BY}}",
+  "body": "VeNTane Sourcing — Anjani Interweave\n\n{{MILL_NAME}} garu,\n\nNenu Ravi, Anjani Interweave, Surat. Maa client-ku ee fabric veganga kaavaali:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rangu: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Kaavaali: {{REQUIRED_BY}} varka\n\nDayachesi cheppandi:\n1. Labhyamaavutundaa leedaa thaiyaaru chestuundaaraa?\n2. Dhara pratiKG (Ex-Factory)\n3. Erta delivery rOju?\n\n2 gaMtallo samaadhanam. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T21",
+  "name": "Mill Sourcing Request (Reactive/Urgent)",
+  "language": "Kannada",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "REQUIRED_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{REQUIRED_BY}}",
+  "body": "Turutina Soursing — Anjani Interweave\n\n{{MILL_NAME}} avare,\n\nNanu Ravi, Anjani Interweave, Surat. Namma client-ge ee fabric turutaagi beekaaguttade:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Badana: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Beekaaguttade: {{REQUIRED_BY}} vareke\n\nDayavittu heliri:\n1. Laabhyavideyee athavaa thayaarisabahudag?\n2. Bele prati KG (Ex-Factory)\n3. Eruvakke delivery dina?\n\n2 gaMtegalalli uttara. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T22",
+  "name": "Mill Sourcing Request (Proactive/Overflow)",
+  "language": "English",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "DELIVERY_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{DELIVERY_BY}}",
+  "body": "Sourcing Enquiry — Anjani Interweave\n\n{{MILL_NAME}} bhai,\n\nRavi here from Anjani Interweave, Surat. We need the following fabric for an upcoming order:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Colour: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Delivery by: {{DELIVERY_BY}}\n\nPlease share your best price and available date.\n\nLooking forward to working together. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T22",
+  "name": "Mill Sourcing Request (Proactive/Overflow)",
+  "language": "Hindi",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "DELIVERY_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{DELIVERY_BY}}",
+  "body": "Sourcing Enquiry — Anjani Interweave\n\n{{MILL_NAME}} bhai,\n\nMain Ravi hoon, Anjani Interweave, Surat. Ek aane wale order ke liye yeh fabric chahiye:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rang: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Chahiye: {{DELIVERY_BY}} tak\n\nApna best rate aur available date share karein.\n\nMilkar kaam karne ka intezaar hai. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T22",
+  "name": "Mill Sourcing Request (Proactive/Overflow)",
+  "language": "Gujarati",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "DELIVERY_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{DELIVERY_BY}}",
+  "body": "Sourcing Enquiry — Anjani Interweave\n\n{{MILL_NAME}} bhai,\n\nHoon Ravi, Anjani Interweave, Surat. Ek aavnar order maate aa fabric joie chhe:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rang: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Joie chhe: {{DELIVERY_BY}} sudhi\n\nTamaro best rate ane available date share karo.\n\nSathe kaam karva ni raah. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T22",
+  "name": "Mill Sourcing Request (Proactive/Overflow)",
+  "language": "Tamil",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "DELIVERY_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{DELIVERY_BY}}",
+  "body": "Thedal VinNappam — Anjani Interweave\n\n{{MILL_NAME}} sir,\n\nRavi, Anjani Interweave, Surat. Varum order-ku indha fabric ThEvai:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ NiRam: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ ThEvai: {{DELIVERY_BY}} muNnaadiyaaK\n\nUngal best vilai matrum laabhyamaaNum naaL sollavum.\n\nUngaludan seyal padavida aasai. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T22",
+  "name": "Mill Sourcing Request (Proactive/Overflow)",
+  "language": "Malayalam",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "DELIVERY_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{DELIVERY_BY}}",
+  "body": "Thedal AnvEShaNam — Anjani Interweave\n\n{{MILL_NAME}} sir,\n\nRavi, Anjani Interweave, Surat. Varunna order-nnu ee fabric joitirikkunu:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Niram: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Veenanathu: {{DELIVERY_BY}} vare\n\nNingalude best vila mattu labhyamaaya ddivasam parayuka.\n\nNingalumayi prashikarikkaan aGrahan. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T22",
+  "name": "Mill Sourcing Request (Proactive/Overflow)",
+  "language": "Marathi",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "DELIVERY_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{DELIVERY_BY}}",
+  "body": "Sourcing TapaasuNii — Anjani Interweave\n\n{{MILL_NAME}} bhai,\n\nMee Ravi, Anjani Interweave, Surat. YeNaaryaa order-saaThii hii fabric haavii:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rang: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Haavii: {{DELIVERY_BY}} paryant\n\nTumchii best kimat aaNi uplabdh taareekh share karaavi.\n\nSaath kaam karnyaachii ichhaa. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T22",
+  "name": "Mill Sourcing Request (Proactive/Overflow)",
+  "language": "Telugu",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "DELIVERY_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{DELIVERY_BY}}",
+  "body": "Soursing Vicaarana — Anjani Interweave\n\n{{MILL_NAME}} garu,\n\nNenu Ravi, Anjani Interweave, Surat. Raanunna order-ku ee fabric kaavaali:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Rangu: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Kaavaali: {{DELIVERY_BY}} lOpulO\n\nMeeru best dhara mattu labhyamaina rOju share cheyyandi.\n\nKaludamaata cheyyadaniki chustunnam. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T22",
+  "name": "Mill Sourcing Request (Proactive/Overflow)",
+  "language": "Kannada",
+  "variables": [
+   "MILL_NAME",
+   "SIZE",
+   "GRAM",
+   "GRADE",
+   "COLOUR",
+   "LAM",
+   "QTY",
+   "DELIVERY_BY"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{SIZE}}, {{GRAM}}, {{GRADE}}, {{COLOUR}}, {{LAM}}, {{QTY}}, {{DELIVERY_BY}}",
+  "body": "Soursing VicaaraNe — Anjani Interweave\n\n{{MILL_NAME}} avare,\n\nNanu Ravi, Anjani Interweave, Surat. Baruvanthu order-ge ee fabric beekaaguttade:\n\n▸ Width: {{SIZE}}\" | Grammage: {{GRAM}} | Grade: {{GRADE}}\n▸ Badana: {{COLOUR}} | Lamination: {{LAM}}\n▸ Quantity: {{QTY}} KG\n▸ Beekaaguttade: {{DELIVERY_BY}} vareke\n\nNimma best bele mattu laabhya dina share maaDiri.\n\nJotege kaelasa maaDalu aaseyide. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T23",
+  "name": "Quality Gate: Lab Report/Sample Request",
+  "language": "English",
+  "variables": [
+   "MILL_NAME",
+   "ORDER_SPEC",
+   "QTY",
+   "QG_DEADLINE"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{ORDER_SPEC}}, {{QTY}}, {{QG_DEADLINE}}",
+  "body": "Quality Gate — Anjani Interweave\n\n{{MILL_NAME}} bhai,\n\nThank you for confirming availability of: {{ORDER_SPEC}} — {{QTY}} KG.\n\nBefore we dispatch to our client, we require quality verification. Please provide ONE of the following by {{QG_DEADLINE}}:\n\nOption A — Lab Report:\nTensile strength (warp & weft) and elongation % — tested and certified.\n\nOption B — Physical Sample:\nSend fabric sample roll (minimum 2 metres) to our factory:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nOnce quality is approved by our team, we will confirm the order and arrange payment immediately. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T23",
+  "name": "Quality Gate: Lab Report/Sample Request",
+  "language": "Hindi",
+  "variables": [
+   "MILL_NAME",
+   "ORDER_SPEC",
+   "QTY",
+   "QG_DEADLINE"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{ORDER_SPEC}}, {{QTY}}, {{QG_DEADLINE}}",
+  "body": "Quality Gate — Anjani Interweave\n\n{{MILL_NAME}} bhai,\n\n{{ORDER_SPEC}} — {{QTY}} KG ki availability confirm karne ke liye shukriya.\n\nClient ko maal bhejne se pehle quality verification chahiye. Kripya {{QG_DEADLINE}} tak EK bhejna hoga:\n\nOption A — Lab Report:\nTensile strength (warp & weft) aur elongation % — tested aur certified.\n\nOption B — Physical Sample:\nFactory par fabric sample (minimum 2 metre) bhejna hoga:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nQuality approve hone ke baad turant order confirm karenge aur payment arrange karenge. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T23",
+  "name": "Quality Gate: Lab Report/Sample Request",
+  "language": "Gujarati",
+  "variables": [
+   "MILL_NAME",
+   "ORDER_SPEC",
+   "QTY",
+   "QG_DEADLINE"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{ORDER_SPEC}}, {{QTY}}, {{QG_DEADLINE}}",
+  "body": "Quality Gate — Anjani Interweave\n\n{{MILL_NAME}} bhai,\n\n{{ORDER_SPEC}} — {{QTY}} KG ni availability confirm karva maate aabhaar.\n\nClient ne maal moklata pehla quality verification joie chhe. Kripaya {{QG_DEADLINE}} sudhi EK moklavo:\n\nOption A — Lab Report:\nTensile strength (warp & weft) ane elongation % — tested ane certified.\n\nOption B — Physical Sample:\nFactory par fabric sample (minimum 2 metre) moklavo:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nQuality approve thaye pachhi turant order confirm ane payment arrange karishu. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T23",
+  "name": "Quality Gate: Lab Report/Sample Request",
+  "language": "Tamil",
+  "variables": [
+   "MILL_NAME",
+   "ORDER_SPEC",
+   "QTY",
+   "QG_DEADLINE"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{ORDER_SPEC}}, {{QTY}}, {{QG_DEADLINE}}",
+  "body": "Thara Saaladai — Anjani Interweave\n\n{{MILL_NAME}} sir,\n\n{{ORDER_SPEC}} — {{QTY}} KG kaiyiruppu uruthippaduttiyatharkku nandri.\n\nClient-ku mun ONDRU {{QG_DEADLINE}}-kku mun anuppavum:\n\nOption A — Lab Report:\nTensile strength (paavum & pazhamum) matrum elongation % — saRRu thErnthakkappaTTa certified report.\n\nOption B — Physical Sample:\nFactory-ku fabric sample (kurainthathu 2 metres):\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nThara orudalil udan order urudhi ane payment thiittam. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T23",
+  "name": "Quality Gate: Lab Report/Sample Request",
+  "language": "Malayalam",
+  "variables": [
+   "MILL_NAME",
+   "ORDER_SPEC",
+   "QTY",
+   "QG_DEADLINE"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{ORDER_SPEC}}, {{QTY}}, {{QG_DEADLINE}}",
+  "body": "GunaNilavar Pravesham — Anjani Interweave\n\n{{MILL_NAME}} sir,\n\n{{ORDER_SPEC}} — {{QTY}} KG labhyata uRappicchathinu nandi.\n\nClient-nu saamaanangaL anacchukal munnE ONN anakkuka {{QG_DEADLINE}}-nu munnE:\n\nOption A — Lab Report:\nTensile strength (naraad & oozha) mattu elongation % — paricchOdhicchhath certified.\n\nOption B — Physical Sample:\nFabric sample (kuRanjathu 2 mettar) eedde anakkuka:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nGunaNilavar orudalil order confirm cheyththu payment amaakum. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T23",
+  "name": "Quality Gate: Lab Report/Sample Request",
+  "language": "Marathi",
+  "variables": [
+   "MILL_NAME",
+   "ORDER_SPEC",
+   "QTY",
+   "QG_DEADLINE"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{ORDER_SPEC}}, {{QTY}}, {{QG_DEADLINE}}",
+  "body": "GuNvatta Dwaar — Anjani Interweave\n\n{{MILL_NAME}} bhai,\n\n{{ORDER_SPEC}} — {{QTY}} KG chi uplabdhii puShTii kalyaabaddal dhanyavaad.\n\nClient-la maal paaThavaayaapurvii {{QG_DEADLINE}} paryant YAAPAIKII EK pathavaa:\n\nOption A — Lab Report:\nTensile strength (taaNaa va baaNaa) aaNi elongation % — certified report.\n\nOption B — Physical Sample:\nFactory-la fabric sample (minimum 2 metres):\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nGuNvatta maanyataanantarr lagyech order confirm aaNi payment. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T23",
+  "name": "Quality Gate: Lab Report/Sample Request",
+  "language": "Telugu",
+  "variables": [
+   "MILL_NAME",
+   "ORDER_SPEC",
+   "QTY",
+   "QG_DEADLINE"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{ORDER_SPEC}}, {{QTY}}, {{QG_DEADLINE}}",
+  "body": "Gunamatta Dvaaramm — Anjani Interweave\n\n{{MILL_NAME}} garu,\n\n{{ORDER_SPEC}} — {{QTY}} KG labhyataannu nishchayam chesinduku dhanyavaadamulu.\n\nClient-ku pampe mundu {{QG_DEADLINE}} lOpulO EKaTi pampagalaru:\n\nOption A — Lab Report:\nTensile strength (naaraad & banaavaathu) mattu elongation % — certified report.\n\nOption B — Physical Sample:\nFabric sample (teluvagaa 2 metres) factory-ku:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nGunaMatta anumodhinchina venti order nishchayam chesi payment. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T23",
+  "name": "Quality Gate: Lab Report/Sample Request",
+  "language": "Kannada",
+  "variables": [
+   "MILL_NAME",
+   "ORDER_SPEC",
+   "QTY",
+   "QG_DEADLINE"
+  ],
+  "declared_variables": "{{MILL_NAME}}, {{ORDER_SPEC}}, {{QTY}}, {{QG_DEADLINE}}",
+  "body": "GuNamaata Dvaaara — Anjani Interweave\n\n{{MILL_NAME}} avare,\n\n{{ORDER_SPEC}} — {{QTY}} KG laabhyata dardhapaDi maadida bagge dhanyavaada.\n\nClient-ge samaan kaLuhisuvuda munde {{QG_DEADLINE}} vareke ONDU kaLuhisi:\n\nOption A — Lab Report:\nTensile strength (haayi & horaDi) mattu elongation % — certified report.\n\nOption B — Physical Sample:\nFabric sample (kamidaru 2 metres) factory-ge:\n📍 Block No. 949A, Plot No. 7, Tadkeshwar, Kim Mandvi Road, Kim, Gujarat 394170\n\nGuNamaata anumodisidag order dardhapaDi maadi payment. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T24",
+  "name": "Sub-22\" Holding Message",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Thank you {{CLIENT_NAME}} ji! 🙏\n\nI've noted your fabric requirement. This particular size needs a special confirmation from our production team — I'll get back to you within 10–15 minutes with full details.\n\nPlease stay available on WhatsApp. 🙏"
+ },
+ {
+  "id": "T24",
+  "name": "Sub-22\" Holding Message",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Shukriya {{CLIENT_NAME}} bhai! 🙏\n\nAapki fabric requirement note kar li hai. Is size ke liye hamari production team se ek khaas confirmation chahiye — main 10-15 minute mein poori details ke saath aapko bata dunga.\n\nWhatsApp par available rehna. 🙏"
+ },
+ {
+  "id": "T24",
+  "name": "Sub-22\" Holding Message",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Aabhaar {{CLIENT_NAME}} bhai! 🙏\n\nTamari fabric requirement note kari lidhi. Aa size maate amari production team pasethi ek khaas confirmation joie chhe — hoon 10-15 minute maa puri mahiti sathe tamne janavaish.\n\nWhatsApp par available rehjo. 🙏"
+ },
+ {
+  "id": "T24",
+  "name": "Sub-22\" Holding Message",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Nandri {{CLIENT_NAME}} sir! 🙏\n\nUngal fabric thEvai kuRippidappattu. Idhu particular size-ku engal production team-il irunthu oru koLkkai urudhi tEvai — 10-15 nimidangalil muZhu vivarangaludan thodarpu seivEn.\n\nWhatsApp-il kaaNappadungal. 🙏"
+ },
+ {
+  "id": "T24",
+  "name": "Sub-22\" Holding Message",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Nandi {{CLIENT_NAME}} sir! 🙏\n\nNingalude fabric avashyam kURippittaa. Ee parithiti-ninne size-nu engale production team-il ninnnn oru prathyEka uRappikkal veenam — 10-15 nimishangaLkkulle muttumavivaragalumayi bandhappedum.\n\nWhatsApp-il labhyamaayirikkuka. 🙏"
+ },
+ {
+  "id": "T24",
+  "name": "Sub-22\" Holding Message",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Dhanyavaad {{CLIENT_NAME}} bhai! 🙏\n\nTumchi fabric avaashyakata nondavali. Yaa vishisht size-saaThii aambhii production team-kaduun ek vishesh puShTii haavii aahe — 10-15 minutaa mein sarv taapasiilaasaath tumhaalaa kalaweel.\n\nWhatsApp var upalabdh rahaa. 🙏"
+ },
+ {
+  "id": "T24",
+  "name": "Sub-22\" Holding Message",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Dhanyavaadamulu {{CLIENT_NAME}} garu! 🙏\n\nMeeru fabric aavashyata noNdaayindi. Ee parithiti-lo size-ku maa production team nundi oka vishEsha nishchayam kaavaali — 10-15 nimishallo sarva vivaragaluTo meeru ki theliyajEstaanu.\n\nWhatsApp-lo andubaatuloo unnandi. 🙏"
+ },
+ {
+  "id": "T24",
+  "name": "Sub-22\" Holding Message",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Dhanyavaada {{CLIENT_NAME}} avare! 🙏\n\nNimma fabric aavashyakate daakhalu maadiddheeve. Ee nirdishTa size-ge namma production team ninda oru vishEsha dardheekaraNa beekaaguttade — 10-15 nimishagaLalli sarva vivaragaLondigu nimmannu samparkyisuttene.\n\nWhatsApp-alli laabhyavidheeri. 🙏"
+ },
+ {
+  "id": "T25",
+  "name": "Natural Fabric Holding Message",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Thank you {{CLIENT_NAME}} ji! 🙏\n\nNatural fabric is a specialised product for us. I need to check availability and specifications with our production team. I'll get back to you within 15 minutes with complete details.\n\nPlease stay on WhatsApp. 🙏"
+ },
+ {
+  "id": "T25",
+  "name": "Natural Fabric Holding Message",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Shukriya {{CLIENT_NAME}} bhai! 🙏\n\nNatural fabric hamare liye ek vishesh product hai. Mujhe production team se availability aur specifications check karni hogi. 15 minute mein poori jaankari ke saath wapas aata hoon.\n\nWhatsApp par rahen. 🙏"
+ },
+ {
+  "id": "T25",
+  "name": "Natural Fabric Holding Message",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Aabhaar {{CLIENT_NAME}} bhai! 🙏\n\nNatural fabric amara maate ek vishesh product chhe. Mane production team pasethi availability ane specifications check karva padshhe. 15 minute maa puri mahiti sathe pachho aavish.\n\nWhatsApp par rahejo. 🙏"
+ },
+ {
+  "id": "T25",
+  "name": "Natural Fabric Holding Message",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Nandri {{CLIENT_NAME}} sir! 🙏\n\nNatural fabric engalukku oru siranthavuDaiya porul. Engal production team-idam kadanpaDu matrum vivarangaL sarikkaaNa vENDum. 15 nimidangalil muZhu vivarangaLudan thoda varuvEn.\n\nWhatsApp-il iruNgal. 🙏"
+ },
+ {
+  "id": "T25",
+  "name": "Natural Fabric Holding Message",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Nandi {{CLIENT_NAME}} sir! 🙏\n\nNatural fabric engalkku oru vishEsha utpannamaaanu. Production team-il ninnuu labhyata mattu vivaragaL parishodhikkENum. 15 nimishangaLkkulle muttuma vivaragalumayi thiricchuvarum.\n\nWhatsApp-il nilluka. 🙏"
+ },
+ {
+  "id": "T25",
+  "name": "Natural Fabric Holding Message",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Dhanyavaad {{CLIENT_NAME}} bhai! 🙏\n\nNatural fabric aaambhii saaTHii ek vishesh utpadaan aahe. Production team-kaduun uplabdhitaa aaNi specifications tapaasvii lavlaagiilot. 15 minutaanMadhe puurN mahitisah parataaNaar.\n\nWhatsApp var raahaavaa. 🙏"
+ },
+ {
+  "id": "T25",
+  "name": "Natural Fabric Holding Message",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Dhanyavaadamulu {{CLIENT_NAME}} garu! 🙏\n\nNatural fabric maaku oka vishEsha utpatthi. Production team nundi labhyata mattu vivaragaLu sariChUsukOvaali. 15 nimishallo sarva vivaragaluTho thirigi vastaanu.\n\nWhatsApp-lo unNandi. 🙏"
+ },
+ {
+  "id": "T25",
+  "name": "Natural Fabric Holding Message",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}",
+  "body": "Dhanyavaada {{CLIENT_NAME}} avare! 🙏\n\nNatural fabric namagee oru vishEsha utpanna. Production team ninda laabhyate mattu vivaragaLu pariikshhisabeku. 15 nimishagaLalli sarva vivaragaLondigu thirigi baruttene.\n\nWhatsApp-alli iri. 🙏"
+ },
+ {
+  "id": "T26",
+  "name": "Non-Standard Colour Holding Message",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "COLOUR_REQUESTED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{COLOUR_REQUESTED}}",
+  "body": "Thank you {{CLIENT_NAME}} ji! 🙏\n\n{{COLOUR_REQUESTED}} colour fabric is a custom requirement. I need to confirm feasibility and pricing with our production team. I'll get back within 15 minutes.\n\nPlease stay on WhatsApp. 🙏"
+ },
+ {
+  "id": "T26",
+  "name": "Non-Standard Colour Holding Message",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "COLOUR_REQUESTED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{COLOUR_REQUESTED}}",
+  "body": "Shukriya {{CLIENT_NAME}} bhai! 🙏\n\n{{COLOUR_REQUESTED}} rang ki fabric ek khaas demand hai. Mujhe production team se feasibility aur daam confirm karne hain. 15 minute mein wapas aaonga.\n\nWhatsApp par rahen. 🙏"
+ },
+ {
+  "id": "T26",
+  "name": "Non-Standard Colour Holding Message",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "COLOUR_REQUESTED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{COLOUR_REQUESTED}}",
+  "body": "Aabhaar {{CLIENT_NAME}} bhai! 🙏\n\n{{COLOUR_REQUESTED}} rang ni fabric ek khaas jaroorat chhe. Mane production team pasethi feasibility ane bhav confirm karva padshhe. 15 minute maa pachho aavish.\n\nWhatsApp par rahejo. 🙏"
+ },
+ {
+  "id": "T26",
+  "name": "Non-Standard Colour Holding Message",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "COLOUR_REQUESTED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{COLOUR_REQUESTED}}",
+  "body": "Nandri {{CLIENT_NAME}} sir! 🙏\n\n{{COLOUR_REQUESTED}} niram fabric oru siRantha thEvai. Engal production team-idam thiraNoNmai matrum vilai uRuthi seiya vENDum. 15 nimidangalil thidirumaaR thoda varuvEn.\n\nWhatsApp-il kaaNumal iruNgal. 🙏"
+ },
+ {
+  "id": "T26",
+  "name": "Non-Standard Colour Holding Message",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "COLOUR_REQUESTED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{COLOUR_REQUESTED}}",
+  "body": "Nandi {{CLIENT_NAME}} sir! 🙏\n\n{{COLOUR_REQUESTED}} niRatthilulla fabric oru vishEsha aavashyam aanu. Production team-il ninnuu saadhyata mattu vila uRappikkaNum. 15 nimishangaLkkulle thirichi varum.\n\nWhatsApp-il nilluka. 🙏"
+ },
+ {
+  "id": "T26",
+  "name": "Non-Standard Colour Holding Message",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "COLOUR_REQUESTED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{COLOUR_REQUESTED}}",
+  "body": "Dhanyavaad {{CLIENT_NAME}} bhai! 🙏\n\n{{COLOUR_REQUESTED}} rang chi fabric ek vishesh avaashyakata aahe. Production team-kaduun vyaavahariktaa aaNi kimat puShTii karaavii laagel. 15 minutaanMadhe parataNaar.\n\nWhatsApp var raahaavaa. 🙏"
+ },
+ {
+  "id": "T26",
+  "name": "Non-Standard Colour Holding Message",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "COLOUR_REQUESTED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{COLOUR_REQUESTED}}",
+  "body": "Dhanyavaadamulu {{CLIENT_NAME}} garu! 🙏\n\n{{COLOUR_REQUESTED}} rangu fabric oka vishEsha aavashyam. Production team nundi saadyata mattu dhara nishchayam cheyyaali. 15 nimishallo thirigi vastaanu.\n\nWhatsApp-lo unNandi. 🙏"
+ },
+ {
+  "id": "T26",
+  "name": "Non-Standard Colour Holding Message",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "COLOUR_REQUESTED"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{COLOUR_REQUESTED}}",
+  "body": "Dhanyavaada {{CLIENT_NAME}} avare! 🙏\n\n{{COLOUR_REQUESTED}} badanada fabric oru vishEsha aavashyakate. Production team ninda sadhyate mattu bele dardhapaDi maaDabeku. 15 nimishagaLalli thirigi baruttene.\n\nWhatsApp-alli iri. 🙏"
+ },
+ {
+  "id": "T27",
+  "name": "Escalation Resolved (Approved)",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "CONFIRMED_SPEC",
+   "PRICE_PKG",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{CONFIRMED_SPEC}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}",
+  "body": "Great news, {{CLIENT_NAME}} ji! ✅\n\nWe are pleased to confirm — we can proceed with your requirement:\n▸ {{CONFIRMED_SPEC}}\n\nPrice: ₹{{PRICE_PKG}} per KG | Total: ₹{{TOTAL_VALUE}}\n(Ex-Factory Surat. GST & freight extra.)\n\nShall we confirm the order? 🙏"
+ },
+ {
+  "id": "T27",
+  "name": "Escalation Resolved (Approved)",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "CONFIRMED_SPEC",
+   "PRICE_PKG",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{CONFIRMED_SPEC}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}",
+  "body": "Khushkhabri, {{CLIENT_NAME}} bhai! ✅\n\nHum confirm karne ke liye khush hain — aapki zaroorat ke saath aage badh sakte hain:\n▸ {{CONFIRMED_SPEC}}\n\nDaam: ₹{{PRICE_PKG}} per KG | Kul: ₹{{TOTAL_VALUE}}\n(Ex-Factory Surat. GST aur transport alag.)\n\nOrder confirm kar dein? 🙏"
+ },
+ {
+  "id": "T27",
+  "name": "Escalation Resolved (Approved)",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "CONFIRMED_SPEC",
+   "PRICE_PKG",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{CONFIRMED_SPEC}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}",
+  "body": "Saras samachar, {{CLIENT_NAME}} bhai! ✅\n\nAme confirm karvane khushi chhe — tamari jaroorat sathe aage vadhi shakiye:\n▸ {{CONFIRMED_SPEC}}\n\nBhav: ₹{{PRICE_PKG}} per KG | Kul: ₹{{TOTAL_VALUE}}\n(Ex-Factory Surat. GST ane transport alag.)\n\nOrder confirm karshho? 🙏"
+ },
+ {
+  "id": "T27",
+  "name": "Escalation Resolved (Approved)",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "CONFIRMED_SPEC",
+   "PRICE_PKG",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{CONFIRMED_SPEC}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}",
+  "body": "MagiZchi seithigal, {{CLIENT_NAME}} sir! ✅\n\nUngal thEvaiudan munnERalatku maanadham. Urudhi seigirOm:\n▸ {{CONFIRMED_SPEC}}\n\nVilai: ₹{{PRICE_PKG}} per KG | Mottam: ₹{{TOTAL_VALUE}}\n(Ex-Factory Surat. GST matrum transport thani.)\n\nOrder urudhi seiyalaama? 🙏"
+ },
+ {
+  "id": "T27",
+  "name": "Escalation Resolved (Approved)",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "CONFIRMED_SPEC",
+   "PRICE_PKG",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{CONFIRMED_SPEC}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}",
+  "body": "Santhoshamaaya vaarttha, {{CLIENT_NAME}} sir! ✅\n\nNingalude aavashyamatthil munnOTTu pOkaanum uRappicchirikkunnu:\n▸ {{CONFIRMED_SPEC}}\n\nVila: ₹{{PRICE_PKG}} per KG | Mottam: ₹{{TOTAL_VALUE}}\n(Ex-Factory Surat. GST, transport veRe.)\n\nOrder uRappikkaanoo? 🙏"
+ },
+ {
+  "id": "T27",
+  "name": "Escalation Resolved (Approved)",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "CONFIRMED_SPEC",
+   "PRICE_PKG",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{CONFIRMED_SPEC}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}",
+  "body": "AanandaachiI baadhmaatmaa, {{CLIENT_NAME}} bhai! ✅\n\nTumchyaa avaashyakatecyaa puDhe jaaNyaas Khushii aahe:\n▸ {{CONFIRMED_SPEC}}\n\nKimat: ₹{{PRICE_PKG}} pratyekaa KG | Ekundar: ₹{{TOTAL_VALUE}}\n(Ex-Factory Surat. GST ani vaahan kharch vegale.)\n\nOrder niShchit karaayachE kaa? 🙏"
+ },
+ {
+  "id": "T27",
+  "name": "Escalation Resolved (Approved)",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "CONFIRMED_SPEC",
+   "PRICE_PKG",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{CONFIRMED_SPEC}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}",
+  "body": "Santoshakaramaina varta, {{CLIENT_NAME}} garu! ✅\n\nMeeru aavashyatatho munde saagataniki santhoshamgaa unnaam:\n▸ {{CONFIRMED_SPEC}}\n\nDhara: ₹{{PRICE_PKG}} pratiKG | Mottam: ₹{{TOTAL_VALUE}}\n(Ex-Factory Surat. GST mattu transport thani.)\n\nOrder nishchayam chesedaama? 🙏"
+ },
+ {
+  "id": "T27",
+  "name": "Escalation Resolved (Approved)",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "CONFIRMED_SPEC",
+   "PRICE_PKG",
+   "TOTAL_VALUE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{CONFIRMED_SPEC}}, {{PRICE_PKG}}, {{TOTAL_VALUE}}",
+  "body": "Santhosaada shuDi, {{CLIENT_NAME}} avare! ✅\n\nNimma aavashyakate jothege munde hogabahudu enn santhoshapadutteevu:\n▸ {{CONFIRMED_SPEC}}\n\nBele: ₹{{PRICE_PKG}} prati KG | Moottaare: ₹{{TOTAL_VALUE}}\n(Ex-Factory Surat. GST, saagaNi bere.)\n\nOrder dardhapaDi maaDutteeraa? 🙏"
+ },
+ {
+  "id": "T28",
+  "name": "Escalation Resolved (Declined)",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "DECLINED_SPEC",
+   "ALTERNATIVE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{DECLINED_SPEC}}, {{ALTERNATIVE}}",
+  "body": "{{CLIENT_NAME}} ji,\n\nThank you for your patience. After checking with our team, we are unfortunately unable to fulfil your requirement for {{DECLINED_SPEC}} at this time.\n\n{{ALTERNATIVE}}\n\nWe hope to serve you better in the future. For any other fabric requirement, please feel free to reach out. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T28",
+  "name": "Escalation Resolved (Declined)",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "DECLINED_SPEC",
+   "ALTERNATIVE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{DECLINED_SPEC}}, {{ALTERNATIVE}}",
+  "body": "{{CLIENT_NAME}} bhai,\n\nAapke sabr ke liye shukriya. Team se check karne ke baad, afsos ke saath batana hai ki {{DECLINED_SPEC}} abhi hum nahi kar pa rahe.\n\n{{ALTERNATIVE}}\n\nBhavishy mein aapko behtar seva dene ki umeed hai. Kisi bhi fabric ki zaroorat ho toh zaroor batayein. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T28",
+  "name": "Escalation Resolved (Declined)",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "DECLINED_SPEC",
+   "ALTERNATIVE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{DECLINED_SPEC}}, {{ALTERNATIVE}}",
+  "body": "{{CLIENT_NAME}} bhai,\n\nTamari rakhat maate aabhaar. Team sathe check karya pachhi, durbhagye janavavanu chhe ke {{DECLINED_SPEC}} abhi ame kari shakta nathi.\n\n{{ALTERNATIVE}}\n\nBhavishy maa tamne vadhare saari seva aapavanee aasha. Koi pan biji fabric ni jaroor hoy to janavo. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T28",
+  "name": "Escalation Resolved (Declined)",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "DECLINED_SPEC",
+   "ALTERNATIVE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{DECLINED_SPEC}}, {{ALTERNATIVE}}",
+  "body": "{{CLIENT_NAME}} sir,\n\nUngal porumaikku nandri. Team-idam kaettukkoNDu, jaNivaaTTam {{DECLINED_SPEC}} ippOZuthu seiya iyadavillai.\n\n{{ALTERNATIVE}}\n\nMuzhudaiyaa vitharaNaiyil nangaL ungalukku nalamaaka seivOm. Vera fabric thEvai ennaaluM sollavum. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T28",
+  "name": "Escalation Resolved (Declined)",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "DECLINED_SPEC",
+   "ALTERNATIVE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{DECLINED_SPEC}}, {{ALTERNATIVE}}",
+  "body": "{{CLIENT_NAME}} sir,\n\nNingalude £akshmiyE nandi. Team-nooDu parishodhicchhaal, duurbhaaGyavashaal {{DECLINED_SPEC}} ippoL saaddhyamaavallaathmaaril.\n\n{{ALTERNATIVE}}\n\nBhavishyatthu nallath cheyyaanum prathyaashikkunnuu. Mattethoru fabric aavashyam parayan. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T28",
+  "name": "Escalation Resolved (Declined)",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "DECLINED_SPEC",
+   "ALTERNATIVE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{DECLINED_SPEC}}, {{ALTERNATIVE}}",
+  "body": "{{CLIENT_NAME}} bhai,\n\nTumchyaa sahanaashii baddal dhanyavaad. Team-kaduun tapaasuun paahilyavar, durdaivaane {{DECLINED_SPEC}} aaataa saadhya naahi.\n\n{{ALTERNATIVE}}\n\nBhavisyaaT chhaanglee sevaa deu aShii asha. KuThlya-hii fabric saaThii vicharuu shakataa. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T28",
+  "name": "Escalation Resolved (Declined)",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "DECLINED_SPEC",
+   "ALTERNATIVE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{DECLINED_SPEC}}, {{ALTERNATIVE}}",
+  "body": "{{CLIENT_NAME}} garu,\n\nMeeru soursabhante dhanyavaadamulu. Team tho sarichhUsukOni, duurbhaaGyavashattuna {{DECLINED_SPEC}} ippoTi saadyamakaadu.\n\n{{ALTERNATIVE}}\n\nBhavishyaM-lo meeru ki meeLugaa seva cheyyataniki aashiMchutunnam. Veru fabric aavashyataa ennaaDaina cheppandi. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T28",
+  "name": "Escalation Resolved (Declined)",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "DECLINED_SPEC",
+   "ALTERNATIVE"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{DECLINED_SPEC}}, {{ALTERNATIVE}}",
+  "body": "{{CLIENT_NAME}} avare,\n\nNimma tagEdaage dhanyavaada. Team jothege pariikshhisi, durbhaagyavashaat {{DECLINED_SPEC}} ippaga namagee saadyavilla.\n\n{{ALTERNATIVE}}\n\nBhavisyadalli meeLu uttama seva neeDigalu enn aaseyide. Bere fabric aavashyakate heliri. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T29",
+  "name": "Seasonal Order Enquiry (Outbound)",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "PEAK_MONTHS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PEAK_MONTHS}}",
+  "body": "Hello {{CLIENT_NAME}} ji 🙏\n\nYour {{PEAK_MONTHS}} season is approaching. Based on your previous orders, this is typically when your fabric demand is highest.\n\nWe wanted to reach out early so we can plan your production slot and ensure stock is ready before your busy period.\n\nWhat will you need this season — same spec as before, or any changes?\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T29",
+  "name": "Seasonal Order Enquiry (Outbound)",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "PEAK_MONTHS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PEAK_MONTHS}}",
+  "body": "Namaste {{CLIENT_NAME}} bhai 🙏\n\nAapka {{PEAK_MONTHS}} ka season aa raha hai. Aapke pichle orders ke hisaab se, isi waqt aapko fabric ki sabse zyada zaroorat hoti hai.\n\nHum pehle se poochhna chahte the taaki production slot plan kar sakein aur busy season se pehle maal ready ho sake.\n\nIs season mein kya chahiye — pehle jaisi spec ya kuch badlaav?\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T29",
+  "name": "Seasonal Order Enquiry (Outbound)",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "PEAK_MONTHS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PEAK_MONTHS}}",
+  "body": "Kem cho {{CLIENT_NAME}} bhai 🙏\n\nTamaro {{PEAK_MONTHS}} no season aavi rahyo chhe. Tamara pehla orders ne joivo to, aa samaye tamne fabric ni vadhare zaroorat hoy.\n\nAme pahela poochhva aavya chhe jethithi production slot plan kari shakiye ane busy season pehla maal taiyaar thay.\n\nAa season maa shu joie — pahela jaisi spec ke koi badlaav?\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T29",
+  "name": "Seasonal Order Enquiry (Outbound)",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "PEAK_MONTHS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PEAK_MONTHS}}",
+  "body": "Vanakkam {{CLIENT_NAME}} sir 🙏\n\nUngal {{PEAK_MONTHS}} season varugiRathu. Ungal mun aaNaikaLin aLavil, ippOZuthu ungalukku fabric maRaRREna thEvaipadugiran.\n\nProduction iDam thittamiDavum, paarutu kaalatthirkku munnaadiiyE ungal porul thaiyaaraaga irukka vENDum endru mudhan kelkka vandOm.\n\nIdhu season ungalukku enna thEvai — mun aLavE spec anaivathumaa adrums maaRRangaL?\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T29",
+  "name": "Seasonal Order Enquiry (Outbound)",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "PEAK_MONTHS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PEAK_MONTHS}}",
+  "body": "Namaskaram {{CLIENT_NAME}} sir 🙏\n\nNingalude {{PEAK_MONTHS}} season vanukkunnu. Ningalude mun-ayacchaLil ninnuu, ippoL ningalkku fabric eni kooduthalaayi aavashyam aakum.\n\nProduction slot thiyyaaraakkaan, busy kaalathu munnE saamanangaL thaiyaaraakirikkaan munkoottiyaayi chOdikaan vannu.\n\nEe season enna veenam — mun-aLavilulla spec ee anthee athavaa maaRRangaL undoo?\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T29",
+  "name": "Seasonal Order Enquiry (Outbound)",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "PEAK_MONTHS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PEAK_MONTHS}}",
+  "body": "Namaskar {{CLIENT_NAME}} bhai 🙏\n\nTumchaa {{PEAK_MONTHS}} season yeNaar aahe. Tumchyaa maageelaa orders anusaar, yaachavelii tumhaala fabric saambhaasat jaast laagato.\n\nProduction slot plan karaayalaa aaNi busy kaaLaapurvii tumchaa maal taiyaar tthevaNyaasaaThii aadhi vichaaryaalaa aaloo.\n\nYaa season kaaya haaveN hoel — aadichyaa sarkhii spec kii kaahii badal?\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T29",
+  "name": "Seasonal Order Enquiry (Outbound)",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "PEAK_MONTHS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PEAK_MONTHS}}",
+  "body": "Namaskaram {{CLIENT_NAME}} garu 🙏\n\nMeeru ki {{PEAK_MONTHS}} season vastaundi. Mun order aanubhavam batti, ippuDu meeru ki fabric adi gamgaa aavashyam avutundi.\n\nProduction slot plan chesukoni, paarutu kaalattu mundu samaan thaiyaraiga unchanuki munu mune adugutunnam.\n\nEe season ki emi kaavaali — mundu lekkaga spec ee anthee, maarpuLunnayO?\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T29",
+  "name": "Seasonal Order Enquiry (Outbound)",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "PEAK_MONTHS"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{PEAK_MONTHS}}",
+  "body": "Namaskara {{CLIENT_NAME}} avare 🙏\n\nNimma {{PEAK_MONTHS}} season baruttide. Nimma hinde orders aadhaaradalli, eeaga nimma fabric aavashyakate jaasti aagutte.\n\nProduction slot plan maaDikolalu, busy kaala munde samaan thaiyaar iruvaakke mundagaadhe kelabeku andukond bandidde.\n\nEe season ke beekaaguttade — munde tarahaa spec ee anteenO athavaa badalaavugaLoo?\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T30",
+  "name": "Quote Reminder",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_SPEC",
+   "QUOTE_EXPIRY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_SPEC}}, {{QUOTE_EXPIRY}}",
+  "body": "{{CLIENT_NAME}} ji 🙏\n\nQuick reminder — your quote for {{ORDER_SPEC}} is valid until {{QUOTE_EXPIRY}}.\n\nIf you'd like to proceed, please confirm today to lock in this price and production slot.\n\nAfter expiry we'll need to issue a fresh quote based on current rates. 🙏"
+ },
+ {
+  "id": "T30",
+  "name": "Quote Reminder",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_SPEC",
+   "QUOTE_EXPIRY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_SPEC}}, {{QUOTE_EXPIRY}}",
+  "body": "{{CLIENT_NAME}} bhai 🙏\n\nYaad dilana — {{ORDER_SPEC}} ke liye aapka quote {{QUOTE_EXPIRY}} tak valid hai.\n\nAgar aage badhna chahte hain toh aaj confirm kar dein.\n\nExpiry ke baad naye rate par fresh quote dena hoga. 🙏"
+ },
+ {
+  "id": "T30",
+  "name": "Quote Reminder",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_SPEC",
+   "QUOTE_EXPIRY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_SPEC}}, {{QUOTE_EXPIRY}}",
+  "body": "{{CLIENT_NAME}} bhai 🙏\n\nYaad — {{ORDER_SPEC}} maate tamaro quote {{QUOTE_EXPIRY}} sudhi valid chhe.\n\nJoh aage vadharvu hoy to aaj confirm karo.\n\nExpiry pachhi nava rate par fresh quote aaapvo padshhe. 🙏"
+ },
+ {
+  "id": "T30",
+  "name": "Quote Reminder",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_SPEC",
+   "QUOTE_EXPIRY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_SPEC}}, {{QUOTE_EXPIRY}}",
+  "body": "{{CLIENT_NAME}} sir 🙏\n\nNinaivookkutal — {{ORDER_SPEC}}-ku ungal quote {{QUOTE_EXPIRY}} varai seluvaanadu.\n\nMunnERidaviDuvadaanaal, ippoZuthaiyaiya vilai matrum production iDatthaic siRpidaikku inRE uruthipaDuttungaL.\n\nMudintha pin pudhiya vilai quote tharuvathu aavashiyam. 🙏"
+ },
+ {
+  "id": "T30",
+  "name": "Quote Reminder",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_SPEC",
+   "QUOTE_EXPIRY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_SPEC}}, {{QUOTE_EXPIRY}}",
+  "body": "{{CLIENT_NAME}} sir 🙏\n\nOrippikal — {{ORDER_SPEC}}-ntte ningalude quote {{QUOTE_EXPIRY}} varey valid aanu.\n\nMunnottuppokaanum enkil, eelam Vila mattu production slot urrappikkan inNu thanne uRappikku.\n\nEkkaalatthinu shodhinchiya puthiya quota thEDENummm. 🙏"
+ },
+ {
+  "id": "T30",
+  "name": "Quote Reminder",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_SPEC",
+   "QUOTE_EXPIRY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_SPEC}}, {{QUOTE_EXPIRY}}",
+  "body": "{{CLIENT_NAME}} bhai 🙏\n\nAanwaN — {{ORDER_SPEC}} saaThii tumchi quote {{QUOTE_EXPIRY}} paryant valid aahe.\n\nPuDhe jaaNyaas taiyaararthe, iaachii kimat aaNi production slot pakki karaaNyaasaaTHii aajach niShchit karaa.\n\nMuddaatparyaaNantaar navyaa daraaane fresh quote. 🙏"
+ },
+ {
+  "id": "T30",
+  "name": "Quote Reminder",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_SPEC",
+   "QUOTE_EXPIRY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_SPEC}}, {{QUOTE_EXPIRY}}",
+  "body": "{{CLIENT_NAME}} garu 🙏\n\nGuRutu — {{ORDER_SPEC}}-ku meeru quote {{QUOTE_EXPIRY}} varakuu valid.\n\nMunde saagaalanukuMtee, ee dhara mattu production slot confirm cheyyataniki inNu confirm cheyyandi.\n\nGaadu taruvata kotta dharaLo fresh quote. 🙏"
+ },
+ {
+  "id": "T30",
+  "name": "Quote Reminder",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_SPEC",
+   "QUOTE_EXPIRY"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_SPEC}}, {{QUOTE_EXPIRY}}",
+  "body": "{{CLIENT_NAME}} avare 🙏\n\nNenapina — {{ORDER_SPEC}}-ge nimma quote {{QUOTE_EXPIRY}} vareke valid.\n\nMunde hogabahudu enniddhare, ee bele mattu production slot pakka maaDikolalu indE confirm maaDiri.\n\nExpire aadanantara hosa beleda fresh quote. 🙏"
+ },
+ {
+  "id": "T31",
+  "name": "Post-Delivery Follow-up",
+  "language": "English",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}",
+  "body": "Hello {{CLIENT_NAME}} ji 🙏\n\nHope your order ({{ORDER_ID}} — {{SPEC}}) reached safely and is working well for your operations.\n\nIf everything is good, we'd love to serve you again for your next requirement.\n\nIf there's any issue with the fabric, please let us know right away — we'll sort it out. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T31",
+  "name": "Post-Delivery Follow-up",
+  "language": "Hindi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}",
+  "body": "Namaste {{CLIENT_NAME}} bhai 🙏\n\nUmeed hai aapka order ({{ORDER_ID}} — {{SPEC}}) safely pahunch gaya hoga aur kaam achha chal raha hoga.\n\nSab theek hai toh agle zaroorat mein zaroor batayein.\n\nFabric mein koi bhi dikkat ho toh turant batayein — hum theek kar denge. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T31",
+  "name": "Post-Delivery Follow-up",
+  "language": "Gujarati",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}",
+  "body": "Kem cho {{CLIENT_NAME}} bhai 🙏\n\nAasha chhe tamaro order ({{ORDER_ID}} — {{SPEC}}) safely pahonchi gayo hashe ane kaam saras chaaltu hashe.\n\nBhadhu saaru hoy to agli zaroorat maa zaroor janavo.\n\nFabric maa koi pan takleef hoy to tarant janavo — ame theek kari deishu. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T31",
+  "name": "Post-Delivery Follow-up",
+  "language": "Tamil",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}",
+  "body": "Vanakkam {{CLIENT_NAME}} sir 🙏\n\nUngal order ({{ORDER_ID}} — {{SPEC}}) paadhukaapaaka seRnthirukkum maRRum nannakaarisanaarum enRu naambukiRom.\n\nEllam nallairunthaal, ungal aduTTha thEvaikku kaettuk koLgirOm.\n\nFabric-il ethum piracchanai irunthal turatam soLLunGal — tharaNai paNNuvom. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T31",
+  "name": "Post-Delivery Follow-up",
+  "language": "Malayalam",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}",
+  "body": "Namaskaram {{CLIENT_NAME}} sir 🙏\n\nNingalude order ({{ORDER_ID}} — {{SPEC}}) surakshitamaayi ettyann, prashi naLLam nadarttiteyunnu enn prathyaashikkunnuu.\n\nEllarum nannaayi enkil, aduTTha aavashyatthu kude chOdikku.\n\nFabric-il ethaavathu prashna enkil tunatne parayuka — parichaarakkum. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T31",
+  "name": "Post-Delivery Follow-up",
+  "language": "Marathi",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}",
+  "body": "Namaskar {{CLIENT_NAME}} bhai 🙏\n\nAsha aahe tumcha order ({{ORDER_ID}} — {{SPEC}}) surakshitarapaNe pohochla asheN aaNi kaam chaangale chaalale.\n\nSab theek asalyaas pudhill avaashyakataa saaThii nakki saangaavaa.\n\nFabric maDhe kahi taktud aslyaas taatDyaaney kalavaachaa — solvaaL karuun. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T31",
+  "name": "Post-Delivery Follow-up",
+  "language": "Telugu",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}",
+  "body": "Namaskaram {{CLIENT_NAME}} garu 🙏\n\nMeeru order ({{ORDER_ID}} — {{SPEC}}) safeGaa andukundi, panulu baagaa saagutunaayanni nammutunnam.\n\nAnni sariggaa unnaTTite, tarvata aavashyataaku adugutaamu.\n\nFabric-lo ethaavathu samasyaalagite venti cheppandi — parichheedhisthaamu. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ },
+ {
+  "id": "T31",
+  "name": "Post-Delivery Follow-up",
+  "language": "Kannada",
+  "variables": [
+   "CLIENT_NAME",
+   "ORDER_ID",
+   "SPEC"
+  ],
+  "declared_variables": "{{CLIENT_NAME}}, {{ORDER_ID}}, {{SPEC}}",
+  "body": "Namaskara {{CLIENT_NAME}} avare 🙏\n\nNimma order ({{ORDER_ID}} — {{SPEC}}) surakshitavaagi thalupitu, chennagi nadeyuttide enn nambutteeve.\n\nEllavu chennagiddhare, munde aavashyakate heLuvaaga keliri.\n\nFabric-alli eenahi samasyeyiddhare turutaage heliri — pareehaarisu. 🙏\n\nAnjani Interweave | +91 99251 77759"
+ }
+]

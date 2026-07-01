@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "resolveJsonModule": true,
+    "outDir": ".ttest_sim",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": { "@/*": ["./*"] },
+    "noEmit": false,
+    "noEmitOnError": false,
+    "incremental": false,
+    "types": ["node"]
+  },
+  "include": ["lib/server/**/*.ts"]
+}
