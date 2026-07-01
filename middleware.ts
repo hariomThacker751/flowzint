@@ -13,7 +13,7 @@ import { NextResponse, type NextRequest } from "next/server";
  * auth endpoints, the login page, health, and Next internals/static assets.
  */
 
-const COOKIE_NAME = "anjani_session";
+const COOKIE_NAME = "flowzint_session";
 
 const PUBLIC_PREFIXES = [
   "/api/webhook",

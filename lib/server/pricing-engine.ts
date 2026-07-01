@@ -119,7 +119,7 @@ export function calculatePrice(input: PricingInput): PricingResult {
   if (input.sizeInches < 22) escalationReasons.push("size_below_22");
   if (input.grammage < 3.0 || input.grammage >= 6.0) escalationReasons.push("grammage_outside_kb");
   // NOTE: natural LAMINATION is a standard +₹5/kg product and is NOT an
-  // escalation reason. Only natural FABRIC (handled in services/escalation.ts
+  // escalation reason. Only natural BOX (handled in services/escalation.ts
   // via message intent) requires approval.
 
   return {

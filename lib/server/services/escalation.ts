@@ -7,7 +7,7 @@ import { approvalStamp, type Role } from "../auth";
  * These gates are DETERMINISTIC and run BEFORE any price is shown to a client.
  * The agent must hold and route Puneet → Dev → Manager for:
  *   - size below 22"            → T24 holding
- *   - natural FABRIC (transparent, no/min additives) → T25 holding
+ *   - natural BOX (transparent, no/min additives) → T25 holding
  *     (NOTE: natural LAMINATION is a standard +₹5/kg product — NOT escalated)
  *   - non-standard colour       → T26 holding
  *   - non-standard grammage     → hold (outside KB)
@@ -62,7 +62,7 @@ export function evaluateEscalation(specs: EscalationSpecs, messageText: string =
   }
 
   // NOTE: "natural LAMINATION" is a STANDARD product (a +₹5/kg coating premium)
-  // and must NOT be escalated. Only the special "natural FABRIC" category
+  // and must NOT be escalated. Only the special "natural BOX" category
   // (transparent, no/minimal additives) requires human approval. We therefore
   // look at the message intent for "natural box"/"transparent", and ignore a
   // lamination value of "Natural".

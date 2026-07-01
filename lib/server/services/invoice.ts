@@ -90,7 +90,7 @@ export async function generateProformaInvoice(
       pan: "ABJFA5190P",
       gstin: company.gstin,
       phone: customer.company_phone || "—",
-      email: "info@anjaniinterweave.com",
+      email: "info@flowzintinterweave.com",
     },
     client: {
       businessName: customer.business_name || customer.company || customer.name || "—",
@@ -114,7 +114,7 @@ export async function generateProformaInvoice(
     },
     hsnCode: company.hsnPpBox,
     item: {
-      description: "PP WOVEN FABRIC ROLL",
+      description: "PP WOVEN BOX ROLL",
       size: String(order.size_inches),
       colour: order.color,
       grammage: `${order.grammage}g`,

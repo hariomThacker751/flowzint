@@ -63,11 +63,11 @@ function seedDefaults(db: Database.Database) {
     "tax.igst_pct": "18",
     "tax.cgst_pct": "9",
     "tax.sgst_pct": "9",
-    "tax.home_state_code": "24", // Gujarat — Anjani Interweave
+    "tax.home_state_code": "24", // Gujarat — Flowzint Interweave
     "invoice.hsn_pp_box": "54071000",
     "invoice.validity_days": "3",
     "company.gstin": "24ABJFA5190P1ZZ",
-    "company.name": "ANJANI INTERWEAVE",
+    "company.name": "FLOWZINT INTERWEAVE",
     "company.bank_block":
       "AXIS BANK LTD\nA/C NO. 921030041294340\nIFSC CODE: UTIB0004665\nBRANCH: SALABATPURA, SURAT",
     "company.upi_details": "", // accounts team confirms before go-live (Impl Spec §1.2)
@@ -634,7 +634,7 @@ export function seedTestData(): {
       },
       {
         key: 'company:name',
-        value: 'Anjani Interweave',
+        value: 'Flowzint Interweave',
         type: 'fact',
         scope: 'customer_visible'
       },

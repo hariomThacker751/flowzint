@@ -117,7 +117,7 @@ export default function OpsTemplates() {
                 </select>
               </label>
               <label className="flex-1 text-xs text-slate-400">ChakraHQ template name
-                <input value={chakraName} onChange={(e) => setChakraName(e.target.value)} placeholder="e.g. anjani_t11_gu"
+                <input value={chakraName} onChange={(e) => setChakraName(e.target.value)} placeholder="e.g. flowzint_t11_gu"
                   className="mt-1 block w-full rounded-lg border border-white/10 bg-white/[0.03] px-3 py-1.5 text-sm text-slate-200" />
               </label>
               <button onClick={() => save({ approvalStatus: status, chakraName })} disabled={saving}

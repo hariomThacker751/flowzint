@@ -31,7 +31,7 @@ require(path.join(ROOT, "node_modules", "tsconfig-paths")).register({
 });
 
 // 3) Isolated temp cwd with a COPY of the real DB + seed files.
-const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "anjani-sim-"));
+const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "flowzint-sim-"));
 fs.mkdirSync(path.join(tmp, "data", "seed"), { recursive: true });
 for (const f of ["clients.json", "whatsapp_templates.json"]) {
   const src = path.join(ROOT, "data", "seed", f);
@@ -56,7 +56,7 @@ console.log("price_config present:", !!pc, pc ? `(3g base ₹${pc.base_price_3g}
 function wipe(phone) {
   const c = db.prepare("SELECT id FROM customers WHERE phone = ?").get(phone);
   if (c) {
-    for (const t of ["chat_messages", "quotes", "enquiries", "loom_bookings", "pending_escalations"]) {
+    for (const t of ["chat_messages", "quotes", "enquiries", "corrugator_bookings", "pending_escalations"]) {
       try { db.prepare(`DELETE FROM ${t} WHERE customer_id = ?`).run(c.id); } catch {}
     }
     try { db.prepare("DELETE FROM customers WHERE id = ?").run(c.id); } catch {}
@@ -81,7 +81,7 @@ const FULL = { sizeInches: 28, grammage: 4, quality: "Janta", color: "White", la
 // ── Scenarios ──────────────────────────────────────────────────────────────
 const scenarios = [
   { id: 1, title: "Gujlish drip-feed — must acknowledge + ask NEXT spec each turn (no parroting)",
-    turns: ["kem cho", "mane 32 inch nu fabric joiye", "4.5 gram", "gold quality", "1500 kg", "regular lamination", "ha barobar"] },
+    turns: ["kem cho", "mane 32 inch nu box joiye", "4.5 gram", "gold quality", "1500 kg", "regular lamination", "ha barobar"] },
   { id: 2, title: "Hindi (Devanagari), ALL specs in one message — extraction + correct quote",
     turns: ["मुझे ३२ इंच, ४ ग्राम, गोल्ड क्वालिटी, सफेद, २ टन, अनलैमिनेटेड चाहिए", "हाँ ठीक है"] },
   { id: 3, title: "Marathi (Devanagari) ALL specs — was hallucinating ₹12 lakh before",
@@ -89,7 +89,7 @@ const scenarios = [
   { id: 4, title: "Natural LAMINATION order — must QUOTE now (not escalate)",
     turns: ["28 inch 4 gram silver white 1 ton natural lamination"] },
   { id: 5, title: "Off-topic (English) — must clarify PP woven only",
-    turns: ["do you guys make plastic carry bags or only fabric?"] },
+    turns: ["do you guys make plastic carry bags or only box?"] },
   { id: 6, title: "Off-topic (Hinglish) — bori/sack",
     turns: ["bhai aap log ready bori bhi banate ho kya?"] },
   { id: 7, title: "Sub-22 inch (English) — must escalate/hold in correct language",

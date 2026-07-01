@@ -79,7 +79,7 @@ export type CompanyConfig = {
 
 export function getCompanyConfig(): CompanyConfig {
   return {
-    name: get("company.name", "ANJANI INTERWEAVE"),
+    name: get("company.name", "FLOWZINT INTERWEAVE"),
     gstin: get("company.gstin", "24ABJFA5190P1ZZ"),
     hsnPpBox: get("invoice.hsn_pp_box", "54071000"),
     bankBlock: get("company.bank_block", ""),

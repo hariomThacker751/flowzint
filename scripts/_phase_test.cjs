@@ -17,7 +17,7 @@ Module._load = function (request, parent, isMain) {
 };
 
 // Fresh temp workspace so database.ts (which uses process.cwd()) is isolated.
-const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "anjani-test-"));
+const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "flowzint-test-"));
 // Seed files are resolved relative to cwd in prod; mirror them into the temp cwd.
 fs.mkdirSync(path.join(tmp, "data", "seed"), { recursive: true });
 for (const f of ["clients.json", "whatsapp_templates.json"]) {
@@ -123,7 +123,7 @@ function eq(name, a, b) { ok(name + ` (=${b})`, a === b, a); }
 
   console.log("\n[escalation] rule engine");
   ok("sub-22 escalates", esc.evaluateEscalation({ sizeInches: 19 }, "").escalate);
-  ok("natural FABRIC escalates via message intent", esc.evaluateEscalation({}, "do you make natural fabric?").triggers.includes("natural_fabric"));
+  ok("natural BOX escalates via message intent", esc.evaluateEscalation({}, "do you make natural box?").triggers.includes("natural_box"));
   ok("natural LAMINATION spec alone does NOT escalate", !esc.evaluateEscalation({ lamination: "Natural" }, "").escalate);
   ok("tax query escalates", esc.evaluateEscalation({}, "what about gst?").triggers.includes("tax_query"));
   ok("standard order does NOT escalate", esc.evaluateEscalation({ sizeInches: 36, color: "White", lamination: "None", grammage: 3.5 }, "ok").escalate === false);
@@ -325,8 +325,8 @@ function eq(name, a, b) { ok(name + ` (=${b})`, a === b, a); }
   ok("version history written", db.prepare("SELECT 1 FROM template_versions WHERE template_id='T1' AND language='Hindi'").get() != null);
   ok("edit visible after cache invalidation", templates.renderTemplate("T1","hindi",{CLIENT_NAME:"R"}).text.includes("Naya Hindi body"));
   ok("no chakra name until approved", templates.getChakraTemplateName("T1","Hindi") === null);
-  templates.setVariantApproval("T1","Hindi","approved","anjani_t1_hi");
-  eq("chakra name returned once approved", templates.getChakraTemplateName("T1","Hindi"), "anjani_t1_hi");
+  templates.setVariantApproval("T1","Hindi","approved","flowzint_t1_hi");
+  eq("chakra name returned once approved", templates.getChakraTemplateName("T1","Hindi"), "flowzint_t1_hi");
 
   console.log("\n[triggers] central event→template map");
   eq("order_confirmation → T10", triggers.templateForEvent("order_confirmation"), "T10");

@@ -12,7 +12,7 @@ import { getDatabase } from "./database";
  * `assertRole()` (defense in depth — never trust middleware alone for authz).
  */
 
-export const COOKIE_NAME = "anjani_session";
+export const COOKIE_NAME = "flowzint_session";
 const SESSION_TTL_SECONDS = 60 * 60 * 12; // 12h
 
 export type Role = "owner" | "dev" | "manager" | "accounts";

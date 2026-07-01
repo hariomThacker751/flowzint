@@ -1,6 +1,6 @@
 import { getDatabase } from "../database";
 import { getProductionSpeed } from "../production-speeds";
-import { KG_PER_LOOM_PER_DAY } from "../corrugator-capacity";
+import { KG_PER_CORRUGATOR_PER_DAY } from "../corrugator-capacity";
 import { advanceOrder, appendTimeline, getOrder, type OrderRow } from "./order";
 import { nextSequence } from "./sequence";
 
@@ -44,7 +44,7 @@ function isoDate(d: Date): string {
 export function targetKgPerDay(sizeInches: number, grammage: number, quality: string): number {
   const speed = getProductionSpeed(sizeInches, grammage, quality);
   if (speed && speed.kgPerDay > 0) return speed.kgPerDay;
-  return KG_PER_LOOM_PER_DAY; // 150 kg/day conservative fallback
+  return KG_PER_CORRUGATOR_PER_DAY; // 150 kg/day conservative fallback
 }
 
 /** Create a production batch when a token is confirmed. Idempotent per order. */

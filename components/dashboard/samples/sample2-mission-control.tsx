@@ -283,7 +283,7 @@ export function MissionControl() {
               <span className="text-sm font-medium text-white">AI Memory</span>
             </div>
             <div className="space-y-2">
-              {['meter_weight:36:3.5:unlam → 148 g/m', 'company:name → Anjani Interweave', 'rule:minimum_order → 500 kg', 'quality:gold:strength → 1800 N'].map((mem, i) => (
+              {['meter_weight:36:3.5:unlam → 148 g/m', 'company:name → Flowzint Interweave', 'rule:minimum_order → 500 kg', 'quality:gold:strength → 1800 N'].map((mem, i) => (
                 <div key={i} className="text-xs text-slate-400 bg-white/[0.03] rounded-lg px-3 py-2 border border-white/[0.05]">
                   {mem}
                 </div>

@@ -12,10 +12,10 @@ import { getProductionSpeed } from "./production-speeds";
 // feasibility, ETA, and dispatch math below derives from these live numbers —
 // so the agent behaves exactly like the owner tracking his own floor.
 
-export const TOTAL_LOOMS = 45;
-export const KG_PER_LOOM_PER_DAY = 150;
+export const TOTAL_CORRUGATORS = 45;
+export const KG_PER_CORRUGATOR_PER_DAY = 150;
 export const WORKING_DAYS_PER_MONTH = 30;
-export const MAX_MONTHLY_CAPACITY_KG = TOTAL_LOOMS * KG_PER_LOOM_PER_DAY * WORKING_DAYS_PER_MONTH; // 202,500
+export const MAX_MONTHLY_CAPACITY_KG = TOTAL_CORRUGATORS * KG_PER_CORRUGATOR_PER_DAY * WORKING_DAYS_PER_MONTH; // 202,500
 
 // ── Corrugator Floor Config (owner-controllable digital twin) ──────────────────────
 
@@ -42,7 +42,7 @@ export function getCorrugatorFloorConfig(): CorrugatorFloorConfig {
     updated_at: string;
   } | undefined;
 
-  const total = row?.total_corrugators ?? TOTAL_LOOMS;
+  const total = row?.total_corrugators ?? TOTAL_CORRUGATORS;
   const available = row?.corrugators_available ?? total;
   const maint = row?.corrugators_maintenance ?? 0;
   const external = row?.corrugators_external ?? 0;
@@ -146,7 +146,7 @@ export function freeCorrugators(count: number, updatedBy = "system") {
 }
 
 function clampCorrugators(n: number): number {
-  return Math.max(0, Math.min(TOTAL_LOOMS, Math.round(n)));
+  return Math.max(0, Math.min(TOTAL_CORRUGATORS, Math.round(n)));
 }
 
 // ── Derived monthly capacity (uses LIVE free corrugators, not hardcoded 45) ────────
@@ -154,7 +154,7 @@ function clampCorrugators(n: number): number {
 /** Monthly capacity the system can actually accept = free corrugators × 150 × 30. */
 export function getEffectiveMonthlyCapacityKg(): number {
   const floor = getCorrugatorFloorConfig();
-  return floor.corrugators_available * KG_PER_LOOM_PER_DAY * WORKING_DAYS_PER_MONTH;
+  return floor.corrugators_available * KG_PER_CORRUGATOR_PER_DAY * WORKING_DAYS_PER_MONTH;
 }
 
 /** Back-compat constant: keep the name for existing callers but it is now the
@@ -269,7 +269,7 @@ export function calculateEta(
   const floor = getCorrugatorFloorConfig();
   const freeCorrugators = floor.corrugators_available;
 
-  let perCorrugatorKgDay = KG_PER_LOOM_PER_DAY;
+  let perCorrugatorKgDay = KG_PER_CORRUGATOR_PER_DAY;
   if (boxSpecs?.sizeInches && boxSpecs?.grammage && boxSpecs?.quality) {
     const speed = getProductionSpeed(boxSpecs.sizeInches, boxSpecs.grammage, boxSpecs.quality);
     if (speed && speed.kgPerDay > 0) perCorrugatorKgDay = speed.kgPerDay;
@@ -329,7 +329,7 @@ export function checkCorrugatorFeasibility(
   const freeCorrugators = floor.corrugators_available;
 
   // Per-corrugator speed for the requested spec (from KB), else 150 kg/day average.
-  let perCorrugatorKgDay = KG_PER_LOOM_PER_DAY;
+  let perCorrugatorKgDay = KG_PER_CORRUGATOR_PER_DAY;
   if (boxSpecs?.sizeInches && boxSpecs?.grammage && boxSpecs?.quality) {
     const speed = getProductionSpeed(boxSpecs.sizeInches, boxSpecs.grammage, boxSpecs.quality);
     if (speed && speed.kgPerDay > 0) {
@@ -407,12 +407,12 @@ export function bookCorrugators(
     db.prepare(`
       INSERT INTO corrugator_bookings (id, enquiry_id, customer_id, month_key, kg_booked, kg_per_day, delivery_estimate_days, status)
       VALUES (?, ?, ?, ?, ?, ?, ?, 'booked')
-    `).run(id, enquiryId, customerId, feasibility.monthKey, quantityKg, KG_PER_LOOM_PER_DAY, feasibility.estimatedDays);
+    `).run(id, enquiryId, customerId, feasibility.monthKey, quantityKg, KG_PER_CORRUGATOR_PER_DAY, feasibility.estimatedDays);
 
     const booking = db.prepare("SELECT * FROM corrugator_bookings WHERE id = ?").get(id) as CorrugatorBooking;
 
     // Reserve corrugators on the digital-twin floor so the free count stays accurate
-    const corrugatorsToReserve = estimateCorrugatorsForBooking(quantityKg, KG_PER_LOOM_PER_DAY);
+    const corrugatorsToReserve = estimateCorrugatorsForBooking(quantityKg, KG_PER_CORRUGATOR_PER_DAY);
     reserveCorrugators(corrugatorsToReserve, "system");
 
     appendLog("corrugator_booked", {
@@ -485,10 +485,10 @@ export function completeBooking(bookingId: string): boolean {
  * Keeps the free-pool tracking directionally correct without per-corrugator slot maps.
  */
 function estimateCorrugatorsForBooking(kgBooked: number, kgPerDay: number): number {
-  const perDay = kgPerDay > 0 ? kgPerDay : KG_PER_LOOM_PER_DAY;
-  const estDays = Math.max(1, Math.ceil((kgBooked || 0) / (perDay * TOTAL_LOOMS)));
+  const perDay = kgPerDay > 0 ? kgPerDay : KG_PER_CORRUGATOR_PER_DAY;
+  const estDays = Math.max(1, Math.ceil((kgBooked || 0) / (perDay * TOTAL_CORRUGATORS)));
   const corrugators = Math.max(1, Math.ceil((kgBooked || 0) / (perDay * estDays)));
-  return clampCorrugators(Math.min(corrugators, TOTAL_LOOMS));
+  return clampCorrugators(Math.min(corrugators, TOTAL_CORRUGATORS));
 }
 
 // ── Booking queries ──────────────────────────────────────────────────────────
@@ -538,13 +538,13 @@ export type CorrugatorGridItem = {
 
 export function getCorrugatorGrid(monthKeyStr: string): CorrugatorGridItem[] {
   const cap = getMonthlyCapacity(monthKeyStr);
-  const kgPerCorrugator = KG_PER_LOOM_PER_DAY * WORKING_DAYS_PER_MONTH; // 4,500 kg/corrugator/month
+  const kgPerCorrugator = KG_PER_CORRUGATOR_PER_DAY * WORKING_DAYS_PER_MONTH; // 4,500 kg/corrugator/month
 
   // Distribute bookings across corrugators (simple: fill corrugators sequentially)
   const grid: CorrugatorGridItem[] = [];
   const bookedCorrugatorEquivalents = cap.bookedKg / kgPerCorrugator; // e.g., 30.5 corrugators booked
 
-  for (let i = 1; i <= TOTAL_LOOMS; i++) {
+  for (let i = 1; i <= TOTAL_CORRUGATORS; i++) {
     const corrugatorFill = Math.min(1, Math.max(0, bookedCorrugatorEquivalents - (i - 1)));
     grid.push({
       corrugatorIndex: i,

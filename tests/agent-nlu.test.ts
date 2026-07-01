@@ -15,13 +15,13 @@ import {
  */
 
 describe("detectLanguage", () => {
-  it("English", () => expect(detectLanguage("I want 500 kg fabric")).toBe("english"));
+  it("English", () => expect(detectLanguage("I want 500 kg box")).toBe("english"));
   it("Hindi (Devanagari script)", () => expect(detectLanguage("मुझे ३० इंच चाहिए")).toBe("hindi"));
   it("Gujarati (script)", () => expect(detectLanguage("મારે ફેબ્રિક જોઈએ")).toBe("gujarati"));
   it("Tamil (script)", () => expect(detectLanguage("எனக்கு துணி வேண்டும்")).toBe("tamil"));
-  it("Gujlish (roman markers)", () => expect(detectLanguage("mane fabric joiye chhe")).toBe("gujlish"));
+  it("Gujlish (roman markers)", () => expect(detectLanguage("mane box joiye chhe")).toBe("gujlish"));
   it("Hinglish (roman markers)", () => expect(detectLanguage("mujhe rate batao")).toBe("hinglish"));
-  it("Marathi-roman (roman markers)", () => expect(detectLanguage("mala fabric pahije aahe")).toBe("marathi-roman"));
+  it("Marathi-roman (roman markers)", () => expect(detectLanguage("mala box pahije aahe")).toBe("marathi-roman"));
 });
 
 describe("normalizeIndicDigits", () => {

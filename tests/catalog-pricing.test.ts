@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 // Imported via the facade on purpose: this also proves the catalog access path
 // resolves correctly AND that the live pricing pipeline does not depend on the
-// redundant catalog files (fabric_catalog_parsed.json, *.xlsx, etc.).
+// redundant catalog files (box_catalog_parsed.json, *.xlsx, etc.).
 import { PRICING_PREMIUMS } from "@/lib/server/catalog";
 
 describe("catalog pricing premiums (README §2/§3 rules)", () => {

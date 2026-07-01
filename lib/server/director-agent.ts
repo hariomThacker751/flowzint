@@ -8,7 +8,7 @@ import {
   updateCorrugatorFloorConfig,
   calculateEta,
   MONTHLY_CAPACITY_KG,
-  TOTAL_LOOMS,
+  TOTAL_CORRUGATORS,
 } from './corrugator-capacity';
 import { appendLog } from './store';
 
@@ -166,9 +166,9 @@ export function buildDatabaseContext(): string {
     context += `No recent quotes.\n\n`;
   }
 
-  context += `PRODUCTION: ${TOTAL_LOOMS} corrugators total\n`;
+  context += `PRODUCTION: ${TOTAL_CORRUGATORS} corrugators total\n`;
   const floor = getCorrugatorFloorConfig();
-  context += `LOOM FLOOR (live — digital twin of the factory floor):\n`;
+  context += `CORRUGATOR FLOOR (live — digital twin of the factory floor):\n`;
   context += `- FREE right now: ${floor.corrugators_available} corrugators (available for new orders)\n`;
   context += `- On system orders: ${floor.corrugators_in_system} corrugators\n`;
   context += `- On external/offline orders: ${floor.corrugators_external} corrugators\n`;
@@ -183,9 +183,9 @@ export function buildDatabaseContext(): string {
   }
   context += `\n`;
   context += `To update the corrugator floor, reply with EXACTLY one of these on its own line (the owner uses these to keep the digital twin in sync with reality):\n`;
-  context += `- LOOM_FLOOR: available=<N> maintenance=<N> external=<N>   (e.g. LOOM_FLOOR: available=30 maintenance=3 external=5)\n`;
-  context += `- LOOM_FLOOR: external=+3  (3 corrugators now busy with an offline order → available drops by 3)\n`;
-  context += `- LOOM_FLOOR: maintenance=+2  (2 corrugators down for repair)\n`;
+  context += `- CORRUGATOR_FLOOR: available=<N> maintenance=<N> external=<N>   (e.g. CORRUGATOR_FLOOR: available=30 maintenance=3 external=5)\n`;
+  context += `- CORRUGATOR_FLOOR: external=+3  (3 corrugators now busy with an offline order → available drops by 3)\n`;
+  context += `- CORRUGATOR_FLOOR: maintenance=+2  (2 corrugators down for repair)\n`;
   context += `When the floor changes, ALL future capacity, ETA and dispatch calculations automatically recompute from the new free-corrugator count.\n\n`;
 
   context += `KNOWLEDGE BASE: ${knowledgeCount} entries\n`;
@@ -203,7 +203,7 @@ export function buildDatabaseContext(): string {
 }
 
 /**
- * Detect & apply a LOOM_FLOOR update command from the owner or from Director's reply.
+ * Detect & apply a CORRUGATOR_FLOOR update command from the owner or from Director's reply.
  * Supports absolute ("available=30") and relative ("external=+3", "maintenance=-1").
  * Returns a human-readable confirmation if applied, else null.
  *
@@ -211,7 +211,7 @@ export function buildDatabaseContext(): string {
  * an offline order" and the live floor + capacity + ETA all update instantly.
  */
 function applyCorrugatorFloorCommand(text: string): string | null {
-  const match = text.match(/LOOM_FLOOR:\s*(.+)/i);
+  const match = text.match(/CORRUGATOR_FLOOR:\s*(.+)/i);
   if (!match) return null;
 
   const payload = match[1].trim();
@@ -230,13 +230,13 @@ function applyCorrugatorFloorCommand(text: string): string | null {
     let value: number;
     if (raw >= 0) {
       // absolute set
-      value = Math.max(0, Math.min(TOTAL_LOOMS, Math.round(raw)));
+      value = Math.max(0, Math.min(TOTAL_CORRUGATORS, Math.round(raw)));
     } else {
       // relative decrement
       const base = field === 'available' ? current.corrugators_available
         : field === 'maintenance' ? current.corrugators_maintenance
         : current.corrugators_external;
-      value = Math.max(0, Math.min(TOTAL_LOOMS, Math.round(base + raw)));
+      value = Math.max(0, Math.min(TOTAL_CORRUGATORS, Math.round(base + raw)));
     }
 
     if (field === 'available') nextAvailable = value;
@@ -301,7 +301,7 @@ export class DirectorAgent {
 
     // Apply a corrugator-floor update if the owner typed the command directly, OR if
     // Director emitted one in its reply (keeps the digital twin synced with the floor).
-    let finalReply = response.content.replace(/LOOM_FLOOR:\s*.+/gi, '').trim();
+    let finalReply = response.content.replace(/CORRUGATOR_FLOOR:\s*.+/gi, '').trim();
     const floorUpdate = applyCorrugatorFloorCommand(message) ?? applyCorrugatorFloorCommand(response.content);
     if (floorUpdate) {
       finalReply = `${floorUpdate}\n\n${finalReply}`.trim();

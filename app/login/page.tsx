@@ -38,7 +38,7 @@ export default function LoginPage() {
         onSubmit={onSubmit}
         style={{ width: 320, padding: 28, borderRadius: 12, background: "#fff", boxShadow: "0 10px 40px rgba(0,0,0,.3)" }}
       >
-        <h1 style={{ margin: "0 0 4px", fontSize: 20 }}>Anjani Sales OS</h1>
+        <h1 style={{ margin: "0 0 4px", fontSize: 20 }}>Flowzint Sales OS</h1>
         <p style={{ margin: "0 0 18px", color: "#666", fontSize: 13 }}>Sign in to continue</p>
         <label style={{ fontSize: 12, color: "#444" }}>Username</label>
         <input

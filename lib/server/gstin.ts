@@ -2,7 +2,7 @@
  * GSTIN validation — structure + state code + official mod-36 checksum.
  *
  * WHY THIS EXISTS
- * The old chat (Anjani Interweave, 14–15 Jun) showed the agent mishandling GST:
+ * The old chat (Flowzint Interweave, 14–15 Jun) showed the agent mishandling GST:
  *   • It accepted "04AABCU9355J121" — position 14 must be 'Z', and the checksum
  *     was never verified, so a typo'd / boxated number was stored as a real
  *     GST and would have produced an incorrect invoice.

@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { getDatabase } from "@/lib/server/database";
-import { getAllMonthlyCapacities, MONTHLY_CAPACITY_KG, TOTAL_LOOMS } from "@/lib/server/corrugator-capacity";
+import { getAllMonthlyCapacities, MONTHLY_CAPACITY_KG, TOTAL_CORRUGATORS } from "@/lib/server/corrugator-capacity";
 import { monthKey } from "@/lib/server/corrugator-capacity";
 
 export const runtime = "nodejs";
@@ -248,7 +248,7 @@ export async function GET() {
         availableCapacityKg,
         bookedKg,
         totalMonthlyCapacityKg: MONTHLY_CAPACITY_KG,
-        totalCorrugators: TOTAL_LOOMS,
+        totalCorrugators: TOTAL_CORRUGATORS,
         monthlyCapacities,
         recentBookings: recentBookings.map((b: any) => ({
           id: b.id,

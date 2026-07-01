@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { getDatabase } from "@/lib/server/database";
-import { TOTAL_LOOMS, KG_PER_LOOM_PER_DAY, MONTHLY_CAPACITY_KG, getAllMonthlyCapacities, getBookingMonths, getMonthlyCapacity } from "@/lib/server/corrugator-capacity";
+import { TOTAL_CORRUGATORS, KG_PER_CORRUGATOR_PER_DAY, MONTHLY_CAPACITY_KG, getAllMonthlyCapacities, getBookingMonths, getMonthlyCapacity } from "@/lib/server/corrugator-capacity";
 
 export const runtime = "nodejs";
 
@@ -17,7 +17,7 @@ export async function GET() {
       FROM production_capacity WHERE date = ?
     `).get(today) as { booked: number; available: number };
 
-    const dailyTarget = TOTAL_LOOMS * KG_PER_LOOM_PER_DAY; // 6,750 kg/day
+    const dailyTarget = TOTAL_CORRUGATORS * KG_PER_CORRUGATOR_PER_DAY; // 6,750 kg/day
     const producedToday = todayProd?.booked || 0;
 
     // ── Active corrugator bookings (in production) ──
@@ -51,9 +51,9 @@ export async function GET() {
     }> = [];
 
     for (const b of activeBookings) {
-      const corrugatorsNeeded = Math.max(1, Math.ceil((b.kg_per_day || KG_PER_LOOM_PER_DAY) / KG_PER_LOOM_PER_DAY));
+      const corrugatorsNeeded = Math.max(1, Math.ceil((b.kg_per_day || KG_PER_CORRUGATOR_PER_DAY) / KG_PER_CORRUGATOR_PER_DAY));
       const startCorrugator = activeCorrugators + 1;
-      const endCorrugator = Math.min(TOTAL_LOOMS, activeCorrugators + corrugatorsNeeded);
+      const endCorrugator = Math.min(TOTAL_CORRUGATORS, activeCorrugators + corrugatorsNeeded);
       activeCorrugators = endCorrugator;
 
       // Calculate progress: days elapsed vs estimated days
@@ -69,22 +69,22 @@ export async function GET() {
         enquiryId: b.enquiry_id,
         specs: `${b.size_inches}" ${b.grammage}g ${b.quality}`,
         kgBooked: b.kg_booked,
-        kgPerDay: b.kg_per_day || KG_PER_LOOM_PER_DAY,
+        kgPerDay: b.kg_per_day || KG_PER_CORRUGATOR_PER_DAY,
         deliveryEstimateDays: b.delivery_estimate_days || 7,
         status: b.status,
         progressPct,
         quoteAmount: b.quote_amount || 0,
       });
 
-      if (activeCorrugators >= TOTAL_LOOMS) break;
+      if (activeCorrugators >= TOTAL_CORRUGATORS) break;
     }
 
-    const idleCorrugators = Math.max(0, TOTAL_LOOMS - activeCorrugators);
+    const idleCorrugators = Math.max(0, TOTAL_CORRUGATORS - activeCorrugators);
     const efficiencyPct = dailyTarget > 0 ? Math.round((producedToday / dailyTarget) * 100) : 0;
 
     // ── Build corrugator grid (45 corrugators) ──
     const corrugators = [];
-    for (let i = 1; i <= TOTAL_LOOMS; i++) {
+    for (let i = 1; i <= TOTAL_CORRUGATORS; i++) {
       const allocation = corrugatorAllocations.find(a => i >= a.corrugatorStart && i <= a.corrugatorEnd);
       corrugators.push({
         id: i,
@@ -167,7 +167,7 @@ export async function GET() {
           targetKg: dailyTarget,
           activeCorrugators,
           idleCorrugators,
-          totalCorrugators: TOTAL_LOOMS,
+          totalCorrugators: TOTAL_CORRUGATORS,
           efficiencyPct,
         },
         // Corrugator grid

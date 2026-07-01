@@ -1,12 +1,12 @@
 /**
- * Extract production speed data from fabric_data_extracted.json
+ * Extract production speed data from box_data_extracted.json
  * and output a TypeScript-compatible lookup object.
  *
  * Usage: node scripts/extract-speeds.mjs > lib/server/production-speeds.ts
  */
 import { readFileSync } from 'fs';
 
-let raw = readFileSync('fabric_data_extracted.json', 'utf8');
+let raw = readFileSync('box_data_extracted.json', 'utf8');
 // Python wrote NaN literals — replace with null for valid JSON
 raw = raw.replace(/\bNaN\b/g, 'null');
 const sheets = JSON.parse(raw);
@@ -52,7 +52,7 @@ for (const sheet of sheetArray) {
 
 // Output as TypeScript
 const entries = Object.entries(speeds).sort();
-console.log(`// Auto-generated production speed lookup from fabric_data_extracted.json`);
+console.log(`// Auto-generated production speed lookup from box_data_extracted.json`);
 console.log(`// Key format: "{size}_{grammage}_{quality}" (lowercase)`);
 console.log(`// Total entries: ${entries.length}`);
 console.log('');

@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getCorrugatorGrid, getMonthlyCapacity, TOTAL_LOOMS, MONTHLY_CAPACITY_KG, KG_PER_LOOM_PER_DAY } from "@/lib/server/corrugator-capacity";
+import { getCorrugatorGrid, getMonthlyCapacity, TOTAL_CORRUGATORS, MONTHLY_CAPACITY_KG, KG_PER_CORRUGATOR_PER_DAY } from "@/lib/server/corrugator-capacity";
 import { monthKey } from "@/lib/server/corrugator-capacity";
 
 export async function GET(req: Request) {
@@ -11,7 +11,7 @@ export async function GET(req: Request) {
     const capacity = getMonthlyCapacity(monthParam);
 
     const summary = {
-      totalCorrugators: TOTAL_LOOMS,
+      totalCorrugators: TOTAL_CORRUGATORS,
       availableCorrugators: grid.filter(l => l.status === "available").length,
       partiallyBookedCorrugators: grid.filter(l => l.status === "partially_booked").length,
       fullyBookedCorrugators: grid.filter(l => l.status === "fully_booked").length,
