@@ -36,7 +36,7 @@ export function MissionControl() {
 
   const chats: ChatPreview[] = [
     { id: '1', name: 'Nikhil', phone: '+91 94552 81616', lastMsg: 'Please give me all menu and price', time: '2m ago', unread: 2, stage: 'greeting', aiActive: true },
-    { id: '2', name: 'Rahul Sharma', phone: '+91 98765 43210', lastMsg: '36 inch 3.5g silver order confirm', time: '5m ago', unread: 0, stage: 'order_confirmed', aiActive: true },
+    { id: '2', name: 'Rahul Sharma', phone: '+91 98765 43210', lastMsg: '36 inch 150gsm 5-ply order confirm', time: '5m ago', unread: 0, stage: 'order_confirmed', aiActive: true },
     { id: '3', name: 'Priya Patel', phone: '+91 99887 76655', lastMsg: 'Delivery kab tak hoga?', time: '15m ago', unread: 1, stage: 'in_production', aiActive: true },
     { id: '4', name: 'Amit Singh', phone: '+91 98123 45678', lastMsg: 'GST number bhej raha hoon', time: '1h ago', unread: 0, stage: 'collecting_logistics', aiActive: false },
     { id: '5', name: 'Suresh Kumar', phone: '+91 88776 65544', lastMsg: 'White lamination possible?', time: '2h ago', unread: 0, stage: 'collecting_specs', aiActive: true },
@@ -50,7 +50,7 @@ export function MissionControl() {
   ];
 
   const activityFeed = [
-    { event: 'Order confirmed', detail: 'Rahul Sharma · 2000kg Gold', time: '5m ago', tone: 'green' },
+    { event: 'Order confirmed', detail: 'Rahul Sharma · 2000 boxes 7-Ply', time: '5m ago', tone: 'green' },
     { event: 'Escalation pending', detail: 'Nikhil · Needs menu & pricing', time: '2m ago', tone: 'red' },
     { event: 'WhatsApp sent', detail: 'Priya · Delivery update', time: '15m ago', tone: 'cyan' },
     { event: 'GST collected', detail: 'Amit Singh · Logistics stage', time: '1h ago', tone: 'violet' },

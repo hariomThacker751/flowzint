@@ -1,14 +1,49 @@
-The Target is to **move from stock to sale to MADE TO ORDER BASIS** , the agent has to enquire from the client there requirement across grammage , sizes , color and quantity , also enquire about the seasonal requirement. (the agent can enquire and market that we are into other product categories but at the same time the focus of BOX SALE AGENT IS SELLING PP WOVEN BOX ROLL.
-BOX SALE IS BASICALLY BASED ON THE FOLLOWING PARAMETERS
-**Size in inches** ( our preferred are ) =  36 > 35 > 34 upto 24 ( highest production based ) and 22 > 20 > upto 12 ( lowest production , higher in value terms ) (19 Inches includes a Premium of 1₹ per kg)(16' & 17' Inches a premium of 10₹ per kg)(12' & 15' inch premium of 15₹ per kg)
-**Grammage ( Highest Denier First )** =  5.0 Gram (1067 denier)  > 4.5 Gram (960 denier) > 4.0 Gram (854 denier) > 3.5 Gram (747 denier) > 3.0 Gram (640 denier), If price of 3.0 gram is x then price for 3.5 gram and 3.25 gram and 3.75 gram remain same also then price of 4.0 gram and 4.25 gram and 4.5 gram and 4.75 gram is (x-1₹) , 5 gram and 5.25 gram and 5.5 gram and 5.75 gram is (x-2₹)
-**Quality ( Market Terminologies )** = Janta / Regular / Silver / Gold / Platinum , they are based on strength and elongation of the same for which a seperate sheet has been attached for reference , The Meter weight of the unlaminated and laminated box per size per grammage and per qualtiy type is also attached for reference , Client usually asks for meter weight of box for both laminated and unlaminated box a sheet for reference has been attached ,The unit of measurement is in KG and accordingly the format for BILL GENERATION is attached for reference.For the delivery time we need to cross reference the data from the production detailed page which we already have.
-**COLOR OF BOX** = **Box is Sold Mainly in white color** and also in different colors as per clients request ( for half white and half coloured cheqeured box we charge a premium of 5₹ per kg and for full colored box we charge a premium of 7₹ per kg)
-**COATED / NON COATED** = mainly in unlaminated and also sold with lamination as per client request and specification ( there are two qualities of lamination mainly regular lamination for which we charge a premium of 2₹ and also natural lamination for which we charge a premium of 5₹ per kg ) 
-**The Current daily price will be shared by me to the agent and then accordingly it has to proceed further till the time it doesnt know how to compute the prices** , The price for a certain grade will be made so that the agent can then compute the same from the above mentioned conditions , 
-There are multiple ways of making the sale to a customer by enquiring different details like **Quality wise** ( same quality type means less inventory , less downtime and increased efficiency ) , **Size Wise** ( where same sizes are sold so to lower inventory ) ,  **Grammage wise** ( heavier denier means higher output ) and **finaly region wise** ( to acoomodate more clients in same region so as to lower the transport cost).
-**ALSO THE SALES AGENT HAS TO A FLIPSIDE BACKEND WHICH IS A TRADING AGENT WHICH WILL PROCURE THE SAME ABOVE FROM OTHER MANUFACTURERS AS PER THE CLIENTS REQUIREMENT OF BOX ( mandatory condition is to make sure our order book is complete for the next 30 days) , THE IDEA IS TO TAKE STOCK FROM OTHER MANUFACTURERS AND SELL THEM FROM OUR END.**
-GENERATE LEADS FROM EXISTING DATA AND INDIA MART AND OTHER SIMILAR PORTALS AS WELL
-All Offered Prices are ex-Factory basis only , Taxation and Transportation are seperate.
-**Non Usual Requirment in terms of Color and Grammage which not mentioned in the Box_knowledge_base** & **Natural Box** category (this is also a category of box in which they are no to minimum addivities as its apperance is transparent , it can be any grammage and size but with non additives) and **size below 22 Inches** and also **TAXATION AND TERMS OF DELIVERY INCLUDING TRANSPORT ** then the confirmation has to be taken from the human in the loop ( Hierarchy would be Puneet > Dev > Manager) before confirming anything to the client.
-**The Usual Language are Hindi , Gujarati , Tamil , Malayalam , Marathi , Telugu , Kannada.**
+# Flowzint: Corrugated Box Sales OS
+
+Flowzint is a multi-agent, high-performance sales operating system designed specifically for Corrugated Box Manufacturing. The primary focus of the system is to automate inbound WhatsApp box negotiations, qualification, pricing, and scheduling on a **Made-To-Order** basis.
+
+## Core Sales Strategy
+The Sales Agent engages customers to qualify their requirements across custom dimensions, ply count, Kraft paper GSM, printing, and quantity. It also captures seasonal demand cycles to predict future pipeline. If our own factory capacity is full, the system activates a **Trading Desk** to outsource the order to third-party manufacturers, ensuring we capture 100% of demand.
+
+## Realistic Box Pricing Engine
+Prices are computed on a per-box basis using realistic market parameters:
+
+### 1. Base Price by Ply Grade
+- **3-Ply Boxes** (Standard shipping boxes): **₹32.00 base** (scales as `base_price_3g * 0.4`)
+- **5-Ply Boxes** (Heavy-duty shipping cartons): **₹45.00 base** (scales as `base_price_3g * 0.563`)
+- **7-Ply Boxes** (Heavy industrial storage boxes): **₹60.00 base** (scales as `base_price_3g * 0.75`)
+*Note: Base prices dynamically scale in proportion to the raw paper base price configured by the owner in the DB.*
+
+### 2. Size Premium
+Based on combined dimensions (Length + Width + Height in inches):
+- **Small** (Combined size ≤ 20 inches): **+₹0.00**
+- **Medium** (Combined size 21" to 40"): **+₹5.00**
+- **Large** (Combined size 41" to 50"): **+₹12.00**
+
+### 3. Kraft Paper GSM Premium
+- **Standard (120 GSM)**: **+₹0.00**
+- **Premium (150 GSM)**: **+₹4.00**
+- **Heavy Duty (200 GSM)**: **+₹8.00**
+*Note: Legacy decimal inputs (e.g. 3.0g to 5.0g) are automatically scaled: GSM = value * 50.*
+
+### 4. Printing/Color Premium
+- **Plain** (No printing): **+₹0.00**
+- **Flexo Printed** (1-2 Colors for simple logos/texts): **+₹3.00**
+- **Offset Printed** (Full-color premium graphics): **+₹7.00**
+
+### 5. Finish & Lamination
+- **None**: **+₹0.00**
+- **Film Lamination** (Glossy/Matte protective film): **+₹4.00**
+- **UV Coating / Varnish**: **+₹6.00**
+
+---
+
+## Human-in-the-Loop & Deal Desk Escalations
+The system operates with guardrails. Certain non-standard or risky orders require validation from the Owner or Managers (Hierarchy: Admin/Owner > Dev > Manager) before the Sales Agent sends the confirmation:
+- **7-Ply Setup Check**: Any 7-ply box requires approval due to machine setup complexity.
+- **Short-Run Setup Cost**: Orders below **500 boxes** are flagged for escalation because setup costs make small runs low-margin.
+- **Oversized Boards**: Any box with combined dimensions > 50 inches requires manual confirmation.
+- **Delivery Exceptions**: If the production scheduler indicates no slot is available in the next 30 days.
+
+## Localization & Target Markets
+The agent communicates fluently in **Hindi, Gujarati, Tamil, Malayalam, Marathi, Telugu, and Kannada**, allowing it to qualify local buyers in their native languages.

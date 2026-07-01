@@ -2014,10 +2014,10 @@ function ProductionPage() {
 function PricingEnginePage() {
   const [sizeInches, setSizeInches] = useState(36);
   const [grammage, setGrammage] = useState(3.5);
-  const [quality, setQuality] = useState("Silver");
-  const [color, setColor] = useState("white");
-  const [lamination, setLamination] = useState("Regular");
-  const [quantity, setQuantity] = useState(800);
+  const [quality, setQuality] = useState("5-Ply");
+  const [color, setColor] = useState("Plain");
+  const [lamination, setLamination] = useState("None");
+  const [quantity, setQuantity] = useState(1000);
   const [livePrice, setLivePrice] = useState<{ unit: number; total: number; breakdown: any } | null>(null);
   const [calculatingPrice, setCalculatingPrice] = useState(false);
   const [basePrice, setBasePrice] = useState(80);
@@ -2075,22 +2075,19 @@ function PricingEnginePage() {
   }
 
   const priceData = [
-    { name: "3.0g", price: basePrice },
-    { name: "3.5g", price: basePrice },
-    { name: "4.0g", price: basePrice - 1 },
-    { name: "4.5g", price: basePrice - 1 },
-    { name: "5.0g", price: basePrice - 2 },
-    { name: "5.5g", price: basePrice - 2 },
+    { name: "3-Ply", price: Math.round(basePrice * 0.4 * 100) / 100 },
+    { name: "5-Ply", price: Math.round(basePrice * 0.563 * 100) / 100 },
+    { name: "7-Ply", price: Math.round(basePrice * 0.75 * 100) / 100 },
   ];
 
   return (
     <section className="h-full overflow-y-auto p-6">
-      <ViewHeader title="Pricing Engine" subtitle="Deterministic INR/kg calculator. Ravi never invents prices." />
+      <ViewHeader title="Pricing Engine" subtitle="Deterministic ₹/box calculator. AI never invents prices." />
       <div className="grid gap-6 xl:grid-cols-[1fr_1.1fr]">
         <div className="space-y-4">
           {/* Base Price Control */}
           <div className="glass rounded-xl p-5">
-            <h3 className="text-sm font-semibold text-white">Set Today's Base Price (3.0g)</h3>
+            <h3 className="text-sm font-semibold text-white">Set Today&apos;s Kraft Paper Base Price</h3>
             <div className="mt-4 flex items-center gap-3">
               <input
                 type="number"
@@ -2100,7 +2097,7 @@ function PricingEnginePage() {
                 min={50}
                 max={200}
               />
-              <span className="text-sm text-slate-400">INR / kg</span>
+              <span className="text-sm text-slate-400">INR / unit (raw paper)</span>
               <Button onClick={saveBasePrice} disabled={savingBase}>
                 {savingBase ? <RefreshCw className="h-4 w-4 animate-spin" /> : <Check className="h-4 w-4" />}
                 Save
@@ -2115,33 +2112,33 @@ function PricingEnginePage() {
             <div className="mt-5 space-y-3">
               <div className="grid grid-cols-2 gap-3">
                 <div>
-                  <label className="block text-xs text-slate-500 mb-1">Size (inch)</label>
+                  <label className="block text-xs text-slate-500 mb-1">Box Size (inches, combined)</label>
                   <select value={sizeInches} onChange={(e) => setSizeInches(Number(e.target.value))} className="w-full rounded-lg border border-white/10 bg-ink px-3 py-2 text-sm outline-none">
-                    {[12, 14, 16, 17, 19, 24, 26, 28, 30, 32, 34, 36, 40, 42, 48].map((s) => <option key={s}>{s}</option>)}
+                    {[10, 15, 20, 24, 30, 36, 40, 45, 50, 55, 60].map((s) => <option key={s}>{s}</option>)}
                   </select>
                 </div>
                 <div>
-                  <label className="block text-xs text-slate-500 mb-1">Grammage (g)</label>
+                  <label className="block text-xs text-slate-500 mb-1">Paper GSM</label>
                   <select value={grammage} onChange={(e) => setGrammage(Number(e.target.value))} className="w-full rounded-lg border border-white/10 bg-ink px-3 py-2 text-sm outline-none">
-                    {[3.0, 3.5, 4.0, 4.5, 5.0, 5.5].map((g) => <option key={g}>{g}</option>)}
+                    {[120, 150, 200].map((g) => <option key={g}>{g}</option>)}
                   </select>
                 </div>
                 <div>
-                  <label className="block text-xs text-slate-500 mb-1">Quality</label>
+                  <label className="block text-xs text-slate-500 mb-1">Ply Grade</label>
                   <select value={quality} onChange={(e) => setQuality(e.target.value)} className="w-full rounded-lg border border-white/10 bg-ink px-3 py-2 text-sm outline-none">
-                    {["Janta", "Regular", "Silver", "Gold", "Platinum"].map((q) => <option key={q}>{q}</option>)}
+                    {["3-Ply", "5-Ply", "7-Ply"].map((q) => <option key={q}>{q}</option>)}
                   </select>
                 </div>
                 <div>
-                  <label className="block text-xs text-slate-500 mb-1">Lamination</label>
+                  <label className="block text-xs text-slate-500 mb-1">Finish / Printing</label>
                   <select value={lamination} onChange={(e) => setLamination(e.target.value)} className="w-full rounded-lg border border-white/10 bg-ink px-3 py-2 text-sm outline-none">
-                    {["None", "Regular", "Natural"].map((l) => <option key={l}>{l}</option>)}
+                    {["None", "Regular Lamination", "UV Coating"].map((l) => <option key={l}>{l}</option>)}
                   </select>
                 </div>
               </div>
 
               <div>
-                <label className="block text-xs text-slate-500 mb-1">Quantity: {quantity} kg</label>
+                <label className="block text-xs text-slate-500 mb-1">Quantity: {quantity} boxes</label>
                 <input
                   type="range" min={100} max={5000} step={100} value={quantity}
                   onChange={(e) => setQuantity(Number(e.target.value))}
@@ -2157,8 +2154,8 @@ function PricingEnginePage() {
               {livePrice && (
                 <div className="rounded-xl border border-cyan/25 bg-cyan/10 p-4">
                   <div className="text-xs text-cyan">Computed backend quote</div>
-                  <div className="mt-2 text-3xl font-semibold text-white">INR {livePrice.unit}/kg</div>
-                  <div className="text-sm text-slate-400">Total INR {livePrice.total.toLocaleString("en-IN")} for {quantity} kg</div>
+                  <div className="mt-2 text-3xl font-semibold text-white">₹{livePrice.unit}/box</div>
+                  <div className="text-sm text-slate-400">Total ₹{livePrice.total.toLocaleString("en-IN")} for {quantity} boxes</div>
                   <div className="mt-3 space-y-1 text-xs text-slate-500">
                     <div>Base: ₹{livePrice.breakdown.basePrice} | Size: +₹{livePrice.breakdown.sizePremium}</div>
                     <div>Grammage: ₹{livePrice.breakdown.grammageAdjustment} | Lam: +₹{livePrice.breakdown.laminationPremium}</div>
@@ -2169,12 +2166,12 @@ function PricingEnginePage() {
           </div>
         </div>
 
-        <ChartPanel title="Grammage Price Curve">
+        <ChartPanel title="Box Price by Ply Grade">
           <ResponsiveContainer width="100%" height={400}>
             <LineChart data={priceData}>
               <CartesianGrid stroke="rgba(255,255,255,0.08)" vertical={false} />
               <XAxis dataKey="name" stroke="#64748b" fontSize={12} />
-              <YAxis domain={[basePrice - 4, basePrice + 2]} stroke="#64748b" fontSize={12} />
+              <YAxis stroke="#64748b" fontSize={12} />
               <Tooltip contentStyle={tooltipStyle} />
               <Line type="monotone" dataKey="price" stroke="#55e6ff" strokeWidth={3} dot={{ fill: "#55e6ff" }} />
             </LineChart>
@@ -2189,10 +2186,10 @@ function PricingEnginePage() {
 function TemplatesPage() {
   const [templateName, setTemplateName] = useState("Flowzint_box_intro_en");
   const [language, setLanguage] = useState("en");
-  const [body, setBody] = useState("Hello {{1}}, this is Ravi AI from Flowzint Interweave. We manufacture PP woven box, laminated box and packaging bags. Reply with your box requirement.");
+  const [body, setBody] = useState("Hello {{1}}, this is Ravi AI from Flowzint. We manufacture Corrugated Boxes — 3-Ply, 5-Ply, 7-Ply — custom size, GSM, and printing. Reply with your box requirement.");
   const [phone, setPhone] = useState("919408724777");
-  const [salesText, setSalesText] = useState("Hello, this is Ravi AI from Flowzint Interweave. Please share your box size, grammage, lamination and quantity requirement.");
-  const [testText, setTestText] = useState("Customer asks: 36 inch 3.5 gram silver laminated box, 800 kg, Patna. Ask next step without giving price.");
+  const [salesText, setSalesText] = useState("Hello, this is Ravi AI from Flowzint. Please share your box size (L×W×H), ply grade (3/5/7-ply), GSM, printing, and quantity requirement.");
+  const [testText, setTestText] = useState("Customer asks: 5-ply corrugated box, 30 inch size, 150 GSM, flexo printed, need 2000 boxes, Mumbai. Give quote.");
   const [raviDraft, setRaviDraft] = useState("");
   const [testingRavi, setTestingRavi] = useState(false);
   const [status, setStatus] = useState("");

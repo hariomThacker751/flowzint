@@ -3,11 +3,11 @@ import { lineTotalPaise, toRupees } from "./money";
 
 export type PricingInput = {
   sizeInches: number;
-  grammage: number;
-  quality: string;
-  color: string;
-  lamination: string;
-  quantityKg: number;
+  grammage: number; // Represents paper GSM (e.g. 120, 150, 200). Handles both decimal and integer inputs.
+  quality: string;  // Represents Ply Grade (3-Ply, 5-Ply, 7-Ply)
+  color: string;    // Represents Printing Type (Plain, Flexo, Offset)
+  lamination: string; // Represents Lamination/Finish (None, Regular, UV Coating)
+  quantityKg: number; // Represents Box Quantity (in Units / Pieces)
 };
 
 export type PricingResult = {
@@ -17,65 +17,50 @@ export type PricingResult = {
   grammageAdjustment: number;
   colorPremium: number;
   laminationPremium: number;
-  unitPrice: number; // ₹/kg, ex-factory, 2dp
+  unitPrice: number; // ₹/box, ex-factory, 2dp
   totalAmount: number; // ₹, ex-factory (taxable value), 2dp
   totalPaise: number; // exact taxable value in paise
-  // Governance metadata (used by the quoting gate; never sent to clients):
   basePriceDate: string | null;
   basePriceIsToday: boolean;
   requiresEscalation: boolean;
   escalationReasons: string[];
 };
 
-const QUALITY_COLUMN_MAP: Record<string, string> = {
-  janta: "base_price_janta",
-  regular: "base_price_regular",
-  silver: "base_price_silver",
-  gold: "base_price_gold",
-  platinum: "base_price_platinum",
-};
-
 export function getQualityColumn(quality: string): string {
-  return QUALITY_COLUMN_MAP[quality.toLowerCase()] || "base_price_3g";
+  const q = quality.toLowerCase();
+  if (q.includes("7")) return "base_price_silver";
+  if (q.includes("5")) return "base_price_regular";
+  return "base_price_3g";
 }
 
-/**
- * Exact size-premium table (Guidelines §2.1, "Size Range" table).
- *   12" & 15" → +₹15   16" & 17" → +₹10   19" → +₹1   everything else → 0
- * NOTE: this is a precise lookup, not a range — 13" and 14" carry NO premium
- * (the previous range-based code over-charged them).
- */
 function sizePremiumFor(sizeInches: number): number {
-  if (sizeInches === 12 || sizeInches === 15) return 15;
-  if (sizeInches === 16 || sizeInches === 17) return 10;
-  if (sizeInches === 19) return 1;
-  return 0;
+  if (sizeInches <= 20) return 0;
+  if (sizeInches <= 40) return 5;
+  return 12;
 }
 
-/** Grammage price differential (Guidelines §3 / denier table). */
 function grammageAdjustmentFor(grammage: number): number {
-  if (grammage >= 3.0 && grammage < 4.0) return 0; // 3.0–3.75g: base
-  if (grammage >= 4.0 && grammage < 5.0) return -1; // 4.0–4.75g: base − 1
-  if (grammage >= 5.0 && grammage < 6.0) return -2; // 5.0–5.75g: base − 2
-  return 0; // out-of-KB grammages → escalate (handled below), no adjustment guessed
+  // If grammage is passed as a small decimal (legacy 3.0-5.0), scale to GSM (150-250)
+  const gsm = grammage < 10 ? grammage * 50 : grammage;
+  if (gsm <= 120) return 0;
+  if (gsm <= 150) return 4;
+  return 8;
 }
 
 function colorPremiumFor(color: string): number {
-  const c = color.toLowerCase().replace(/_/g, " ");
-  if (c.includes("full") && (c.includes("colour") || c.includes("color"))) return 7;
-  if (c.includes("half") || c.includes("chequer") || c.includes("checker") || c.includes("colour") || c.includes("color"))
-    return 5;
-  return 0;
+  const c = color.toLowerCase();
+  if (c.includes("plain") || c === "none") return 0;
+  if (c.includes("offset") || c.includes("full") || c.includes("multi")) return 7;
+  return 3; // Flexo printing fallback
 }
 
 function laminationPremiumFor(lamination: string): number {
   const l = lamination.toLowerCase();
-  if (l.includes("natural")) return 5;
-  if (l.includes("regular") || l === "laminated") return 2;
-  return 0;
+  if (l.includes("none") || l === "") return 0;
+  if (l.includes("uv") || l.includes("varnish") || l.includes("natural")) return 6;
+  return 4; // Regular film lamination
 }
 
-/** Today's base-price row (by effective_date), or null if not set today. */
 export function getTodaysBasePriceRow(): Record<string, any> | null {
   const db = getDatabase();
   const row = db
@@ -99,10 +84,18 @@ export function calculatePrice(input: PricingInput): PricingResult {
 
   if (!priceConfig) throw new Error("No base price configured");
 
-  const qualityColumn = getQualityColumn(input.quality);
-  let basePrice = Number(priceConfig[qualityColumn]) || 0;
-  const qualityUsed = basePrice > 0 ? input.quality : "3g (fallback)";
-  if (basePrice === 0) basePrice = Number(priceConfig.base_price_3g) || 0;
+  const basePriceConfig = Number(priceConfig.base_price_3g) || 80;
+  
+  // Base price dynamically scaled from DB configuration
+  let basePrice = basePriceConfig * 0.4; // 3-Ply default (₹32)
+  const q = input.quality.toLowerCase();
+  if (q.includes("7")) {
+    basePrice = basePriceConfig * 0.75; // 7-Ply (₹60)
+  } else if (q.includes("5")) {
+    basePrice = basePriceConfig * 0.563; // 5-Ply (₹45)
+  }
+
+  const qualityUsed = q.includes("7") ? "7-Ply" : q.includes("5") ? "5-Ply" : "3-Ply";
 
   const sizePremium = sizePremiumFor(input.sizeInches);
   const grammageAdjustment = grammageAdjustmentFor(input.grammage);
@@ -111,16 +104,15 @@ export function calculatePrice(input: PricingInput): PricingResult {
 
   const unitPriceRaw = basePrice + sizePremium + grammageAdjustment + colorPremium + laminationPremium;
   const unitPrice = Math.round(unitPriceRaw * 100) / 100;
+  
+  // quantityKg represents Box Quantity (pieces) in Box OS
   const totalPaise = lineTotalPaise(unitPrice, input.quantityKg);
 
-  // Escalation governance (Guidelines §2.1/§2.5/§8). Pricing never *blocks* —
-  // it reports; the quoting gate decides. Reasons are internal-only.
+  // Box Factory Escalation Rules
   const escalationReasons: string[] = [];
-  if (input.sizeInches < 22) escalationReasons.push("size_below_22");
-  if (input.grammage < 3.0 || input.grammage >= 6.0) escalationReasons.push("grammage_outside_kb");
-  // NOTE: natural LAMINATION is a standard +₹5/kg product and is NOT an
-  // escalation reason. Only natural BOX (handled in services/escalation.ts
-  // via message intent) requires approval.
+  if (q.includes("7")) escalationReasons.push("7_ply_setup_check");
+  if (input.quantityKg < 500) escalationReasons.push("low_quantity_short_run");
+  if (input.sizeInches > 50) escalationReasons.push("oversized_board_run");
 
   return {
     basePrice,

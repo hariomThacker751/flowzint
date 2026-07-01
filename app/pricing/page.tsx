@@ -5,11 +5,7 @@ import { Button } from '@/components/ui/button';
 
 interface PriceConfig {
   id: string;
-  base_price_janta: number;
-  base_price_regular: number;
-  base_price_silver: number;
-  base_price_gold: number;
-  base_price_platinum: number;
+  base_price_3g: number;
   effective_date: string;
   created_by: string;
   notes: string;
@@ -17,18 +13,11 @@ interface PriceConfig {
 
 export default function BoxPricingPage() {
   const [priceConfig, setPriceConfig] = useState<PriceConfig | null>(null);
-  const [prices, setPrices] = useState({
-    janta: '',
-    regular: '',
-    silver: '',
-    gold: '',
-    platinum: ''
-  });
+  const [basePrice, setBasePrice] = useState('');
   const [notes, setNotes] = useState('');
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
 
-  // Load current pricing config
   useEffect(() => {
     loadPricing();
   }, []);
@@ -40,13 +29,7 @@ export default function BoxPricingPage() {
       const data = await res.json();
       if (data.ok && data.config) {
         setPriceConfig(data.config);
-        setPrices({
-          janta: data.config.base_price_janta?.toString() || '',
-          regular: data.config.base_price_regular?.toString() || '',
-          silver: data.config.base_price_silver?.toString() || '',
-          gold: data.config.base_price_gold?.toString() || '',
-          platinum: data.config.base_price_platinum?.toString() || '',
-        });
+        setBasePrice(data.config.base_price_3g?.toString() || '');
         setNotes(data.config.notes || '');
       }
     } catch (error) {
@@ -57,9 +40,14 @@ export default function BoxPricingPage() {
   };
 
   const updatePricing = async () => {
-    // Validate inputs
-    if (!prices.janta || !prices.regular || !prices.silver || !prices.gold || !prices.platinum) {
-      setMessage('Please fill in all price fields');
+    if (!basePrice) {
+      setMessage('Please enter a base paper price');
+      return;
+    }
+
+    const bp = parseFloat(basePrice);
+    if (isNaN(bp) || bp <= 0) {
+      setMessage('Please enter a valid price above 0');
       return;
     }
 
@@ -71,11 +59,11 @@ export default function BoxPricingPage() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          basePriceJanta: parseFloat(prices.janta),
-          basePriceRegular: parseFloat(prices.regular),
-          basePriceSilver: parseFloat(prices.silver),
-          basePriceGold: parseFloat(prices.gold),
-          basePricePlatinum: parseFloat(prices.platinum),
+          basePriceJanta: bp,
+          basePriceRegular: bp,
+          basePriceSilver: bp,
+          basePriceGold: bp,
+          basePricePlatinum: bp,
           createdBy: 'owner',
           notes: notes
         })
@@ -85,7 +73,7 @@ export default function BoxPricingPage() {
 
       if (data.ok) {
         setPriceConfig(data.config);
-        setMessage('✅ Box prices updated successfully!');
+        setMessage('✅ Box base price updated successfully!');
         setTimeout(() => setMessage(''), 3000);
       } else {
         setMessage(`❌ Error: ${data.error}`);
@@ -98,16 +86,20 @@ export default function BoxPricingPage() {
     setLoading(false);
   };
 
+  const bp = parseFloat(basePrice) || 80;
+  const calc3ply  = (bp * 0.4).toFixed(2);
+  const calc5ply  = (bp * 0.563).toFixed(2);
+  const calc7ply  = (bp * 0.75).toFixed(2);
+
   return (
     <div className="min-h-screen bg-gray-50 p-8">
       <div className="max-w-4xl mx-auto">
         <div className="bg-white rounded-lg shadow-lg p-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">
-            Box Pricing Configuration
+            📦 Box Pricing Configuration
           </h1>
           <p className="text-gray-600 mb-6">
-            Set daily base prices for 13" box across all quality grades. 
-            Other sizes will be calculated automatically based on premiums.
+            Set today&apos;s raw paper (Kraft) base price. All box prices are automatically calculated from this single value.
           </p>
 
           {message && (
@@ -118,130 +110,73 @@ export default function BoxPricingPage() {
 
           {priceConfig && (
             <div className="mb-6 p-4 bg-blue-50 rounded-lg">
-              <h3 className="font-semibold text-blue-900 mb-2">Current Prices (13" box, 3.0g):</h3>
-              <div className="grid grid-cols-5 gap-4 text-sm">
+              <h3 className="font-semibold text-blue-900 mb-2">Current Active Base Price:</h3>
+              <div className="grid grid-cols-3 gap-4 text-sm">
                 <div>
-                  <span className="text-blue-700 font-medium">Janta:</span> ₹{priceConfig.base_price_janta}/kg
+                  <span className="text-blue-700 font-medium">Paper Base Price:</span>{' '}
+                  ₹{priceConfig.base_price_3g}/unit
                 </div>
                 <div>
-                  <span className="text-blue-700 font-medium">Regular:</span> ₹{priceConfig.base_price_regular}/kg
+                  <span className="text-blue-700 font-medium">Last Updated:</span>{' '}
+                  {new Date(priceConfig.effective_date).toLocaleDateString('en-IN')}
                 </div>
                 <div>
-                  <span className="text-blue-700 font-medium">Silver:</span> ₹{priceConfig.base_price_silver}/kg
-                </div>
-                <div>
-                  <span className="text-blue-700 font-medium">Gold:</span> ₹{priceConfig.base_price_gold}/kg
-                </div>
-                <div>
-                  <span className="text-blue-700 font-medium">Platinum:</span> ₹{priceConfig.base_price_platinum}/kg
+                  <span className="text-blue-700 font-medium">Updated By:</span>{' '}
+                  {priceConfig.created_by}
                 </div>
               </div>
-              <p className="text-xs text-blue-600 mt-2">
-                Last updated: {new Date(priceConfig.effective_date).toLocaleString()}
-              </p>
+            </div>
+          )}
+
+          {/* Live Price Preview */}
+          {basePrice && (
+            <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg">
+              <h3 className="font-semibold text-green-900 mb-3">📊 Live Price Preview (based on ₹{basePrice}/unit base):</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                <div className="bg-white rounded p-3 border border-green-100">
+                  <div className="font-bold text-green-800 text-lg">3-Ply Box</div>
+                  <div className="text-gray-600 text-xs mb-1">Standard Shipping Carton</div>
+                  <div className="text-2xl font-bold text-gray-900">₹{calc3ply}<span className="text-sm font-normal text-gray-500">/box</span></div>
+                  <div className="text-xs text-gray-400 mt-1">base × 0.40</div>
+                </div>
+                <div className="bg-white rounded p-3 border border-green-100">
+                  <div className="font-bold text-green-800 text-lg">5-Ply Box</div>
+                  <div className="text-gray-600 text-xs mb-1">Heavy-Duty Shipping Carton</div>
+                  <div className="text-2xl font-bold text-gray-900">₹{calc5ply}<span className="text-sm font-normal text-gray-500">/box</span></div>
+                  <div className="text-xs text-gray-400 mt-1">base × 0.563</div>
+                </div>
+                <div className="bg-white rounded p-3 border border-green-100">
+                  <div className="font-bold text-green-800 text-lg">7-Ply Box</div>
+                  <div className="text-gray-600 text-xs mb-1">Heavy Industrial Storage Box</div>
+                  <div className="text-2xl font-bold text-gray-900">₹{calc7ply}<span className="text-sm font-normal text-gray-500">/box</span></div>
+                  <div className="text-xs text-gray-400 mt-1">base × 0.75</div>
+                </div>
+              </div>
+              <p className="text-xs text-green-700 mt-2">* Prices above are base only. Premiums for size, GSM, printing, and lamination are added on top.</p>
             </div>
           )}
 
           <div className="space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
-              {/* Janta */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Janta Quality
-                  <span className="block text-xs text-gray-500 font-normal">45% PP, Strength 28-25</span>
-                </label>
-                <div className="relative">
-                  <span className="absolute left-3 top-2.5 text-gray-500">₹</span>
-                  <input
-                    type="number"
-                    step="0.01"
-                    value={prices.janta}
-                    onChange={(e) => setPrices({ ...prices, janta: e.target.value })}
-                    className="w-full pl-8 pr-12 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                    placeholder="100.00"
-                  />
-                  <span className="absolute right-3 top-2.5 text-gray-500 text-sm">/kg</span>
-                </div>
-              </div>
-
-              {/* Regular */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Regular Quality
-                  <span className="block text-xs text-gray-500 font-normal">50% PP, Strength 30-35</span>
-                </label>
-                <div className="relative">
-                  <span className="absolute left-3 top-2.5 text-gray-500">₹</span>
-                  <input
-                    type="number"
-                    step="0.01"
-                    value={prices.regular}
-                    onChange={(e) => setPrices({ ...prices, regular: e.target.value })}
-                    className="w-full pl-8 pr-12 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                    placeholder="105.00"
-                  />
-                  <span className="absolute right-3 top-2.5 text-gray-500 text-sm">/kg</span>
-                </div>
-              </div>
-
-              {/* Silver */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Silver Quality
-                  <span className="block text-xs text-gray-500 font-normal">55% PP, Strength 38-40</span>
-                </label>
-                <div className="relative">
-                  <span className="absolute left-3 top-2.5 text-gray-500">₹</span>
-                  <input
-                    type="number"
-                    step="0.01"
-                    value={prices.silver}
-                    onChange={(e) => setPrices({ ...prices, silver: e.target.value })}
-                    className="w-full pl-8 pr-12 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                    placeholder="110.00"
-                  />
-                  <span className="absolute right-3 top-2.5 text-gray-500 text-sm">/kg</span>
-                </div>
-              </div>
-
-              {/* Gold */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Gold Quality
-                  <span className="block text-xs text-gray-500 font-normal">65% PP, Strength 50-55</span>
-                </label>
-                <div className="relative">
-                  <span className="absolute left-3 top-2.5 text-gray-500">₹</span>
-                  <input
-                    type="number"
-                    step="0.01"
-                    value={prices.gold}
-                    onChange={(e) => setPrices({ ...prices, gold: e.target.value })}
-                    className="w-full pl-8 pr-12 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                    placeholder="115.00"
-                  />
-                  <span className="absolute right-3 top-2.5 text-gray-500 text-sm">/kg</span>
-                </div>
-              </div>
-
-              {/* Platinum */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Platinum Quality
-                  <span className="block text-xs text-gray-500 font-normal">75% PP, Strength 57-61</span>
-                </label>
-                <div className="relative">
-                  <span className="absolute left-3 top-2.5 text-gray-500">₹</span>
-                  <input
-                    type="number"
-                    step="0.01"
-                    value={prices.platinum}
-                    onChange={(e) => setPrices({ ...prices, platinum: e.target.value })}
-                    className="w-full pl-8 pr-12 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                    placeholder="120.00"
-                  />
-                  <span className="absolute right-3 top-2.5 text-gray-500 text-sm">/kg</span>
-                </div>
+            {/* Single Base Price Input */}
+            <div className="max-w-sm">
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                Today&apos;s Kraft Paper Base Price (₹/unit)
+                <span className="block text-xs text-gray-500 font-normal mt-0.5">
+                  Market-linked raw paper cost. All ply prices are derived from this.
+                </span>
+              </label>
+              <div className="relative">
+                <span className="absolute left-3 top-2.5 text-gray-500 font-bold">₹</span>
+                <input
+                  type="number"
+                  step="0.01"
+                  min="0"
+                  value={basePrice}
+                  onChange={(e) => setBasePrice(e.target.value)}
+                  className="w-full pl-8 pr-16 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg font-semibold"
+                  placeholder="80.00"
+                />
+                <span className="absolute right-3 top-3 text-gray-500 text-sm">/unit</span>
               </div>
             </div>
 
@@ -254,21 +189,27 @@ export default function BoxPricingPage() {
                 value={notes}
                 onChange={(e) => setNotes(e.target.value)}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                rows={3}
+                rows={2}
                 placeholder="e.g., Market rate increase, seasonal adjustment..."
               />
             </div>
 
             {/* Pricing Info */}
             <div className="bg-gray-50 p-4 rounded-lg text-sm text-gray-700">
-              <h4 className="font-semibold mb-2">📊 Pricing Calculation Logic:</h4>
-              <ul className="list-disc list-inside space-y-1 text-xs">
-                <li><strong>Base:</strong> 13" box, 3.0g grammage (prices you set above)</li>
-                <li><strong>Size Premiums:</strong> 19" (+₹1/kg), 16"/17" (+₹10/kg), 12"/15" (+₹15/kg)</li>
-                <li><strong>Grammage Discounts:</strong> 4.0-4.75g (base-₹1), 5.0-5.75g (base-₹2)</li>
-                <li><strong>Color Premiums:</strong> Half-colored (+₹5/kg), Full-colored (+₹7/kg)</li>
-                <li><strong>Lamination Premiums:</strong> Regular (+₹2/kg), Natural (+₹5/kg)</li>
-              </ul>
+              <h4 className="font-semibold mb-2">📊 Automatic Premium Structure:</h4>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1 text-xs">
+                <div><strong>3-Ply (Standard):</strong> Base × 0.40</div>
+                <div><strong>5-Ply (Heavy):</strong> Base × 0.563</div>
+                <div><strong>7-Ply (Industrial):</strong> Base × 0.75</div>
+                <div><strong>Size Medium (21-40&quot;):</strong> +₹5/box</div>
+                <div><strong>Size Large (&gt;40&quot;):</strong> +₹12/box</div>
+                <div><strong>150 GSM paper:</strong> +₹4/box</div>
+                <div><strong>200 GSM paper:</strong> +₹8/box</div>
+                <div><strong>Flexo Printed:</strong> +₹3/box</div>
+                <div><strong>Offset Printed:</strong> +₹7/box</div>
+                <div><strong>Film Lamination:</strong> +₹4/box</div>
+                <div><strong>UV Coating:</strong> +₹6/box</div>
+              </div>
             </div>
 
             {/* Action Buttons */}
@@ -278,7 +219,7 @@ export default function BoxPricingPage() {
                 disabled={loading}
                 className="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition-colors disabled:bg-gray-400"
               >
-                {loading ? 'Updating...' : 'Update Box Prices'}
+                {loading ? 'Updating...' : '💾 Update Base Price'}
               </Button>
               <Button
                 onClick={loadPricing}
@@ -294,16 +235,15 @@ export default function BoxPricingPage() {
 
         {/* Help Section */}
         <div className="mt-6 bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-          <h3 className="font-semibold text-yellow-900 mb-2">💡 How to Use:</h3>
+          <h3 className="font-semibold text-yellow-900 mb-2">💡 How Pricing Works:</h3>
           <ol className="list-decimal list-inside space-y-1 text-sm text-yellow-800">
-            <li>Set base prices for 13" box in all 5 quality grades (Janta to Platinum)</li>
-            <li>Prices are for 3.0g grammage, white color, unlaminated box</li>
-            <li>The system automatically calculates prices for all other sizes, grammages, colors, and lamination options</li>
-            <li>Ravi AI will use these prices to quote customers accurately</li>
+            <li>Enter today&apos;s Kraft paper market price (e.g. ₹80/unit)</li>
+            <li>The system auto-calculates 3-Ply, 5-Ply, and 7-Ply box prices</li>
+            <li>Premiums for box size, GSM, printing, and lamination are added automatically</li>
+            <li>The AI Sales Agent uses these prices to quote customers instantly and accurately</li>
           </ol>
         </div>
       </div>
     </div>
   );
 }
-

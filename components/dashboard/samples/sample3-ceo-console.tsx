@@ -254,7 +254,7 @@ export function CEOConsole() {
             <div className="space-y-2">
               {[
                 { name: 'Rahul Sharma', spec: '27" 3g Gold 2000kg', amount: '₹1,64,000', status: 'confirmed' },
-                { name: 'Priya Patel', spec: '36" 3.5g Silver 1000kg', amount: '₹83,500', status: 'confirmed' },
+                { name: 'Priya Patel', spec: '36" 3.5g 5-Ply 1000 boxes', amount: '₹83,500', status: 'confirmed' },
                 { name: 'Amit Singh', spec: '30" 4g Regular 500kg', amount: '₹41,000', status: 'in_production' },
                 { name: 'Suresh Kumar', spec: '30" 4g Regular 800kg', amount: '₹65,600', status: 'completed' },
               ].map((order, i) => (
@@ -290,7 +290,7 @@ export function CEOConsole() {
               {[
                 { icon: MessageSquareText, text: 'Ravi replied to Nikhil', sub: 'Menu & pricing sent', time: 'just now', tone: 'cyan' },
                 { icon: BadgeIndianRupee, text: 'Quote generated for Priya', sub: '₹83,500 · 36" Silver', time: '2m ago', tone: 'violet' },
-                { icon: Factory, text: 'Production started: Order #8', sub: 'Amit Singh · 500kg Regular', time: '5m ago', tone: 'green' },
+                { icon: Factory, text: 'Production started: Order #8', sub: 'Amit Singh · 500 boxes 3-Ply', time: '5m ago', tone: 'green' },
                 { icon: AlertTriangle, text: 'Escalation: Nikhil needs help', sub: 'Requires owner input', time: '8m ago', tone: 'red' },
                 { icon: BadgeCheck, text: 'Payment confirmed: Order #5', sub: 'Delivered · WhatsApp sent', time: '15m ago', tone: 'green' },
               ].map((item, i) => (
@@ -347,7 +347,7 @@ export function CEOConsole() {
                 <ul className="mt-3 space-y-2 text-xs text-slate-400">
                   <li className="flex items-center gap-2"><Sparkles className="h-3 w-3 text-cyan" /> "Show today's revenue breakdown"</li>
                   <li className="flex items-center gap-2"><Sparkles className="h-3 w-3 text-cyan" /> "Which orders need payment?"</li>
-                  <li className="flex items-center gap-2"><Sparkles className="h-3 w-3 text-cyan" /> "Create a quote for 36 inch silver"</li>
+                  <li className="flex items-center gap-2"><Sparkles className="h-3 w-3 text-cyan" /> "Create a quote for 36 inch 5-ply"</li>
                   <li className="flex items-center gap-2"><Sparkles className="h-3 w-3 text-cyan" /> "What's our production schedule?"</li>
                 </ul>
               </div>

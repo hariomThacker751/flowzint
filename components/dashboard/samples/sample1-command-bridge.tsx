@@ -46,7 +46,7 @@ export function CommandBridge() {
     "Show orders needing payment confirmation",
     "What's the production capacity for next month?",
     "Find customer Nikhil's conversation",
-    "Create a quote for 36\" 3.5g Silver 800kg",
+    "Create a quote for 36\" 150 GSM 5-Ply 800kg",
   ];
 
   useEffect(() => {
@@ -200,7 +200,7 @@ function generateMockResponse(query: string): { content: string; cards?: any[] }
 
   if (lower.includes('payment') || lower.includes('confirm')) {
     return {
-      content: "Here are the **3 orders** awaiting payment confirmation:\n\n1. **Rahul Sharma** — 2000kg Gold 27\" 3g · ₹1,64,000\n2. **Priya Patel** — 1000kg Silver 36\" 3.5g · ₹83,500\n3. **Amit Singh** — 500kg Regular 30\" 4g · ₹41,000\n\nWould you like me to **confirm all payments** or handle them individually?"
+      content: "Here are the **3 orders** awaiting payment confirmation:\n\n1. **Rahul Sharma** — 2000kg 7-Ply 27\" 150 GSM · ₹1,64,000\n2. **Priya Patel** — 1000kg 5-Ply 36\" 120 GSM · ₹83,500\n3. **Amit Singh** — 500kg 3-Ply 30\" 150 GSM · ₹41,000\n\nWould you like me to **confirm all payments** or handle them individually?"
     };
   }
 
