@@ -3,13 +3,13 @@
 ## Stitch Generation Prompt
 
 ```
-Design an industrial manufacturing command dashboard for a PP woven fabric factory CEO ("Anjani Interweave", Surat, Gujarat). Think Siemens + Naologic — factory floor data meets executive decisions. Dark industrial theme with warm amber and cool blue accents.
+Design an industrial manufacturing command dashboard for a PP woven box factory CEO ("Flowzint Interweave", Surat, Gujarat). Think Siemens + Naologic — factory floor data meets executive decisions. Dark industrial theme with warm amber and cool blue accents.
 
 LAYOUT: Three-column industrial cockpit. 1440x900 desktop. Full height, no scrolling.
 
 LEFT COLUMN (280px) — Navigation + Live Chat List:
 - Dark sidebar with factory iconography
-- "ANJANI AI" branding at top with small sparkle animation
+- "FLOWZINT AI" branding at top with small sparkle animation
 - Nav items with icons and live badges:
   - 🏭 Command Center (active, cyan glow left border)
   - 💬 Customer Chats (12 badge)
@@ -33,9 +33,9 @@ SECTION 2 — "Production Health" (middle, largest):
 - X-axis: days of week, Y-axis: tons
 - Booked = violet gradient fill, Available = emerald dashed line
 - Dark chart grid, glowing data points
-- Below chart: "Loom Grid" — 45 small squares representing looms
+- Below chart: "Corrugator Grid" — 45 small squares representing corrugators
   - Green = available, Blue = partially booked, Amber = fully booked
-  - Hover tooltip: "Loom #12: 85% utilized, Gold quality, 150kg/day"
+  - Hover tooltip: "Corrugator #12: 85% utilized, Gold quality, 150kg/day"
 
 SECTION 3 — "Orders Pipeline" (bottom):
 - Horizontal kanban-style pipeline: Enquiry → Quoting → Confirmed → Production → Complete
@@ -76,12 +76,12 @@ DEVICE: Desktop 1440x900
 | AI accent | cyan (the futuristic touch) |
 | Typography | industrial condensed feel, tabular numbers |
 | Charts | area chart with gradient fill, glowing data points |
-| Loom grid | 45 squares, color-coded by utilization |
+| Corrugator grid | 45 squares, color-coded by utilization |
 
 ## Key Patterns
 1. Three-column industrial cockpit — everything visible
 2. Warm factory-floor aesthetic — not cold/cyberpunk
 3. Kanban pipeline for orders — visual flow from enquiry to complete
-4. Live loom grid visualization — unique to fabric manufacturing
+4. Live corrugator grid visualization — unique to box manufacturing
 5. Agent runtime controls in sidebar — toggle AI features
 6. Production health as the hero section — not revenue, not chat

@@ -45,7 +45,7 @@
 
 ### Start System
 - [ ] Open PowerShell
-- [ ] Navigate to project: `cd c:\Users\Nikhil1616\Desktop\Sales_Agent\SALES_AGENT\anjani-ai-sales-os`
+- [ ] Navigate to project: `cd c:\Users\Nikhil1616\Desktop\Sales_Agent\SALES_AGENT\flowzint-ai-sales-os`
 - [ ] Run: `.\start-with-tunnel.bat`
 - [ ] See "Starting Next.js dev server..." message
 - [ ] See "Starting Cloudflare tunnel..." message
@@ -301,7 +301,7 @@ Should return: `test`
 For permanent URL that doesn't change:
 - [ ] Create Cloudflare account (free)
 - [ ] Login: `cloudflared tunnel login`
-- [ ] Create tunnel: `cloudflared tunnel create anjani-sales`
+- [ ] Create tunnel: `cloudflared tunnel create flowzint-sales`
 - [ ] Follow Cloudflare docs for routing
 - [ ] Get permanent subdomain
 
@@ -319,7 +319,7 @@ For permanent URL that doesn't change:
 
 | Item | Value |
 |------|------|
-| **Project Path** | `c:\Users\Nikhil1616\Desktop\Sales_Agent\SALES_AGENT\anjani-ai-sales-os` |
+| **Project Path** | `c:\Users\Nikhil1616\Desktop\Sales_Agent\SALES_AGENT\flowzint-ai-sales-os` |
 | **Start Command** | `.\start-with-tunnel.bat` |
 | **Frontend** | http://localhost:3000 |
 | **Debug Dashboard** | http://localhost:3000/debug |

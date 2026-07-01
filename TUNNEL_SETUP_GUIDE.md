@@ -34,7 +34,7 @@ You should see the version number if installed correctly.
 
 ### Easy Method: Use the Startup Script
 ```bash
-cd c:\Users\Nikhil1616\Desktop\Sales_Agent\SALES_AGENT\anjani-ai-sales-os
+cd c:\Users\Nikhil1616\Desktop\Sales_Agent\SALES_AGENT\flowzint-ai-sales-os
 .\start-with-tunnel.bat
 ```
 
@@ -151,11 +151,11 @@ For a permanent URL that doesn't change:
    ```
 3. Create a named tunnel:
    ```bash
-   cloudflared tunnel create anjani-sales
+   cloudflared tunnel create flowzint-sales
    ```
 4. Configure and route the tunnel (follow Cloudflare docs)
 
-This gives you a permanent subdomain like `anjani-sales.yourname.workers.dev`
+This gives you a permanent subdomain like `flowzint-sales.yourname.workers.dev`
 
 ### Keeping the Tunnel Running
 - The tunnel must stay running for webhooks to work

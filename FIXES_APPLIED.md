@@ -48,7 +48,7 @@ Customer: "नमस्ते" → Ravi detects "Hindi" → Replies in Hindi
 **Problem:** Ravi sounded like AI, said things like "I'm here to help with your bag requirements"
 **Root Cause:** Generic AI assistant tone in system prompt
 **Solution:**
-- **Gave Ravi a real identity**: He's Puneet, the owner of Anjani Interweave
+- **Gave Ravi a real identity**: He's Puneet, the owner of Flowzint Interweave
 - **Added personality and communication style**: Busy Gujarati businessman, warm but efficient
 - **Short WhatsApp-style messages**: 1-2 sentences max, like real conversations
 - **Variety in responses**: Never repeats the same greeting twice

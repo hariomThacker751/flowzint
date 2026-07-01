@@ -3,7 +3,7 @@
 ## Stitch Generation Prompt
 
 ```
-Design a premium glassmorphism executive dashboard for a fabric manufacturing CEO. Apple-inspired clean aesthetic. Dark mode with frosted glass cards.
+Design a premium glassmorphism executive dashboard for a box manufacturing CEO. Apple-inspired clean aesthetic. Dark mode with frosted glass cards.
 
 LAYOUT: Bento grid — asymmetric modular cards arranged in a flexible grid. No tabs, everything visible. 1440x900 desktop.
 
@@ -28,7 +28,7 @@ LEFT (2/3) — "Customer Pipeline":
 RIGHT (1/3) — "Production Overview":
 - Large donut gauge: 67% filled, cyan stroke with glow, dark track
 - "135T booked / 202T capacity" below
-- "June 2026 · 45 looms · 150 kg/day each" metadata
+- "June 2026 · 45 corrugators · 150 kg/day each" metadata
 
 FOURTH ROW — Two-column (Orders + Activity Feed):
 LEFT — "Recent Orders" table:

@@ -1,4 +1,4 @@
-# Anjani AI Sales Agent - Testing Guide
+# Flowzint AI Sales Agent - Testing Guide
 
 ## 🚀 Quick Start
 
@@ -6,7 +6,7 @@ Your development server should be running on `http://localhost:3000`
 
 If not, start it with:
 ```bash
-cd anjani-ai-sales-os
+cd flowzint-ai-sales-os
 npm run dev
 ```
 
@@ -36,7 +36,7 @@ curl http://localhost:3000/api/test/db
 ```bash
 curl -X POST http://localhost:3000/api/guru/test \
   -H "Content-Type: application/json" \
-  -d "{\"phone\": \"919408724777\", \"message\": \"The meter weight for 36 inch 3.0g unlaminated fabric is 180 grams per meter\"}"
+  -d "{\"phone\": \"919408724777\", \"message\": \"The meter weight for 36 inch 3.0g unlaminated box is 180 grams per meter\"}"
 ```
 
 **What to expect:**
@@ -57,7 +57,7 @@ curl "http://localhost:3000/api/guru/test?phone=919408724777"
 ```bash
 curl -X POST http://localhost:3000/api/guru/test \
   -H "Content-Type: application/json" \
-  -d "{\"phone\": \"919408724777\", \"message\": \"Silver quality fabric has tensile strength of 1600 N and this is customer visible information\"}"
+  -d "{\"phone\": \"919408724777\", \"message\": \"Silver quality box has tensile strength of 1600 N and this is customer visible information\"}"
 ```
 
 ### Test 2d: Send an internal rule
@@ -126,7 +126,7 @@ curl -X POST http://localhost:3000/api/webhook/customer \
       \"message\": {
         \"from\": \"919876543210\",
         \"type\": \"text\",
-        \"text\": { \"body\": \"Hello, I need 36 inch 3.5g silver laminated fabric\" }
+        \"text\": { \"body\": \"Hello, I need 36 inch 3.5g silver laminated box\" }
       },
       \"contacts\": [{ \"profile\": { \"name\": \"Test Customer\" } }]
     }
@@ -190,7 +190,7 @@ curl -X POST http://localhost:3000/api/webhook/owner \
       \"message\": {
         \"from\": \"919408724777\",
         \"type\": \"text\",
-        \"text\": { \"body\": \"The HSN code for PP woven fabric is 5407\" }
+        \"text\": { \"body\": \"The HSN code for PP woven box is 5407\" }
       },
       \"contacts\": [{ \"profile\": { \"name\": \"Owner\" } }]
     }

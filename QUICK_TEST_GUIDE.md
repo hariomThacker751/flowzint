@@ -142,7 +142,7 @@ If you want to check the database directly:
 
 ```powershell
 # Navigate to the project directory
-cd C:\Users\Nikhil1616\Desktop\Sales_Agent\SALES_AGENT\anjani-ai-sales-os
+cd C:\Users\Nikhil1616\Desktop\Sales_Agent\SALES_AGENT\flowzint-ai-sales-os
 
 # Open SQLite database
 sqlite3 data/sales_agent.db

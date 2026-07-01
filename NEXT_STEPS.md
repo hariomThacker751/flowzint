@@ -3,14 +3,14 @@
 ## ✅ What Was Fixed
 
 1. **Product Knowledge System Created** ✅
-   - Extracted all data from your Excel file (fabric report.xlsx)
+   - Extracted all data from your Excel file (box report.xlsx)
    - Created TypeScript module to manage 50 product specifications
    - D-CUT Plain bags: all sizes (9x12" to 18x20"), all quality grades
 
 2. **Ravi Agent Enhanced** ✅
    - Now knows ALL your products
    - Can answer "what products do you make?"
-   - Provides specific sizes, qualities, GSM specs
+   - Provides specific sizes, qualities, ECT specs
    - Matches customer language (English vs Hinglish)
 
 3. **Previous Fixes Still Active** ✅
@@ -27,7 +27,7 @@
 
 **Option A: Using Script (Recommended)**
 ```bash
-cd c:\Users\Nikhil1616\Desktop\Sales_Agent\SALES_AGENT\anjani-ai-sales-os
+cd c:\Users\Nikhil1616\Desktop\Sales_Agent\SALES_AGENT\flowzint-ai-sales-os
 
 npx tsx scripts/load-product-knowledge.ts
 ```
@@ -75,7 +75,7 @@ Expected: Ravi replies in Hinglish with product info
 #### Specific Query:
 ```
 You: "12x16 silver quality available hai?"
-Expected: Ravi confirms with specs: GSM 70, meter weight 7.28g
+Expected: Ravi confirms with specs: ECT 70, meter weight 7.28g
 ```
 
 ---
@@ -159,7 +159,7 @@ Your Excel has 5 sheets. I only loaded Sheet 1 (D-CUT Plain).
   product_type: "Gusset Bags", 
   size_inches: "16x20", 
   quality: "Regular", 
-  gsm: 95, 
+  ect: 95, 
   meter_weight_grams: 18.5, 
   category: "bags" 
 },
@@ -178,7 +178,7 @@ Guru: "✅ Stored!"
 
 ### Good Signs (Working):
 - ✅ Ravi lists specific sizes and qualities
-- ✅ Mentions GSM specs when relevant
+- ✅ Mentions ECT specs when relevant
 - ✅ Replies in customer's language
 - ✅ Sounds knowledgeable, not generic
 

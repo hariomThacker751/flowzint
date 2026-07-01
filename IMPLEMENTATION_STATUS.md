@@ -1,4 +1,4 @@
-# Anjani AI Sales OS - Implementation Status
+# Flowzint AI Sales OS - Implementation Status
 
 ## ✅ Completed Features
 
@@ -99,7 +99,7 @@
 
 ### Start the Development Server
 ```bash
-cd SALES_AGENT/anjani-ai-sales-os
+cd SALES_AGENT/flowzint-ai-sales-os
 npm run dev -- --turbo
 ```
 
@@ -163,7 +163,7 @@ curl -X POST http://localhost:3000/api/guru/test \
   -H "Content-Type: application/json" \
   -d '{
     "phone": "919876543210",
-    "message": "The meter weight for 36 inch 3.0g fabric is 180 grams"
+    "message": "The meter weight for 36 inch 3.0g box is 180 grams"
   }'
 
 # Get conversation history

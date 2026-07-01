@@ -28,7 +28,7 @@ cloudflared --version
 
 ### 2️⃣ Start the System
 ```powershell
-cd c:\Users\Nikhil1616\Desktop\Sales_Agent\SALES_AGENT\anjani-ai-sales-os
+cd c:\Users\Nikhil1616\Desktop\Sales_Agent\SALES_AGENT\flowzint-ai-sales-os
 .\start-with-tunnel.bat
 ```
 

@@ -1,4 +1,4 @@
-# Anjani AI Sales Agent - Progress Update
+# Flowzint AI Sales Agent - Progress Update
 
 ## ✅ Completed Fixes (Just Now)
 
@@ -116,7 +116,7 @@ curl -X POST http://localhost:3000/api/guru/test \
   -H "Content-Type: application/json" \
   -d '{
     "phone": "919408724777",
-    "message": "The meter weight for 36 inch 3.0g unlaminated fabric is 180 grams per meter"
+    "message": "The meter weight for 36 inch 3.0g unlaminated box is 180 grams per meter"
   }'
 ```
 
@@ -129,7 +129,7 @@ curl -X POST http://localhost:3000/api/webhook/customer \
       "message": {
         "from": "919876543210",
         "type": "text",
-        "text": { "body": "Hello, I need 36 inch 3.5g silver laminated fabric, 800 kg" }
+        "text": { "body": "Hello, I need 36 inch 3.5g silver laminated box, 800 kg" }
       },
       "contacts": [{ "profile": { "name": "Test Customer" } }]
     }

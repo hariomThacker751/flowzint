@@ -66,7 +66,7 @@ http://localhost:3000/debug
 **Output:**
 ```
 ========================================
-ANJANI AI SALES OS - Starting with Cloudflare Tunnel
+FLOWZINT AI SALES OS - Starting with Cloudflare Tunnel
 ========================================
 
 [OK] cloudflared found!
@@ -246,7 +246,7 @@ cloudflared --version
 ### Step 2: Start System (1 minute)
 
 ```powershell
-cd c:\Users\Nikhil1616\Desktop\Sales_Agent\SALES_AGENT\anjani-ai-sales-os
+cd c:\Users\Nikhil1616\Desktop\Sales_Agent\SALES_AGENT\flowzint-ai-sales-os
 .\start-with-tunnel.bat
 ```
 

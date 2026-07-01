@@ -47,7 +47,7 @@ Each module implements the `VisionModule` manifest (`lib/vision-os/types.ts`).
 | 🏠 Home | command, analytics, activity | AI-summarized command center |
 | 💬 Conversations | chats, guru | Unified comms + customer timeline |
 | 📦 Orders & Money | quotes, payment, dispatch, trading, cancelled | LifecycleBoard + OrderDrawer + filters |
-| 🏭 Production & Capacity | loom, production | ProductionGrid + capacity + ETA |
+| 🏭 Production & Capacity | corrugator, production | ProductionGrid + capacity + ETA |
 | ⚙️ Configuration | pricing, templates, knowledge, seasonal, settings | Tabbed config center |
 
 ---
@@ -127,7 +127,7 @@ Legend: ✅ done · 🔄 in progress · ⬜ not started
 - ✅ `components/vision-os/vision-home.tsx` — AI Daily Brief → Decision Strip → Core Metrics → 7-day Revenue Trend → Live Activity
 - ✅ `app/page.tsx` — `MainView` renders `<VisionHome/>` for the Home/command view when flag on (reversible)
 - ✅ `components/vision-os/command-palette.tsx` — ⌘/Ctrl-K global search + navigation (customers + areas + views); mounted in shell root, flag-gated
-- ✅ AI Daily Brief clauses click through to their source (quotes view / loom / approval tray)
+- ✅ AI Daily Brief clauses click through to their source (quotes view / corrugator / approval tray)
 - ✅ `components/vision-os/vision-top-bar.tsx` — area title + ⌘K trigger + approvals bell (live count) + user menu/logout
 - ✅ `components/vision-os/approval-tray.tsx` + `lib/vision-os/shell-store.ts` — global slide-over Approval Tray (wraps the single ApprovalQueue)
 - ✅ `app/page.tsx` — content region hosts the top bar above the active area (reversible; flag-off path byte-identical)
@@ -139,12 +139,12 @@ Legend: ✅ done · 🔄 in progress · ⬜ not started
 - ✅ `components/vision-os/lifecycle-board.tsx` — `<LifecycleBoard>` kanban
 - ✅ `components/vision-os/order-drawer.tsx` — `<OrderDrawer>` drill-down (confirm-payment action reuses existing endpoint)
 - ✅ `components/vision-os/vision-orders.tsx` — Orders & Money page (board/table toggle + stage filters + drawer); replaces quotes/payment/dispatch/trading/cancelled
-- ✅ `components/vision-os/production-grid.tsx` — `<ProductionGrid>` loom-floor digital twin
-- ✅ `components/vision-os/vision-production.tsx` — Production & Capacity page (looms + capacity + batches); replaces the 4 production pages + loom page
-- ✅ `app/page.tsx` — `MainView` renders `<VisionOrders/>` for `quotes` and `<VisionProduction/>` for `loom` when flag on (reversible)
+- ✅ `components/vision-os/production-grid.tsx` — `<ProductionGrid>` corrugator-floor digital twin
+- ✅ `components/vision-os/vision-production.tsx` — Production & Capacity page (corrugators + capacity + batches); replaces the 4 production pages + corrugator page
+- ✅ `app/page.tsx` — `MainView` renders `<VisionOrders/>` for `quotes` and `<VisionProduction/>` for `corrugator` when flag on (reversible)
 - ✅ Configuration center: `components/vision-os/vision-config.tsx` — one tabbed surface (Pricing/Templates/Knowledge/Seasonal/Settings) wrapping the existing pages (reuse-not-rewrite). Wired in `MainView` under the flag.
 - ✅ Retired fragmented sub-views into the unified pages: under the flag, `payment/dispatch/trading/cancelled → VisionOrders`, `production → VisionProduction`, config views → VisionConfig. Areas marked `unified` so the sidebar now shows 5 clean items (Home, Conversations, Orders & Money, Production & Capacity, Configuration); deep-links via ⌘K still resolve to the unified pages. Verified: build exit 0, runtime page 200, 0 compile errors.
-- ◑ (gated, Phase E) physically deleting the superseded legacy page components (QuotesPage/PaymentGatePage/DispatchSchedulePage/CancelledOrdersPage/TradingDeskPage/Production*/LoomFloorPage) + dead widget variants (kpi-cards, attention-bar, samples/, stitch-designs/) — deferred because they remain the flag-OFF fallback path; remove only when the flag becomes permanent.
+- ◑ (gated, Phase E) physically deleting the superseded legacy page components (QuotesPage/PaymentGatePage/DispatchSchedulePage/CancelledOrdersPage/TradingDeskPage/Production*/CorrugatorFloorPage) + dead widget variants (kpi-cards, attention-bar, samples/, stitch-designs/) — deferred because they remain the flag-OFF fallback path; remove only when the flag becomes permanent.
 
 ### Phase E — Cleanup + consolidation  ◑ PARTIAL (safe parts done; destructive parts gated)
 
@@ -167,7 +167,7 @@ Legend: ✅ done · 🔄 in progress · ⬜ not started
   - WHY GATED: `data/sales_agent.db` is a live 3.3 MB DB with active WAL writes. Dropping/merging tables is irreversible without a backup, and back-filling `orders` from `enquiries` would change service behaviour (e.g. `getOpenOrdersCount` feeds the 30-day/capacity logic). Per safe-change practice this must not run unconfirmed.
   - READY APPROACH when approved: (1) `cp data/sales_agent.db data/sales_agent.backup-YYYYMMDD.db`; (2) additive migration #7 backfills `orders` from `enquiries` (idempotent, no drops) + assert row counts; (3) repoint `/api/stats`, `/api/metrics`, `/api/orders/board` to `orders`; (4) verify dashboards match; (5) separate migration #8 drops legacy tables only after sign-off.
 - ⛔ Flip `VISION_OS_ENABLED` default → ON. NOT done: the new shell is compile/lint-verified but NOT runtime smoke-tested here, and this is a live WhatsApp sales system. Enable with one line after a manual smoke test (see §8); revert is one line.
-- ⬜ (after cutover) retire superseded legacy views (QuotesPage/PaymentGatePage/DispatchSchedulePage/CancelledOrdersPage/TradingDeskPage/Production*/LoomFloorPage).
+- ⬜ (after cutover) retire superseded legacy views (QuotesPage/PaymentGatePage/DispatchSchedulePage/CancelledOrdersPage/TradingDeskPage/Production*/CorrugatorFloorPage).
 - D: Merge Orders / Production / Configuration areas onto shared components; retire old views per area
 - E: Data-model consolidation (orders absorb enquiries; kill duplicate tables; migrations sole authority) + dead-code/DB/binary cleanup; remove flag + old shell
 
@@ -182,20 +182,20 @@ Add `NEXT_PUBLIC_VISION_OS=true` to `.env.local`, run `npm run dev`. You'll see 
 - ✅ Added **Vitest** (dev-only) + `vitest.config.ts` (@ alias) + `npm test` script.
 - ✅ Tests (14 passing): `tests/money.test.ts` (rupee/paise, line totals, 10%/25% token, ₹10 rounding, INR grouping, amount-in-words), `tests/gstin.test.ts` (structure/state-code/checksum), `tests/catalog-pricing.test.ts` (PRICING_PREMIUMS size/grammage/color/lamination via the facade).
 - ✅ This proves the pricing/catalog pipeline is correct AND independent of the redundant catalog files.
-- ✅ Safe cleanup unlocked by the green tests: deleted only `fabric_catalog_parsed.json` (git-recoverable, redundant generated parse, no runtime refs). **Kept** the `.xlsx` source documents (README reference sheets), `fabric_data_extracted.json` (regeneration source for production-speeds), and `fabric_catalog_typescript.txt` (gitignored → NOT recoverable). `product-knowledge.ts` + loader kept (unused but a capability; low value to remove).
+- ✅ Safe cleanup unlocked by the green tests: deleted only `box_catalog_parsed.json` (git-recoverable, redundant generated parse, no runtime refs). **Kept** the `.xlsx` source documents (README reference sheets), `box_data_extracted.json` (regeneration source for production-speeds), and `box_catalog_typescript.txt` (gitignored → NOT recoverable). `product-knowledge.ts` + loader kept (unused but a capability; low value to remove).
 - ✅ Agent NLU characterization (golden-master) tests: `tests/agent-nlu.test.ts` — 21 assertions over `detectLanguage`, `normalizeIndicDigits`, `extractSpecs`, `detectIntent` across EN/Hindi/Gujarati/Tamil/Gujlish/Hinglish/Marathi. **Total suite: 35 tests passing.** This is the safety net that makes the 4c extraction of these helpers provably behavior-preserving (re-run `npm test` after the move; outputs must match).
 - ⬜ Next test targets: `tax.ts` (IGST vs CGST/SGST split), `calculatePrice` integration (isolated temp DB). The LLM-orchestration core of `processCustomerMessageUnified` needs integration tests with a mocked LLM before refactoring that layer.
 
 ## 6c. Phase 4 — Backend consolidation (in progress)
 
-- ✅ **4a — Catalog/Knowledge facade (no behavior change).** Added `lib/server/catalog/index.ts` as the single access point over `fabric-knowledge.ts` (catalog/pricing) + `knowledge-base.ts` (KB). Repointed all live importers (unified-agent, /api/system/init, guru-agent, /api/guru/chat, /api/knowledge). Pure re-export — behavior identical. Verified: tsc 0, build 0, runtime login 200 + /api/knowledge 200 + page 200. This is the seam to later move the catalog into the DB without touching callers.
-- 🔎 **4b — Capacity.** Finding: `loom-capacity.ts` is already the single canonical engine used by the Vision OS UI, the agent's booking/ETA path, /api/loom, /api/stats, confirm-payment, and the board. `capacity-manager.ts` (+ `production_capacity`) is legacy, imported ONLY by the legacy `/api/capacity` endpoint (flag-off path). No customer-facing divergence exists, so no "merge math" action is needed; removing the legacy module belongs to the same gated flag-permanent cutover.
+- ✅ **4a — Catalog/Knowledge facade (no behavior change).** Added `lib/server/catalog/index.ts` as the single access point over `box-knowledge.ts` (catalog/pricing) + `knowledge-base.ts` (KB). Repointed all live importers (unified-agent, /api/system/init, guru-agent, /api/guru/chat, /api/knowledge). Pure re-export — behavior identical. Verified: tsc 0, build 0, runtime login 200 + /api/knowledge 200 + page 200. This is the seam to later move the catalog into the DB without touching callers.
+- 🔎 **4b — Capacity.** Finding: `corrugator-capacity.ts` is already the single canonical engine used by the Vision OS UI, the agent's booking/ETA path, /api/corrugator, /api/stats, confirm-payment, and the board. `capacity-manager.ts` (+ `production_capacity`) is legacy, imported ONLY by the legacy `/api/capacity` endpoint (flag-off path). No customer-facing divergence exists, so no "merge math" action is needed; removing the legacy module belongs to the same gated flag-permanent cutover.
 - ⏸ **4a data move (catalog → DB):** CRITICAL (drives agent quotes). Deferred — do behind a parity test (needs #5 first).
 - ⏸ **4c — Agent refactor:** MOST CRITICAL (live WhatsApp agent). Deferred — only as behavior-preserving extraction AFTER the #5 test harness exists.
 
 **Pending owner answers (asked, not yet confirmed):**
 - Delete `product-knowledge.ts` + `scripts/load-product-knowledge.ts` (unused at runtime)? 
-- Delete the 5 unused catalog files (`fabric_catalog_parsed.json`, `fabric_catalog_typescript.txt`, `fabric_data_extracted.json`, 2× `.xlsx`)?
+- Delete the 5 unused catalog files (`box_catalog_parsed.json`, `box_catalog_typescript.txt`, `box_data_extracted.json`, 2× `.xlsx`)?
 
 ## 7. File map (where things live)
 
@@ -229,7 +229,7 @@ exercised every Vision OS data path + the page render. All green:
 | `GET /api/metrics` (Home KPIs) | 200 — 6 KPIs, pendingDecisions=6 |
 | `GET /api/queue` (Approval Tray) | 200 — 10 items (4 esc / 2 pay / 4 quote) |
 | `GET /api/orders/board` (Orders) | 200 — 11 orders |
-| `GET /api/loom` (Production grid) | 200 — 45 looms, 45 free |
+| `GET /api/corrugator` (Production grid) | 200 — 45 corrugators, 45 free |
 | `GET /api/stats` (trends/activity) | 200 — ok |
 | `GET /api/activity` (feed) | 200 — 5 events |
 | `GET /api/customers?search=` (⌘K) | 200 — 50 customers |

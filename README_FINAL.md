@@ -1,4 +1,4 @@
-# 🎉 Anjani AI Sales Agent - READY FOR TESTING!
+# 🎉 Flowzint AI Sales Agent - READY FOR TESTING!
 
 ## ✅ What's Been Fixed and Completed
 
@@ -67,12 +67,12 @@ curl http://localhost:3000/api/test/db
 # 2. Test Guru (Owner Learning)
 curl -X POST http://localhost:3000/api/guru/test \
   -H "Content-Type: application/json" \
-  -d '{"phone": "919408724777", "message": "The meter weight for 36 inch 3.0g fabric is 180 grams per meter"}'
+  -d '{"phone": "919408724777", "message": "The meter weight for 36 inch 3.0g box is 180 grams per meter"}'
 
 # 3. Test Ravi (Customer Conversation)
 curl -X POST http://localhost:3000/api/webhook/customer \
   -H "Content-Type: application/json" \
-  -d '{"payload": {"message": {"from": "919876543210", "type": "text", "text": {"body": "I need 36 inch 3.5g silver fabric, 800 kg"}}, "contacts": [{"profile": {"name": "Test Customer"}}]}}'
+  -d '{"payload": {"message": {"from": "919876543210", "type": "text", "text": {"body": "I need 36 inch 3.5g silver box, 800 kg"}}, "contacts": [{"profile": {"name": "Test Customer"}}]}}'
 
 # 4. Test Pricing
 curl -X POST http://localhost:3000/api/pricing/calculate \

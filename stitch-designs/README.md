@@ -1,11 +1,11 @@
-# Anjani AI CEO Dashboard — Stitch Design System
+# Flowzint AI CEO Dashboard — Stitch Design System
 
-Three distinct, research-backed AI CEO dashboard designs for Anjani Interweave (PP woven fabric manufacturing, Surat).
+Three distinct, research-backed AI CEO dashboard designs for Flowzint Interweave (PP woven box manufacturing, Surat).
 
 ## How to Use in Stitch
 
 1. Open [stitch.withgoogle.com](https://stitch.withgoogle.com)
-2. Create a new project: "Anjani AI CEO Dashboard"
+2. Create a new project: "Flowzint AI CEO Dashboard"
 3. For each design, use `generate_screen_from_text` with the prompt from its folder
 4. Apply the design system from `design-system.json`
 5. Export code via `get_screen_code`
@@ -21,7 +21,7 @@ Three distinct, research-backed AI CEO dashboard designs for Anjani Interweave (
 | **Inspiration** | Solar System Agents, cyberpunk | Dribbble AI dashboards, Apple | Siemens ICX, Naologic ERP |
 | **Primary Color** | Cyan neon | Cyan + Violet (muted) | Amber + Blue |
 | **AI Access** | Central chat (always visible) | Floating FAB + drawer | Right intelligence panel |
-| **Unique Feature** | CRT scanlines, particles | Cmd+K palette, sparklines | Loom grid, kanban pipeline |
+| **Unique Feature** | CRT scanlines, particles | Cmd+K palette, sparklines | Corrugator grid, kanban pipeline |
 
 ## Folder Structure
 

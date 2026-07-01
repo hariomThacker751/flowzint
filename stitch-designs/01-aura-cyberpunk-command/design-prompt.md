@@ -3,7 +3,7 @@
 ## Stitch Generation Prompt
 
 ```
-Design a dark cyberpunk AI CEO dashboard for a fabric manufacturing company called "Anjani Interweave". 
+Design a dark cyberpunk AI CEO dashboard for a box manufacturing company called "Flowzint Interweave". 
 
 BACKGROUND: Deep void black (#0a0a0f) with subtle radial gradient overlays. Floating ambient particles. Optional CRT scanline overlay at 5% opacity for texture.
 

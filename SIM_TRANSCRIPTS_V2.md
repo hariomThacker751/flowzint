@@ -6,7 +6,7 @@ Model: sarvam-105b | autoSend: false | DB: isolated copy
 Customer: kem cho
 Bot: Kem chho bhai! Kai specs ni jarurat chhe?
    ↳ stage=greeting | escalated=false | specs={s:null,g:null,q:null,lam:null,qty:null} | 435ms
-Customer: mane 32 inch nu fabric joiye
+Customer: mane 32 inch nu box joiye
 Bot: Saru, 32" noté karyu. Kai grammage joiye? (3g, 3.5g, 4g, 4.5g, 5g)
    ↳ stage=gathering_specs | escalated=false | specs={s:32,g:null,q:null,lam:null,qty:null} | 4ms
 Customer: 4.5 gram
@@ -22,7 +22,7 @@ Customer: regular lamination
 Bot: Here's your rate: 32" 4.5g Regular — ₹81/kg, total ₹121500.00 (for 1500kg). Ex-factory (GST + transport separate). Works for you?
    ↳ stage=quoting | escalated=false | specs={s:32,g:4.5,q:Regular,lam:Regular,qty:1500} | 18ms
 Customer: ha barobar
-Bot: Bhai, tamaro order note kari lidhu. Tamaro order: 1500kg Regular fabric — total ₹121500.00. Production start karva mate token advance ₹12,150–₹30,380 (10–25%) moklo. Baaki delivery time pe. Payment details moklu chhu.
+Bot: Bhai, tamaro order note kari lidhu. Tamaro order: 1500kg Regular box — total ₹121500.00. Production start karva mate token advance ₹12,150–₹30,380 (10–25%) moklo. Baaki delivery time pe. Payment details moklu chhu.
    ↳ stage=awaiting_payment | escalated=false | specs={s:32,g:4.5,q:Regular,lam:Regular,qty:1500} | 1ms
 
 ## Scenario 2: Hindi (Devanagari), ALL specs in one message — extraction + correct quote
@@ -44,27 +44,27 @@ Bot: Here's your rate: 28" 4g Silver — ₹84/kg, total ₹84000.00 (for 1000kg
    ↳ stage=quoting | escalated=false | specs={s:28,g:4,q:Silver,lam:Natural,qty:1000} | 2ms
 
 ## Scenario 5: Off-topic (English) — must clarify PP woven only
-Customer: do you guys make plastic carry bags or only fabric?
-Bot: We manufacture only PP woven fabric rolls. What fabric specifications do you need?
+Customer: do you guys make plastic carry bags or only box?
+Bot: We manufacture only PP woven box rolls. What box specifications do you need?
    ↳ stage=greeting | escalated=false | specs={s:null,g:null,q:null,lam:null,qty:null} | 311ms
 
 ## Scenario 6: Off-topic (Hinglish) — bori/sack
 Customer: bhai aap log ready bori bhi banate ho kya?
-Bot: Haan bhai, hum sirf PP woven fabric banate hain. Aapko kis size aur grammage ka fabric chahiye?
+Bot: Haan bhai, hum sirf PP woven box banate hain. Aapko kis size aur grammage ka box chahiye?
    ↳ stage=greeting | escalated=false | specs={s:null,g:null,q:null,lam:null,qty:null} | 304ms
 
 ## Scenario 7: Sub-22 inch (English) — must escalate/hold in correct language
 Customer: 20 inch 4 gram gold 1 ton unlaminated white
 Bot: Thank you Test ji! 🙏
 
-I've noted your fabric requirement. This particular size needs a special confirmation from our production team — I'll get back to you within 10–15 minutes with full details.
+I've noted your box requirement. This particular size needs a special confirmation from our production team — I'll get back to you within 10–15 minutes with full details.
 
 Please stay available on WhatsApp. 🙏
    ↳ stage=escalation_hold | escalated=true | specs={s:20,g:4,q:Gold,lam:None,qty:1000} | 3ms
 
 ## Scenario 8: English drip-feed + confirm — must advance to payment, no lag
 Customer: hello
-Bot: Hello! How can I help you with your PP woven fabric requirements today?
+Bot: Hello! How can I help you with your PP woven box requirements today?
    ↳ stage=greeting | escalated=false | specs={s:null,g:null,q:null,lam:null,qty:null} | 424ms
 Customer: i want 26 inch
 Bot: Got it — 26". What grammage do you need? (3g, 3.5g, 4g, 4.5g, 5g)
@@ -82,7 +82,7 @@ Customer: 2 ton
 Bot: Here's your rate: 26" 3.5g Platinum — ₹80/kg, total ₹160000.00 (for 2000kg). Ex-factory (GST + transport separate). Works for you?
    ↳ stage=quoting | escalated=false | specs={s:26,g:3.5,q:Platinum,lam:None,qty:2000} | 3ms
 Customer: yes please proceed
-Bot: I've noted your order. Your order: 2000kg Platinum fabric — total ₹160000.00. To start production, please send a token advance of ₹16,000–₹40,000 (10–25% of order value). Balance before delivery. I'll share the payment details now.
+Bot: I've noted your order. Your order: 2000kg Platinum box — total ₹160000.00. To start production, please send a token advance of ₹16,000–₹40,000 (10–25% of order value). Balance before delivery. I'll share the payment details now.
    ↳ stage=awaiting_payment | escalated=false | specs={s:26,g:3.5,q:Platinum,lam:None,qty:2000} | 2ms
 
 ## Scenario 9: Half-coloured premium (+₹5/kg) — check pricing
@@ -116,7 +116,7 @@ Customer: no make it platinum
 Bot: Here's your rate: 31" 4g Platinum — ₹79/kg, total ₹79000.00 (for 1000kg). Ex-factory (GST + transport separate). Works for you?
    ↳ stage=quoting | escalated=false | specs={s:31,g:4,q:Platinum,lam:None,qty:1000} | 2ms
 Customer: ok done
-Bot: I've noted your order. Your order: 1000kg Platinum fabric — total ₹79000.00. To start production, please send a token advance of ₹7,900–₹19,750 (10–25% of order value). Balance before delivery. I'll share the payment details now.
+Bot: I've noted your order. Your order: 1000kg Platinum box — total ₹79000.00. To start production, please send a token advance of ₹7,900–₹19,750 (10–25% of order value). Balance before delivery. I'll share the payment details now.
    ↳ stage=awaiting_payment | escalated=false | specs={s:31,g:4,q:Platinum,lam:None,qty:1000} | 2ms
 
 ## Scenario 14: Quantity-first then specs (Hinglish)
@@ -139,7 +139,7 @@ Customer: 27AAPFU0939F1ZA
 Bot: The GST number you provided doesn't look correct. Could you please double-check and resend it?
    ↳ stage=awaiting_gst | escalated=false | specs={s:30,g:4,q:Gold,lam:None,qty:2000} | 389ms
 Customer: 29AAGCB7383J1Z4
-Bot: Thank you for the correct GST number. The price for 2000kg of 30" 4g Gold PP woven fabric is ₹1,58,000 total (₹79/kg). How would you like to proceed with delivery?
+Bot: Thank you for the correct GST number. The price for 2000kg of 30" 4g Gold PP woven box is ₹1,58,000 total (₹79/kg). How would you like to proceed with delivery?
    ↳ stage=awaiting_delivery | escalated=false | specs={s:30,g:4,q:Gold,lam:None,qty:2000} | 510ms
 
 ## Scenario 17: Tamil script greeting + English specs
